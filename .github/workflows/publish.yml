@@ -14,6 +14,9 @@ jobs:
   publish:
     timeout-minutes: 30
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,6 +32,3 @@ jobs:
         env:
           REF: ${{ github.ref }}
           GH_TOKEN: ${{ github.token }}
-          # Github will create .npmrc based on this env variable.
-          # https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages#publishing-packages-to-the-npm-registry
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

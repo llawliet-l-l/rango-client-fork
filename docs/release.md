@@ -32,6 +32,11 @@ The `publish` script performs:
 4. Publishes updated packages to NPM.
 5. Pushes updated package versions and tags to origin.
 
+note: We are using OIDC for publishing and it only works on a packages that had already been published once,
+to publish a new package, you should publish it manually and then enable trusted publishing on it with this command:
+`npm trust github PACKAGE_NAME --file publish.yml --allow-publish --yes`
+(you should set `repository.url` in the root `package.json`)
+
 **If run on `main` branch**, the publish script will also:
 
 * Automatically bump `widget/app` and/or `widget/playground` versions if changed.
