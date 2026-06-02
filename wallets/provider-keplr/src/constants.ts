@@ -1,4 +1,5 @@
-import { type ProviderMetadata } from '@rango-dev/wallets-core';
+import type { ProviderMetadata } from '@hub3js/core';
+
 import { type BlockchainMeta, cosmosBlockchains } from 'rango-types';
 
 import getSigners from './signer.js';

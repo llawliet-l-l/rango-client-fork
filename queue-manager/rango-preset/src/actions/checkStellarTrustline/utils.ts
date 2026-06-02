@@ -1,10 +1,12 @@
 import type { StellarNamespace, TargetToken } from './types';
 import type { TargetNamespace } from '../../shared';
 import type { NextTransactionStateError } from '../common/produceNextStateForTransaction';
+import type { ProxiedNamespace } from '@hub3js/core';
 import type {
   BlockedReason,
   ExecuterActions,
 } from '@rango-dev/queue-manager-core';
+import type { StellarActions } from '@rango-dev/wallets-core/namespaces/stellar';
 import type { WalletType } from '@rango-dev/wallets-shared';
 import type { PendingSwap, StellarTransaction } from 'rango-types';
 import type { Result } from 'ts-results';
@@ -44,7 +46,7 @@ export async function ensureStellarNamespaceExists(
       errorCode: 'CLIENT_UNEXPECTED_BEHAVIOUR',
     });
   }
-  return Ok(stellarNamespace);
+  return Ok(stellarNamespace as unknown as ProxiedNamespace<StellarActions>);
 }
 
 export async function checkIfTrustLineIsAlreadyOpened(

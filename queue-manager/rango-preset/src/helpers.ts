@@ -12,6 +12,7 @@ import type {
   SwapStorage,
   UseQueueManagerParams,
 } from './types';
+import type { Provider } from '@hub3js/core';
 import type {
   ExecuterActions,
   Manager,
@@ -20,7 +21,6 @@ import type {
   QueueType,
   SetStorage,
 } from '@rango-dev/queue-manager-core';
-import type { Provider } from '@rango-dev/wallets-core';
 import type {
   Meta,
   Network,

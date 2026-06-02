@@ -1,8 +1,5 @@
 import type { AllProxiedNamespaces } from './types.js';
-import type {
-  Accounts,
-  AccountsWithActiveChain,
-} from '@rango-dev/wallets-core/namespaces/common';
+import type { Accounts, AccountsWithActiveChain } from '@hub3js/std/types';
 import type { BlockchainMeta } from 'rango-types';
 import type { Result } from 'ts-results';
 
@@ -14,12 +11,12 @@ import {
   CAIP_BITCOIN_CHAIN_ID,
   CAIP_ZCASH_CHAIN_ID,
 } from '@rango-dev/wallets-core/namespaces/utxo';
-import { CAIP } from '@rango-dev/wallets-core/utils';
 import { getBlockChainNameFromId } from '@rango-dev/wallets-shared';
+import { AccountId, type ChainIdParams } from 'caip';
 import { Err, Ok } from 'ts-results';
 
 export function mapCaipNamespaceToLegacyNetworkName(
-  chainId: CAIP.ChainIdParams | string,
+  chainId: ChainIdParams | string,
   allBlockChains: BlockchainMeta[]
 ): string {
   if (typeof chainId === 'string') {
@@ -72,7 +69,7 @@ export function fromAccountIdToLegacyAddressFormat(
   account: string,
   allBlockChains: BlockchainMeta[]
 ): string {
-  const { chainId, address } = CAIP.AccountId.parse(account);
+  const { chainId, address } = AccountId.parse(account);
   const network = mapCaipNamespaceToLegacyNetworkName(chainId, allBlockChains);
   return formatAddressWithNetwork(address, network);
 }

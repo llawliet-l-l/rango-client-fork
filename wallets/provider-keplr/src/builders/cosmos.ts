@@ -3,7 +3,7 @@ import type {
   ProviderAPI,
 } from '@rango-dev/wallets-core/namespaces/cosmos';
 
-import { ChangeAccountSubscriberBuilder } from '@rango-dev/wallets-core/namespaces/common';
+import { ChangeAccountSubscriberBuilder } from '@hub3js/std/hooks';
 import { utils } from '@rango-dev/wallets-core/namespaces/cosmos';
 
 // Hooks

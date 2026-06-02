@@ -1,10 +1,12 @@
 import type { TargetToken, XrplNamespace } from './types';
 import type { TargetNamespace } from '../../shared';
 import type { NextTransactionStateError } from '../common/produceNextStateForTransaction';
+import type { ProxiedNamespace } from '@hub3js/core';
 import type {
   BlockedReason,
   ExecuterActions,
 } from '@rango-dev/queue-manager-core';
+import type { XRPLActions } from '@rango-dev/wallets-core/namespaces/xrpl';
 import type { WalletType } from '@rango-dev/wallets-shared';
 import type { PendingSwap, XrplTransaction } from 'rango-types';
 import type { Result } from 'ts-results';
@@ -43,7 +45,7 @@ export async function ensureXrplNamespaceExists(
       errorCode: 'CLIENT_UNEXPECTED_BEHAVIOUR',
     });
   }
-  return Ok(xrplNamespace);
+  return Ok(xrplNamespace as unknown as ProxiedNamespace<XRPLActions>);
 }
 
 export async function checkIfTrustLineIsAlreadyOpened(

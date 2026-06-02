@@ -1,9 +1,7 @@
+import { ActionBuilder, NamespaceBuilder } from '@hub3js/core';
+import * as commonBuilders from '@hub3js/std/builders';
+import { standardizeAndThrowError } from '@hub3js/std/operators';
 import { keplrCosmosActions } from '@rango-dev/provider-keplr/lib';
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
-import {
-  builders as commonBuilders,
-  standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
 import {
   builders,
   type CosmosActions,

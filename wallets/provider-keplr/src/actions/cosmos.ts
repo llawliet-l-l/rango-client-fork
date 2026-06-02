@@ -1,4 +1,4 @@
-import type { Context, FunctionWithContext } from '@rango-dev/wallets-core';
+import type { Context, FunctionWithContext } from '@hub3js/core';
 
 import { chainRegistryChainToKeplr } from '@chain-registry/keplr';
 import {

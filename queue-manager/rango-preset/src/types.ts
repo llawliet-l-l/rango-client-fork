@@ -1,10 +1,10 @@
 import type { TargetNamespace, Wallet } from './shared';
+import type { Provider } from '@hub3js/core';
 import type {
   QueueContext,
   QueueDef,
   QueueStorage,
 } from '@rango-dev/queue-manager-core';
-import type { Provider } from '@rango-dev/wallets-core';
 import type { LegacyConnectResult as ConnectResult } from '@rango-dev/wallets-core/legacy';
 import type {
   Meta,

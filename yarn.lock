@@ -2850,6 +2850,47 @@
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.2.0.tgz#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
   integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
+"@hub3js/core@0.0.0-experimental-34e993c2-20260602":
+  version "0.0.0-experimental-34e993c2-20260602"
+  resolved "https://registry.yarnpkg.com/@hub3js/core/-/core-0.0.0-experimental-34e993c2-20260602.tgz#faf28b88e2ca5fb0eb0b7083975d1bf3b5607a83"
+  integrity sha512-z5Q7U4csae9M1W/w3V4n+s5GsJ06gs+IYuHYJY+XXghi1GSD9a/xC3Re2TtXwGKRjQPT6dUH5BEM93wVQdNwlg==
+  dependencies:
+    immer "^10.0.4"
+    rango-types "^0.5.0"
+    zustand "^4.5.2"
+
+"@hub3js/evm@0.0.0-experimental-34e993c2-20260602":
+  version "0.0.0-experimental-34e993c2-20260602"
+  resolved "https://registry.yarnpkg.com/@hub3js/evm/-/evm-0.0.0-experimental-34e993c2-20260602.tgz#ed54f7e8a5f21433e87b117d753e6d9aeb901f2e"
+  integrity sha512-HJjkcqaH7nJdDXh6etcYnxj8kfrwR0emtqA37s+YQXTP0+xV1lfqz1NdFew1LoKxs31GK0ymls4XO5uZpDO8gg==
+  dependencies:
+    "@hub3js/std" "^0.0.0-experimental-34e993c2-20260602"
+    caip "^1.1.1"
+    rango-types "^0.5.0"
+
+"@hub3js/solana@0.0.0-experimental-34e993c2-20260602":
+  version "0.0.0-experimental-34e993c2-20260602"
+  resolved "https://registry.yarnpkg.com/@hub3js/solana/-/solana-0.0.0-experimental-34e993c2-20260602.tgz#7e2521a8bc3bc0036d9c2e5bebfd799bb6e64773"
+  integrity sha512-SpFvvqeDhXXli31+bUyvWLx+s+E+Oj3Rc26yO3bKCsyGZQ6NYE4Nw+/YGPNm93h31FvQ6MpF0L8t88jprhQNBw==
+  dependencies:
+    "@hub3js/std" "^0.0.0-experimental-34e993c2-20260602"
+    caip "^1.1.1"
+    rango-types "^0.5.0"
+
+"@hub3js/std@0.0.0-experimental-34e993c2-20260602":
+  version "0.0.0-experimental-34e993c2-20260602"
+  resolved "https://registry.yarnpkg.com/@hub3js/std/-/std-0.0.0-experimental-34e993c2-20260602.tgz#9e7a2f11eb3e1cabf9c04baa638e1387e5faad4b"
+  integrity sha512-Tb6t0iBhyz5KMacsWSBmjnBr+hJBhIj7NYOlIYo0EzlCKmyKV/jphMSJPf5z4yqP5seLIpAljct00OTvGJV21w==
+  dependencies:
+    caip "^1.1.1"
+
+"@hub3js/std@^0.0.0-experimental-34e993c2-20260602":
+  version "0.0.0-experimental-d9001050-20260602"
+  resolved "https://registry.yarnpkg.com/@hub3js/std/-/std-0.0.0-experimental-d9001050-20260602.tgz#da6f413266f8c9a2572a9752dda5d21124edf599"
+  integrity sha512-YV88tFGbOI1aSpwJsxHxrm/ZXoE9TOiHTXIxDTv3N9SxNXyUdLrU6Cm8hB/GX8waT/IX4YHqnB0GtX9CcQQlPQ==
+  dependencies:
+    caip "^1.1.1"
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"
@@ -14438,6 +14479,11 @@ semver@7.6.0:
   integrity sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==
   dependencies:
     lru-cache "^6.0.0"
+
+semver@7.7.1:
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
+  integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
 
 semver@7.7.4:
   version "7.7.4"

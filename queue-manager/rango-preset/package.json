@@ -34,6 +34,7 @@
     "@types/uuid": "^8.3.4"
   },
   "dependencies": {
+    "@hub3js/core": "0.0.0-experimental-34e993c2-20260602",
     "@rango-dev/logging-core": "^0.12.1",
     "@stellar/stellar-sdk": "^15.0.1",
     "rango-types": "^0.5.0",
