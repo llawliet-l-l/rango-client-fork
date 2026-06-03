@@ -1,4 +1,4 @@
-import { Button, Collapsible, darkTheme, styled } from '@rango-dev/ui';
+import { Button, Collapsible, darkTheme, styled } from '@arthur2079/ui';
 
 export const GeneralContainer = styled('div', {
   backgroundColor: '$background',

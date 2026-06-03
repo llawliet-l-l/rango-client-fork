@@ -2,9 +2,9 @@ import type { Provider } from './types.js';
 import type {
   CosmosChainAccounts,
   ProviderAPI as CosmosProviderApi,
-} from '@rango-dev/wallets-core/namespaces/cosmos';
+} from '@arthur2079/wallets-core/namespaces/cosmos';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function keplr(): Provider | null {
   const { keplr } = window;

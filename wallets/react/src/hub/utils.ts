@@ -1,25 +1,25 @@
 import type { AllProxiedNamespaces } from './types.js';
-import type { Hub, Provider, ProxiedNamespace } from '@rango-dev/wallets-core';
+import type { Hub, Provider, ProxiedNamespace } from '@arthur2079/wallets-core';
 import type {
   LegacyNamespaceInputForConnect,
   LegacyProviderInterface,
   LegacyEventHandler as WalletEventHandler,
-} from '@rango-dev/wallets-core/legacy';
-import type { CosmosActions } from '@rango-dev/wallets-core/namespaces/cosmos';
-import type { EvmActions } from '@rango-dev/wallets-core/namespaces/evm';
-import type { SolanaActions } from '@rango-dev/wallets-core/namespaces/solana';
-import type { SuiActions } from '@rango-dev/wallets-core/namespaces/sui';
-import type { UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
-import type { Event } from '@rango-dev/wallets-core/store';
+} from '@arthur2079/wallets-core/legacy';
+import type { CosmosActions } from '@arthur2079/wallets-core/namespaces/cosmos';
+import type { EvmActions } from '@arthur2079/wallets-core/namespaces/evm';
+import type { SolanaActions } from '@arthur2079/wallets-core/namespaces/solana';
+import type { SuiActions } from '@arthur2079/wallets-core/namespaces/sui';
+import type { UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
+import type { Event } from '@arthur2079/wallets-core/store';
 
-import { LegacyEvents as Events } from '@rango-dev/wallets-core/legacy';
-import { type VersionedProviders } from '@rango-dev/wallets-core/utils';
-import { pickVersion } from '@rango-dev/wallets-core/utils';
+import { LegacyEvents as Events } from '@arthur2079/wallets-core/legacy';
+import { type VersionedProviders } from '@arthur2079/wallets-core/utils';
+import { pickVersion } from '@arthur2079/wallets-core/utils';
 import {
   type AddEthereumChainParameter,
   convertEvmBlockchainMetaToEvmChainInfo,
   type WalletType,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { type BlockchainMeta, isEvmBlockchain } from 'rango-types';
 
 import {

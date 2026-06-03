@@ -49,7 +49,7 @@ runs:
         for dir in ./examples/*; do
           if [ -f "$dir/package.json" ]; then
             echo "📂 Linking in: $(basename $dir)"
-            yarn --cwd $dir link @rango-dev/widget-embedded
+            yarn --cwd $dir link @arthur2079/widget-embedded
             yarn --cwd $dir link react
             yarn --cwd $dir link react-dom
           fi

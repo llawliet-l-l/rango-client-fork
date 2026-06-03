@@ -1,4 +1,4 @@
-import { I18nManager } from '@rango-dev/ui';
+import { I18nManager } from '@arthur2079/ui';
 import React from 'react';
 
 import { AppRoutes } from '../../components/AppRoutes';

@@ -1,4 +1,4 @@
-import { ProviderBuilder } from '@rango-dev/wallets-core';
+import { ProviderBuilder } from '@arthur2079/wallets-core';
 
 import {
   COSMOSTAION_INJECTION_DELAY,

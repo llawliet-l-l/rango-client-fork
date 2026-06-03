@@ -1,4 +1,4 @@
-import type { ProviderMetadata } from '@rango-dev/wallets-core';
+import type { ProviderMetadata } from '@arthur2079/wallets-core';
 import type { BlockchainMeta } from 'rango-types';
 
 import { xrplBlockchain } from 'rango-types';

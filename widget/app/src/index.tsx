@@ -1,5 +1,5 @@
-import { layer as consoleLayer } from '@rango-dev/logging-console';
-import { init, Level } from '@rango-dev/logging-subscriber';
+import { layer as consoleLayer } from '@arthur2079/logging-console';
+import { init, Level } from '@arthur2079/logging-subscriber';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

@@ -1,4 +1,4 @@
-import { styled } from '@rango-dev/ui';
+import { styled } from '@arthur2079/ui';
 
 const PageContainer = styled('div', {
   display: 'flex',

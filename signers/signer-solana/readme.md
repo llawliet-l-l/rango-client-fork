@@ -1,4 +1,4 @@
-# @rango-dev/signer-solana
+# @arthur2079/signer-solana
 
 ## Summary
 

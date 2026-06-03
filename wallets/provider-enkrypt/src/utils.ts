@@ -1,6 +1,6 @@
 import type { EnkryptEvmProvider, Provider } from './types.js';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function enkrypt(): Provider | null {
   const { enkrypt } = window;

@@ -8,7 +8,7 @@ import {
   styled,
   Typography,
   Wallet,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useState } from 'react';
 
 import { Layout, PageContainer } from '../components/Layout';

@@ -1,10 +1,10 @@
 import type { Wallet } from './flows/rango/types';
-import type { SwapQueueContext } from '@rango-dev/queue-manager-rango-preset';
-import type { Network, WalletType } from '@rango-dev/wallets-shared';
+import type { SwapQueueContext } from '@arthur2079/queue-manager-rango-preset';
+import type { Network, WalletType } from '@arthur2079/wallets-shared';
 
-import { makeQueueDefinition } from '@rango-dev/queue-manager-rango-preset';
-import { Provider as ManagerProvider } from '@rango-dev/queue-manager-react';
-import { useWallets } from '@rango-dev/wallets-react';
+import { makeQueueDefinition } from '@arthur2079/queue-manager-rango-preset';
+import { Provider as ManagerProvider } from '@arthur2079/queue-manager-react';
+import { useWallets } from '@arthur2079/wallets-react';
 import React, { useMemo } from 'react';
 
 import { FlowsList } from './components/FlowsList';

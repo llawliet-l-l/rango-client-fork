@@ -1,11 +1,11 @@
-import { ActionBuilder } from '@rango-dev/wallets-core';
-import { ChangeAccountSubscriberBuilder } from '@rango-dev/wallets-core/namespaces/common';
+import { ActionBuilder } from '@arthur2079/wallets-core';
+import { ChangeAccountSubscriberBuilder } from '@arthur2079/wallets-core/namespaces/common';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   type ProviderAPI,
   utils,
   type UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 export const changeAccountSubscriber = (getInstance: () => ProviderAPI) =>
   new ChangeAccountSubscriberBuilder<string, ProviderAPI, UtxoActions>()

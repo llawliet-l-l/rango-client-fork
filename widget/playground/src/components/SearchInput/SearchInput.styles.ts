@@ -1,4 +1,4 @@
-import { darkTheme, styled } from '@rango-dev/ui';
+import { darkTheme, styled } from '@arthur2079/ui';
 
 export const IconWrapper = styled('div', {
   width: '$24',

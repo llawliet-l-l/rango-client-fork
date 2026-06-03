@@ -1,6 +1,6 @@
-import { type ProviderMetadata } from '@rango-dev/wallets-core';
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
-import { Networks } from '@rango-dev/wallets-shared';
+import { type ProviderMetadata } from '@arthur2079/wallets-core';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
+import { Networks } from '@arthur2079/wallets-shared';
 import {
   type BlockchainMeta,
   solanaBlockchain,

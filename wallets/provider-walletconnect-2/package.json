@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/provider-walletconnect-2",
+  "name": "@arthur2079/provider-walletconnect-2",
   "version": "0.54.0",
   "license": "MIT",
   "type": "module",
@@ -21,10 +21,10 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rango-dev/logging-core": "^0.12.1",
-    "@rango-dev/signer-evm": "^0.42.0",
-    "@rango-dev/signer-solana": "^0.48.0",
-    "@rango-dev/wallets-shared": "^0.60.0",
+    "@arthur2079/logging-core": "^0.12.1",
+    "@arthur2079/signer-evm": "^0.42.0",
+    "@arthur2079/signer-solana": "^0.48.0",
+    "@arthur2079/wallets-shared": "^0.60.0",
     "@solana/web3.js": "^1.91.4",
     "@walletconnect/encoding": "^1.0.2",
     "@walletconnect/sign-client": "^2.11.2",

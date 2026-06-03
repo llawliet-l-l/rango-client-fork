@@ -1,7 +1,7 @@
 import type { PropTypes } from './HeaderButtons.types';
 
 import { i18n } from '@lingui/core';
-import { Image, Tooltip, WalletIcon, WalletState } from '@rango-dev/ui';
+import { Image, Tooltip, WalletIcon, WalletState } from '@arthur2079/ui';
 import React from 'react';
 
 import { useWalletList } from '../../hooks/useWalletList';

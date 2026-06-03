@@ -1,9 +1,9 @@
 import type { OkxBtcAddress, Provider } from './types.js';
-import type { ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
-import type { ProviderAPI as SolanaProviderApi } from '@rango-dev/wallets-core/namespaces/solana';
-import type { ProviderAPI as UtxoProviderApi } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
+import type { ProviderAPI as SolanaProviderApi } from '@arthur2079/wallets-core/namespaces/solana';
+import type { ProviderAPI as UtxoProviderApi } from '@arthur2079/wallets-core/namespaces/utxo';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function okx(): Provider | null {
   const { okxwallet } = window;

@@ -1,11 +1,11 @@
 import type { TronChangeAccountEvent } from '../types.js';
 
-import { ChangeAccountSubscriberBuilder } from '@rango-dev/wallets-core/namespaces/common';
+import { ChangeAccountSubscriberBuilder } from '@arthur2079/wallets-core/namespaces/common';
 import {
   type ProviderAPI,
   type TronActions,
   utils,
-} from '@rango-dev/wallets-core/namespaces/tron';
+} from '@arthur2079/wallets-core/namespaces/tron';
 
 export const changeAccountSubscriber = (getInstance: () => ProviderAPI) =>
   new ChangeAccountSubscriberBuilder<

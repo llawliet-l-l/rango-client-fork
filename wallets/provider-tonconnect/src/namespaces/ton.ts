@@ -1,11 +1,11 @@
-import type { TonActions } from '@rango-dev/wallets-core/namespaces/ton';
+import type { TonActions } from '@arthur2079/wallets-core/namespaces/ton';
 
-import { NamespaceBuilder } from '@rango-dev/wallets-core';
+import { NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
-import { builders } from '@rango-dev/wallets-core/namespaces/ton';
+} from '@arthur2079/wallets-core/namespaces/common';
+import { builders } from '@arthur2079/wallets-core/namespaces/ton';
 
 import { tonActions } from '../actions/ton.js';
 import { WALLET_ID } from '../constants.js';

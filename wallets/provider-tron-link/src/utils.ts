@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI as TronProviderApi } from '@rango-dev/wallets-core/namespaces/tron';
+import type { ProviderAPI as TronProviderApi } from '@arthur2079/wallets-core/namespaces/tron';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function tronlink(): Provider | null {
   const instances: Provider = new Map();

@@ -1,6 +1,6 @@
 import type { Provider, VultisigZcashProviderApi } from './types.js';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function vultisig(): Provider | null {
   const { vultisig } = window;

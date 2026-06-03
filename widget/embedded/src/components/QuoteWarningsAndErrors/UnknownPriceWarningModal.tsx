@@ -1,6 +1,6 @@
 import type { UnknownPriceWarning } from '../../types';
 
-import { Button, MessageBox, WarningIcon } from '@rango-dev/ui';
+import { Button, MessageBox, WarningIcon } from '@arthur2079/ui';
 import React from 'react';
 
 import { errorMessages } from '../../constants/errors';

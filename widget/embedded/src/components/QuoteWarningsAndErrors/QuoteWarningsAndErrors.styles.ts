@@ -1,4 +1,4 @@
-import { Button, darkTheme, styled, Typography } from '@rango-dev/ui';
+import { Button, darkTheme, styled, Typography } from '@arthur2079/ui';
 
 export const Alerts = styled('div', {
   width: '100%',

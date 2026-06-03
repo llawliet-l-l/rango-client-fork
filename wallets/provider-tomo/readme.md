@@ -1,4 +1,4 @@
-# @rango-dev/provider-tomo
+# @arthur2079/provider-tomo
 Tomo Wallet integration for hub.  
 [Homepage](https://tomo.inc/) | [Docs](https://docs.tomo.inc/)
 

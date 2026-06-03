@@ -1,5 +1,5 @@
 import type { WalletInfo } from '../../components/index.js';
-import type { WalletType } from '@rango-dev/wallets-shared';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
 export interface ConnectWalletsModalPropTypes {
   open: boolean;
