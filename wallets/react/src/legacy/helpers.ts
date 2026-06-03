@@ -8,10 +8,10 @@ import type {
   LegacyOptions as Options,
   LegacyEventHandler as WalletEventHandler,
   LegacyState as WalletState,
-} from '@rango-dev/wallets-core/legacy';
-import type { WalletType } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/legacy';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
-import { Persistor } from '@rango-dev/wallets-core/legacy';
+import { Persistor } from '@arthur2079/wallets-core/legacy';
 
 import { LEGACY_LAST_CONNECTED_WALLETS } from '../hub/constants.js';
 import { LastConnectedWalletsFromStorage } from '../hub/lastConnectedWallets.js';

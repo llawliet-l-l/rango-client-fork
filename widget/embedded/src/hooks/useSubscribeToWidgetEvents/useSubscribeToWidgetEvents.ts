@@ -7,7 +7,7 @@ import {
   StepEventType,
   StepExecutionEventStatus,
   WidgetEvents,
-} from '@rango-dev/queue-manager-rango-preset';
+} from '@arthur2079/queue-manager-rango-preset';
 import { useEffect } from 'react';
 
 import { eventEmitter } from '../../services/eventEmitter';

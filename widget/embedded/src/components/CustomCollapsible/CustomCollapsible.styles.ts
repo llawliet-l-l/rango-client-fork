@@ -1,5 +1,5 @@
 import * as Collapsible from '@radix-ui/react-collapsible';
-import { keyframes, styled } from '@rango-dev/ui';
+import { keyframes, styled } from '@arthur2079/ui';
 
 export const EXPANDABLE_TRANSITION_DURATION = 300;
 

@@ -1,13 +1,13 @@
-import { NamespaceBuilder } from '@rango-dev/wallets-core';
+import { NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
 import {
   type TronActions,
   utils,
-} from '@rango-dev/wallets-core/namespaces/tron';
-import { builders } from '@rango-dev/wallets-core/namespaces/tron';
+} from '@arthur2079/wallets-core/namespaces/tron';
+import { builders } from '@arthur2079/wallets-core/namespaces/tron';
 
 import { tronActions } from '../actions/tron.js';
 import { tronBuilders } from '../builders/tron.js';

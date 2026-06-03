@@ -3,9 +3,9 @@ import type {
   Connect,
   ProviderConnectResult,
   WalletInfo,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 
-import { Networks, WalletTypes } from '@rango-dev/wallets-shared';
+import { Networks, WalletTypes } from '@arthur2079/wallets-shared';
 import { type BlockchainMeta, type SignerFactory } from 'rango-types';
 
 import {

@@ -22,7 +22,7 @@ import type {
   AllBlockchains,
   Network,
   WalletType,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import type { BestRouteRequest } from 'rango-sdk';
 import type { CheckApprovalResponse } from 'rango-sdk-basic';
 import type {
@@ -31,13 +31,13 @@ import type {
   PendingSwapStep,
 } from 'rango-types';
 
-import { SUPPORTED_ETH_CHAINS as XDEFI_WALLET_SUPPORTED_EVM_CHAINS } from '@rango-dev/provider-xdefi';
-import { legacyReadAccountAddress as readAccountAddress } from '@rango-dev/wallets-core/legacy';
+import { SUPPORTED_ETH_CHAINS as XDEFI_WALLET_SUPPORTED_EVM_CHAINS } from '@arthur2079/provider-xdefi';
+import { legacyReadAccountAddress as readAccountAddress } from '@arthur2079/wallets-core/legacy';
 import {
   Networks,
   WalletTypes,
   XDEFI_WALLET_SUPPORTED_NATIVE_CHAINS,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { BigNumber } from 'bignumber.js';
 import { ethers } from 'ethers';
 import {

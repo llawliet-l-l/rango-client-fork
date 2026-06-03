@@ -1,4 +1,4 @@
-import { ListItemButton, styled, Typography } from '@rango-dev/ui';
+import { ListItemButton, styled, Typography } from '@arthur2079/ui';
 
 export const HeaderContainer = styled('div', {
   display: 'flex',

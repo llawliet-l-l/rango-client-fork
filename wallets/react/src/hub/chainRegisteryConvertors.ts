@@ -7,7 +7,7 @@ import type {
 import type {
   CosmosAssetList,
   CosmosChain,
-} from '@rango-dev/wallets-core/namespaces/cosmos';
+} from '@arthur2079/wallets-core/namespaces/cosmos';
 import type { CosmosBlockchainMeta, CosmosChainInfo } from 'rango-types';
 
 export interface ConversionResult {

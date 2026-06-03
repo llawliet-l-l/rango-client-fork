@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/wallets-core/store",
+  "name": "@arthur2079/wallets-core/store",
   "type": "module",
   "main": "../dist/hub/store/mod.js",
   "module": "../dist/hub/store/mod.js",

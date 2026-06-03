@@ -1,7 +1,7 @@
-import type { Context, FunctionWithContext } from '@rango-dev/wallets-core';
+import type { Context, FunctionWithContext } from '@arthur2079/wallets-core';
 import type { TonConnectUI } from '@tonconnect/ui';
 
-import { type TonActions, utils } from '@rango-dev/wallets-core/namespaces/ton';
+import { type TonActions, utils } from '@arthur2079/wallets-core/namespaces/ton';
 
 import { tonConnect } from '../utils.js';
 

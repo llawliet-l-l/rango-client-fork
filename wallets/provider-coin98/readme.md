@@ -1,4 +1,4 @@
-# @rango-dev/provider-coin98
+# @arthur2079/provider-coin98
 
 Coin98 integration for hub.  
 [Homepage](https://coin98.com/) | [Docs](https://docs.coin98.com/)

@@ -1,13 +1,13 @@
-import { keplrCosmosActions } from '@rango-dev/provider-keplr/lib';
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
+import { keplrCosmosActions } from '@arthur2079/provider-keplr/lib';
+import { ActionBuilder, NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
 import {
   builders,
   type CosmosActions,
-} from '@rango-dev/wallets-core/namespaces/cosmos';
+} from '@arthur2079/wallets-core/namespaces/cosmos';
 
 import { cosmosActions } from '../actions/cosmos.js';
 import { WALLET_ID } from '../constants.js';

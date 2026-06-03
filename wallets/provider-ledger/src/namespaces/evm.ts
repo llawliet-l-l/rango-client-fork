@@ -1,16 +1,16 @@
-import type { EvmActions } from '@rango-dev/wallets-core/namespaces/evm';
+import type { EvmActions } from '@arthur2079/wallets-core/namespaces/evm';
 
-import { NamespaceBuilder } from '@rango-dev/wallets-core';
+import { NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   type CaipAccount,
   builders as commonBuilders,
-} from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
 import {
   builders,
   CAIP_NAMESPACE,
-} from '@rango-dev/wallets-core/namespaces/evm';
-import { CAIP } from '@rango-dev/wallets-core/utils';
-import { ETHEREUM_CHAIN_ID } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/namespaces/evm';
+import { CAIP } from '@arthur2079/wallets-core/utils';
+import { ETHEREUM_CHAIN_ID } from '@arthur2079/wallets-shared';
 
 import { WALLET_ID } from '../constants.js';
 import { setDerivationPath } from '../state.js';

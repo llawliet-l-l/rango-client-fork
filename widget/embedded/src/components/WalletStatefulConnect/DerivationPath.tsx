@@ -1,8 +1,8 @@
 import type { PropTypes } from './DerivationPath.types';
-import type { DerivationPath } from '@rango-dev/wallets-shared';
+import type { DerivationPath } from '@arthur2079/wallets-shared';
 
 import { i18n } from '@lingui/core';
-import { Divider, Image, MessageBox, Select, TextField } from '@rango-dev/ui';
+import { Divider, Image, MessageBox, Select, TextField } from '@arthur2079/ui';
 import React, { useEffect, useState } from 'react';
 
 import {

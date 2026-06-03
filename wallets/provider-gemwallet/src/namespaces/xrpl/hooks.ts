@@ -1,8 +1,8 @@
-import type { XRPLActions } from '@rango-dev/wallets-core/namespaces/xrpl';
+import type { XRPLActions } from '@arthur2079/wallets-core/namespaces/xrpl';
 
 import { on } from '@gemwallet/api';
-import { ChangeAccountSubscriberBuilder } from '@rango-dev/wallets-core/namespaces/common';
-import { utils } from '@rango-dev/wallets-core/namespaces/xrpl';
+import { ChangeAccountSubscriberBuilder } from '@arthur2079/wallets-core/namespaces/common';
+import { utils } from '@arthur2079/wallets-core/namespaces/xrpl';
 
 type WalletChangedEventPayload = {
   wallet: {

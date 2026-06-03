@@ -1,8 +1,8 @@
 import type { ConfirmSwap } from './useConfirmSwap.types';
 import type { ConfirmRouteRequest } from 'rango-sdk';
 
-import { warn } from '@rango-dev/logging-core';
-import { calculatePendingSwap } from '@rango-dev/queue-manager-rango-preset';
+import { warn } from '@arthur2079/logging-core';
+import { calculatePendingSwap } from '@arthur2079/queue-manager-rango-preset';
 import { useEffect } from 'react';
 
 import { useAppStore } from '../../store/AppStore';

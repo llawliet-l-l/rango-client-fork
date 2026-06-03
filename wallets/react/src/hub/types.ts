@@ -2,7 +2,7 @@ import type {
   CommonNamespaces,
   FindProxiedNamespace,
   ProviderMetadata,
-} from '@rango-dev/wallets-core';
+} from '@arthur2079/wallets-core';
 
 export type AllProxiedNamespaces = FindProxiedNamespace<
   keyof CommonNamespaces,

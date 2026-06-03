@@ -1,2 +1,2 @@
-# @rango-dev/queue-manager-rango-preset
+# @arthur2079/queue-manager-rango-preset
 

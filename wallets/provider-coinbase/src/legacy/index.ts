@@ -7,13 +7,13 @@ import type {
   Subscribe,
   SwitchNetwork,
   WalletInfo,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import type { BlockchainMeta, SignerFactory } from 'rango-types';
 
 import {
   type LegacyProviderInterface,
   LegacyNetworks as Networks,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 import {
   canEagerlyConnectToEvm,
   canSwitchNetworkToEvm,
@@ -21,7 +21,7 @@ import {
   getEvmAccounts,
   switchNetworkForEvm,
   WalletTypes,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import {
   evmBlockchains,
   isEvmBlockchain,

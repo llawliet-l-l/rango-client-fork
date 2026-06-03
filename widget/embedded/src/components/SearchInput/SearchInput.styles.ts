@@ -1,4 +1,4 @@
-import { styled } from '@rango-dev/ui';
+import { styled } from '@arthur2079/ui';
 
 export const IconWrapper = styled('div', {
   width: '$24',

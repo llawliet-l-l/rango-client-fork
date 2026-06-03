@@ -1,5 +1,5 @@
-import type { ProxiedNamespace } from '@rango-dev/wallets-core';
-import type { StellarActions } from '@rango-dev/wallets-core/namespaces/stellar';
+import type { ProxiedNamespace } from '@arthur2079/wallets-core';
+import type { StellarActions } from '@arthur2079/wallets-core/namespaces/stellar';
 
 export type StellarNamespace = ProxiedNamespace<StellarActions>;
 export type TargetToken = {

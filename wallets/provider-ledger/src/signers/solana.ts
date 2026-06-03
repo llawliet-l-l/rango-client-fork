@@ -1,9 +1,9 @@
-import type { SolanaWeb3Signer } from '@rango-dev/signer-solana';
+import type { SolanaWeb3Signer } from '@arthur2079/signer-solana';
 import type { Transaction, VersionedTransaction } from '@solana/web3.js';
 import type { GenericSigner, SolanaTransaction } from 'rango-types';
 
-import { generalSolanaTransactionExecutor } from '@rango-dev/signer-solana';
-import { dynamicImportWithRefinedError } from '@rango-dev/wallets-shared';
+import { generalSolanaTransactionExecutor } from '@arthur2079/signer-solana';
+import { dynamicImportWithRefinedError } from '@arthur2079/wallets-shared';
 import { PublicKey } from '@solana/web3.js';
 import { SignerError, SignerErrorCode } from 'rango-types';
 

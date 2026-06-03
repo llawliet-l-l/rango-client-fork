@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "react-app-rewired": "^2.2.1",
-    "@rango-dev/widget-embedded": "latest",
+    "@arthur2079/widget-embedded": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,12 +1,12 @@
-import type { LegacyProviderInterface } from '@rango-dev/wallets-core/legacy';
+import type { LegacyProviderInterface } from '@arthur2079/wallets-core/legacy';
 import type {
   Connect,
   Disconnect,
   ProviderConnectResult,
   WalletInfo,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 
-import { Networks, WalletTypes } from '@rango-dev/wallets-shared';
+import { Networks, WalletTypes } from '@arthur2079/wallets-shared';
 import { type BlockchainMeta, type SignerFactory } from 'rango-types';
 
 import signer from '../signer.js';

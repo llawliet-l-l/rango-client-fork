@@ -4,12 +4,12 @@ import type { NextTransactionStateError } from '../common/produceNextStateForTra
 import type {
   BlockedReason,
   ExecuterActions,
-} from '@rango-dev/queue-manager-core';
-import type { WalletType } from '@rango-dev/wallets-shared';
+} from '@arthur2079/queue-manager-core';
+import type { WalletType } from '@arthur2079/wallets-shared';
 import type { PendingSwap, StellarTransaction } from 'rango-types';
 import type { Result } from 'ts-results';
 
-import { legacyReadAccountAddress as readAccountAddress } from '@rango-dev/wallets-core/legacy';
+import { legacyReadAccountAddress as readAccountAddress } from '@arthur2079/wallets-core/legacy';
 import * as StellarSdk from '@stellar/stellar-sdk';
 import BigNumber from 'bignumber.js';
 import { TransactionType } from 'rango-types';

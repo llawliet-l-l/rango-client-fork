@@ -1,12 +1,12 @@
-import type { XRPLActions } from '@rango-dev/wallets-core/namespaces/xrpl';
+import type { XRPLActions } from '@arthur2079/wallets-core/namespaces/xrpl';
 
 import { getAddress } from '@gemwallet/api';
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
+import { ActionBuilder, NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
-import { builders, utils } from '@rango-dev/wallets-core/namespaces/xrpl';
+} from '@arthur2079/wallets-core/namespaces/common';
+import { builders, utils } from '@arthur2079/wallets-core/namespaces/xrpl';
 import { Client } from 'xrpl';
 
 import { WALLET_ID, XRPL_PUBLIC_SERVER } from '../../constants.js';

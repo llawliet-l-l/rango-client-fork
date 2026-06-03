@@ -1,10 +1,10 @@
 import type {
   CosmosActions,
   ProviderAPI,
-} from '@rango-dev/wallets-core/namespaces/cosmos';
+} from '@arthur2079/wallets-core/namespaces/cosmos';
 
-import { ChangeAccountSubscriberBuilder } from '@rango-dev/wallets-core/namespaces/common';
-import { utils } from '@rango-dev/wallets-core/namespaces/cosmos';
+import { ChangeAccountSubscriberBuilder } from '@arthur2079/wallets-core/namespaces/common';
+import { utils } from '@arthur2079/wallets-core/namespaces/cosmos';
 
 // Hooks
 const changeAccountSubscriber = (getInstance: () => ProviderAPI) =>

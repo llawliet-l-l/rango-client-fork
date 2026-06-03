@@ -1,7 +1,7 @@
 import type { NamespaceDetachedItemPropTypes } from './Namespaces.types';
 
 import { i18n } from '@lingui/core';
-import { Button, Spinner } from '@rango-dev/ui';
+import { Button, Spinner } from '@arthur2079/ui';
 import React, { useLayoutEffect, useRef, useState } from 'react';
 
 import { getConciseAddress } from '../../utils/wallets';

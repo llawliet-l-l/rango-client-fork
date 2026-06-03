@@ -1,4 +1,4 @@
-import { ProviderBuilder } from '@rango-dev/wallets-core';
+import { ProviderBuilder } from '@arthur2079/wallets-core';
 
 import { metadata, WALLET_ID, XVERSE_INJECTION_DELAY_MS } from './constants.js';
 import { utxo } from './namespaces/utxo.js';

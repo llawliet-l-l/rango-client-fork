@@ -4,8 +4,8 @@ import type { GenericSigner, SolanaTransaction } from 'rango-types';
 import {
   type SolanaExternalProvider,
   type SolanaWeb3Signer,
-} from '@rango-dev/signer-solana';
-import { generalSolanaTransactionExecutor } from '@rango-dev/signer-solana';
+} from '@arthur2079/signer-solana';
+import { generalSolanaTransactionExecutor } from '@arthur2079/signer-solana';
 import { PublicKey } from '@solana/web3.js';
 import bs58 from 'bs58';
 import { SignerError, SignerErrorCode } from 'rango-types';

@@ -1,10 +1,10 @@
-import type { Context, FunctionWithContext } from '@rango-dev/wallets-core';
+import type { Context, FunctionWithContext } from '@arthur2079/wallets-core';
 
 import {
   type ProviderAPI,
   type SolanaActions,
   utils,
-} from '@rango-dev/wallets-core/namespaces/solana';
+} from '@arthur2079/wallets-core/namespaces/solana';
 
 function connect(
   instance: () => ProviderAPI

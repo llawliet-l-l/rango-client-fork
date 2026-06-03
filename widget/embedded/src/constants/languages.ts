@@ -1,4 +1,4 @@
-import type { FlagPropTypes, Language } from '@rango-dev/ui';
+import type { FlagPropTypes, Language } from '@arthur2079/ui';
 
 import {
   Bengali,
@@ -35,7 +35,7 @@ import {
   Turkish,
   Ukrainian,
   Vietnamese,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 
 export type LanguageItem = {
   title: string;

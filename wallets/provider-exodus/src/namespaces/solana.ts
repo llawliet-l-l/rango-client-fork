@@ -1,11 +1,11 @@
-import type { SolanaActions } from '@rango-dev/wallets-core/namespaces/solana';
+import type { SolanaActions } from '@arthur2079/wallets-core/namespaces/solana';
 
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
+import { ActionBuilder, NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
-import { actions, builders } from '@rango-dev/wallets-core/namespaces/solana';
+} from '@arthur2079/wallets-core/namespaces/common';
+import { actions, builders } from '@arthur2079/wallets-core/namespaces/solana';
 
 import { solanaActions } from '../actions/solana.js';
 import { WALLET_ID } from '../constants.js';

@@ -1,4 +1,4 @@
-import type { LegacyNamespaceMeta } from '@rango-dev/wallets-core/legacy';
+import type { LegacyNamespaceMeta } from '@arthur2079/wallets-core/legacy';
 
 export type PropTypes = {
   namespace: LegacyNamespaceMeta;

@@ -1,4 +1,4 @@
-# @rango-dev/charts
+# @arthur2079/charts
 
 Rango charts
 

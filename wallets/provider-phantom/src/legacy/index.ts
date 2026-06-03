@@ -1,11 +1,11 @@
-import type { LegacyProviderInterface } from '@rango-dev/wallets-core/legacy';
+import type { LegacyProviderInterface } from '@arthur2079/wallets-core/legacy';
 import type {
   CanEagerConnect,
   CanSwitchNetwork,
   Connect,
   Subscribe,
   WalletInfo,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import type {
   BlockchainMeta,
   EvmBlockchainMeta,
@@ -14,12 +14,12 @@ import type {
   TransferBlockchainMeta,
 } from 'rango-types';
 
-import { LegacyNetworks as Networks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks as Networks } from '@arthur2079/wallets-core/legacy';
 import {
   chooseInstance,
   getSolanaAccounts,
   WalletTypes,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import {
   isEvmBlockchain,
   solanaBlockchain,

@@ -3,16 +3,16 @@ import type {
   QueueContext,
   QueueDef,
   QueueStorage,
-} from '@rango-dev/queue-manager-core';
-import type { Provider } from '@rango-dev/wallets-core';
-import type { LegacyConnectResult as ConnectResult } from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/queue-manager-core';
+import type { Provider } from '@arthur2079/wallets-core';
+import type { LegacyConnectResult as ConnectResult } from '@arthur2079/wallets-core/legacy';
 import type {
   Meta,
   Network,
   Providers,
   WalletState,
   WalletType,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import type { Transaction } from 'rango-sdk';
 import type {
   APIErrorCode,

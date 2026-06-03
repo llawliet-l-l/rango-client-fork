@@ -1,4 +1,4 @@
-import { UI_ID } from '@rango-dev/ui';
+import { UI_ID } from '@arthur2079/ui';
 
 export const DEFAULT_BASE_URL = 'https://api.rango.exchange';
 export const SCANNER_BASE_URL = 'https://explorer.rango.exchange';

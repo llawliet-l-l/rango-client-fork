@@ -1,13 +1,13 @@
 import {
   type Context,
   type FunctionWithContext,
-} from '@rango-dev/wallets-core';
+} from '@arthur2079/wallets-core';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   type ProviderAPI,
   utils,
   type UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 export function connect(
   instance: () => ProviderAPI

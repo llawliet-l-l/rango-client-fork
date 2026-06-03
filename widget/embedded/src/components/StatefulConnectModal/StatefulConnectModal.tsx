@@ -1,8 +1,8 @@
 import type { Result } from '../../hooks/useStatefulConnect';
 import type { WalletInfoWithExtra } from '../../types';
-import type { Namespace } from '@rango-dev/wallets-core/namespaces/common';
+import type { Namespace } from '@arthur2079/wallets-core/namespaces/common';
 
-import { Divider } from '@rango-dev/ui';
+import { Divider } from '@arthur2079/ui';
 import React, { useEffect, useRef, useState } from 'react';
 
 import {

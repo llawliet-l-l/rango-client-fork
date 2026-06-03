@@ -1,5 +1,5 @@
 import type { TokenType } from '../TokensPanel/TokensPanel.types';
-import type { Tokens } from '@rango-dev/widget-embedded';
+import type { Tokens } from '@arthur2079/widget-embedded';
 
 export interface CommonListProps {
   type: 'Chains' | 'Bridges' | 'DEXs' | 'Wallets';

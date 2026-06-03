@@ -1,4 +1,4 @@
-import { styled } from '@rango-dev/ui';
+import { styled } from '@arthur2079/ui';
 
 export const SliderContainer = styled('div', {
   display: 'flex',

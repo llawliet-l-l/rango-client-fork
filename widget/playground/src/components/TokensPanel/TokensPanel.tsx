@@ -1,8 +1,8 @@
 import type { PropTypes, TokenType } from './TokensPanel.types';
-import type { Tokens } from '@rango-dev/widget-embedded';
+import type { Tokens } from '@arthur2079/widget-embedded';
 import type { Asset } from 'rango-sdk';
 
-import { ChainsIcon, Checkbox, Divider, Typography } from '@rango-dev/ui';
+import { ChainsIcon, Checkbox, Divider, Typography } from '@arthur2079/ui';
 import React, { useState } from 'react';
 
 import { areTokensEqual } from '../../utils/common';

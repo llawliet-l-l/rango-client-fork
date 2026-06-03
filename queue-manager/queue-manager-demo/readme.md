@@ -1,1 +1,1 @@
-# @rango-dev/queue-manager-demo
+# @arthur2079/queue-manager-demo

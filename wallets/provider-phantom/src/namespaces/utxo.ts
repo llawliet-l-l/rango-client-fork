@@ -1,33 +1,33 @@
 import type {
   ProviderAPI,
   UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import {
   ActionBuilder,
   NamespaceBuilder,
   type Subscriber,
   type SubscriberCleanUp,
-} from '@rango-dev/wallets-core';
+} from '@arthur2079/wallets-core';
 import {
   type CaipAccount,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
-import { builders as commonBuilders } from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
+import { builders as commonBuilders } from '@arthur2079/wallets-core/namespaces/common';
 import {
   actions as solanaActions,
   type SolanaActions,
-} from '@rango-dev/wallets-core/namespaces/solana';
+} from '@arthur2079/wallets-core/namespaces/solana';
 import {
   builders,
   CAIP_BITCOIN_CHAIN_ID,
   CAIP_NAMESPACE,
-} from '@rango-dev/wallets-core/namespaces/utxo';
-import { CAIP } from '@rango-dev/wallets-core/utils';
+} from '@arthur2079/wallets-core/namespaces/utxo';
+import { CAIP } from '@arthur2079/wallets-core/utils';
 import {
   Networks,
   type ProviderConnectResult,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 
 import { WALLET_ID } from '../constants.js';
 import { bitcoinPhantom, solanaPhantom } from '../utils.js';
