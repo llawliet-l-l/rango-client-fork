@@ -1,28 +1,78 @@
 name: Production Release
 on:
+  push:
+    branches:
+      - 'next'
   workflow_dispatch:
     inputs:
-      run_publish:
-        description: 'Run publish job'
-        type: boolean
-        default: true
-      run_something_else:
-        description: 'Run other job'
+      full_release:
+        description: 'Run full release pipeline (sync-prod, publish, deploy, sync-next)'
         type: boolean
         default: false
 
 jobs:
+  sync-prod:
+    if: ${{ inputs.full_release }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
+      - name: Prepare
+        uses: ./.github/actions/prepare
+      - name: Run Sync Prod
+        uses: ./.github/actions/sync-branch
+        with:
+          prod: true
+
   publish:
-    if: ${{ inputs.run_publish }}
-    permissions:
-      id-token: write
-      contents: write
+    needs: sync-prod
+    if: ${{ always() && !cancelled() && (needs.sync-prod.result == 'success' || needs.sync-prod.result == 'skipped') }}
     uses: ./.github/workflows/publish.yml
     secrets: inherit
 
-  hello:
+  deploy:
+    needs: publish
+    if: ${{ inputs.full_release && needs.publish.result == 'success' }}
+    environment: production
+    runs-on: ubuntu-latest
+    env:
+      REACT_APP_PLAYGROUND_RANGO_API_KEY: ${{ vars.PLAYGROUND_RANGO_API_KEY }}
+      REACT_APP_RANGO_API_KEY: ${{ vars.RANGO_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
+
+      - run: git pull
+
+      - name: Prepare
+        uses: ./.github/actions/prepare
+
+      - name: Build & Deploy
+        uses: ./.github/actions/build-deploy
+        with:
+          PLAYGROUND_RANGO_API_KEY: ${{ vars.PLAYGROUND_RANGO_API_KEY }}
+          RANGO_API_KEY: ${{ vars.RANGO_API_KEY }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_WIDGET_CONFIG: ${{ secrets.VERCEL_PROJECT_WIDGET_CONFIG }}
+          VERCEL_PROJECT_WIDGET_APP: ${{ secrets.VERCEL_PROJECT_WIDGET_APP }}
+          VERCEL_PROJECT_Q: ${{ secrets.VERCEL_PROJECT_Q }}
+
+
+  sync-next:
+    needs: deploy
+    if: ${{ inputs.full_release && needs.deploy.result == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello from the hello job"
-
-
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
+      - name: Prepare
+        uses: ./.github/actions/prepare
+      - name: Run Sync Next
+        uses: ./.github/actions/sync-branch
