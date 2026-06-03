@@ -31,7 +31,7 @@ export async function publishOnNpm(pkg) {
   ], {
     env: {
       ...process.env,
-      NPM_CONFIG_REGISTRY: 'https://registry.npmjs.org',
+      npm_config_registry: 'https://registry.npmjs.org',
     }
   })
     .then(({ stdout }) => stdout)
