@@ -184,7 +184,6 @@ export function getBaseBranchForExperimental() {
 }
 
 export function detectChannel() {
-  return 'prod';
   if (getEnvWithFallback('REF') === 'refs/heads/main') {
     return 'prod';
   } else if (getEnvWithFallback('REF') === 'refs/heads/next') {

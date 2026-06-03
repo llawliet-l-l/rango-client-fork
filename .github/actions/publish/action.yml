@@ -1,0 +1,26 @@
+name: "Publish"
+description: "Build, version and publish affected packages to npm via OIDC trusted publishing."
+
+inputs:
+  ref:
+    description: >-
+      Git ref being published. Controls the npm dist-tag/channel
+      (refs/heads/main → latest, refs/heads/next → next).
+      Defaults to the workflow's github.ref.
+    required: false
+    default: ""
+
+runs:
+  using: "composite"
+  steps:
+    # Publishing authenticates to npm via OIDC trusted publishing.
+    # No NODE_AUTH_TOKEN / NPM_TOKEN is needed — the npm CLI (>= 11.5) exchanges
+    # the GitHub OIDC token for a short-lived npm credential. This requires
+    # `permissions: id-token: write` on the calling job and each package
+    # configured to trust this repository + workflow filename on npmjs.com.
+    - name: Build, Version & Publish packages
+      shell: bash
+      run: yarn run publish
+      env:
+        REF: ${{ inputs.ref || github.ref }}
+        GH_TOKEN: ${{ github.token }}
