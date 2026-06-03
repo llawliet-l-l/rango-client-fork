@@ -29,6 +29,9 @@ jobs:
   publish:
     needs: sync-prod
     if: ${{ always() && !cancelled() && (needs.sync-prod.result == 'success' || needs.sync-prod.result == 'skipped') }}
+    permissions:
+      id-token: write
+      contents: write
     uses: ./.github/workflows/publish.yml
     secrets: inherit
 
