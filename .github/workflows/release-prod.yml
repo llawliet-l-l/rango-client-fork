@@ -14,6 +14,9 @@ on:
 jobs:
   publish:
     if: ${{ inputs.run_publish }}
+    permissions:
+      id-token: write
+      contents: write
     uses: ./.github/workflows/publish.yml
     secrets: inherit
 
