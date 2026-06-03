@@ -34,3 +34,4 @@ jobs:
           REF: ${{ github.ref }}
           GH_TOKEN: ${{ github.token }}
           npm_config_registry: 'https://registry.npmjs.org'
+          NPM_CONFIG_REGISTRY: 'https://registry.npmjs.org'
