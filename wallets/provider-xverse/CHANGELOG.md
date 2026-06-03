@@ -1,3 +1,13 @@
+## [0.6.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-xverse@0.6.0...provider-xverse@0.6.1) (2026-06-03)
+
+
+### Bug Fixes
+
+* changed packages ([3240d0f](https://github.com/llawliet-l-l/rango-client-fork/commit/3240d0fd5eaffb6737268b4c26119cbde01335f7))
+* fixed package names ([45eb663](https://github.com/llawliet-l-l/rango-client-fork/commit/45eb663ee06b89d870e569fb835aeb0baf81d6d0))
+
+
+
 # [0.6.0](https://github.com/rango-exchange/rango-client/compare/provider-xverse@0.5.1...provider-xverse@0.6.0) (2026-05-31)
 
 

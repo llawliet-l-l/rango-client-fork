@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-walletconnect-2",
-  "version": "0.54.0",
+  "version": "0.54.1",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -24,10 +24,10 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@arthur2079/logging-core": "^0.12.1",
-    "@arthur2079/signer-evm": "^0.42.0",
-    "@arthur2079/signer-solana": "^0.48.0",
-    "@arthur2079/wallets-shared": "^0.60.0",
+    "@arthur2079/logging-core": "^0.13.0",
+    "@arthur2079/signer-evm": "^0.42.1",
+    "@arthur2079/signer-solana": "^0.48.1",
+    "@arthur2079/wallets-shared": "^0.60.1",
     "@solana/web3.js": "^1.91.4",
     "@walletconnect/encoding": "^1.0.2",
     "@walletconnect/sign-client": "^2.11.2",
