@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/queue-manager-rango-preset",
-  "version": "0.62.0",
+  "version": "0.62.1",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -37,7 +37,7 @@
     "@types/uuid": "^8.3.4"
   },
   "dependencies": {
-    "@arthur2079/logging-core": "^0.12.1",
+    "@arthur2079/logging-core": "^0.13.0",
     "@stellar/stellar-sdk": "^15.0.1",
     "rango-types": "^0.5.0",
     "ts-results": "^3.3.0",

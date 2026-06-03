@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-ledger",
-  "version": "0.31.0",
+  "version": "0.31.1",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -24,15 +24,15 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
+    "@arthur2079/signer-solana": "^0.48.1",
+    "@arthur2079/wallets-core": "^0.59.1",
+    "@arthur2079/wallets-shared": "^0.60.1",
     "@ledgerhq/errors": "^6.16.4",
     "@ledgerhq/hw-app-eth": "^6.36.0",
     "@ledgerhq/hw-app-solana": "^7.1.6",
     "@ledgerhq/hw-transport-webhid": "^6.28.6",
     "@ledgerhq/types-cryptoassets": "^7.11.0",
     "@ledgerhq/types-devices": "^6.24.0",
-    "@arthur2079/signer-solana": "^0.48.0",
-    "@arthur2079/wallets-core": "^0.59.0",
-    "@arthur2079/wallets-shared": "^0.60.0",
     "@solana/web3.js": "^1.91.4",
     "@types/w3c-web-hid": "^1.0.2",
     "bs58": "^5.0.0",

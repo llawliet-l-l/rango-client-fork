@@ -1,3 +1,13 @@
+# [0.34.0](https://github.com/llawliet-l-l/rango-client-fork/compare/queue-manager-react@0.33.0...queue-manager-react@0.34.0) (2026-06-03)
+
+
+### Bug Fixes
+
+* changed packages ([3240d0f](https://github.com/llawliet-l-l/rango-client-fork/commit/3240d0fd5eaffb6737268b4c26119cbde01335f7))
+* fixed package names ([45eb663](https://github.com/llawliet-l-l/rango-client-fork/commit/45eb663ee06b89d870e569fb835aeb0baf81d6d0))
+
+
+
 # [0.33.0](https://github.com/rango-exchange/rango-client/compare/queue-manager-react@0.32.0...queue-manager-react@0.33.0) (2025-10-29)
 
 

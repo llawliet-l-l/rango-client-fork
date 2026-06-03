@@ -1,3 +1,13 @@
+## [0.60.2](https://github.com/llawliet-l-l/rango-client-fork/compare/widget-embedded@0.60.1...widget-embedded@0.60.2) (2026-06-03)
+
+
+### Bug Fixes
+
+* changed packages ([3240d0f](https://github.com/llawliet-l-l/rango-client-fork/commit/3240d0fd5eaffb6737268b4c26119cbde01335f7))
+* fixed package names ([45eb663](https://github.com/llawliet-l-l/rango-client-fork/commit/45eb663ee06b89d870e569fb835aeb0baf81d6d0))
+
+
+
 ## [0.60.1](https://github.com/rango-exchange/rango-client/compare/widget-embedded@0.60.0...widget-embedded@0.60.1) (2026-06-02)
 
 
