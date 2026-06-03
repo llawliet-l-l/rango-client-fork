@@ -21,13 +21,11 @@ import { rootPath } from './path.mjs';
 export async function publishOnNpm(pkg) {
   const channel = detectChannel();
   const distTag = channel === 'prod' ? 'latest' : channel;
-  const output = await execa('npm', [
-    '-w',
-    pkg.name,
+  const output = await execa('yarn', [
     'publish',
+    pkg.location,
     '--tag',
     distTag,
-    '--ignore-scripts'
   ])
     .then(({ stdout }) => stdout)
     .catch((error) => {
