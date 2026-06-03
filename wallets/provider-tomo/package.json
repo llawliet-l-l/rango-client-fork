@@ -1,6 +1,9 @@
 {
   "name": "@arthur2079/provider-tomo",
   "version": "0.27.0",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/mod.ts",
