@@ -17,7 +17,22 @@ runs:
       with:
         node-version: '24'
         registry-url: 'https://registry.npmjs.org'
-        
+
+    # npm OIDC trusted publishing requires npm >= 11.5.1. Node 24 may bundle an
+    # older npm, and OIDC fails *silently* (falls back to token auth) if too old.
+    # Fail fast here rather than ship an unsigned/token-auth publish.
+    - name: Verify npm supports OIDC trusted publishing
+      shell: 'bash'
+      run: |
+        required="11.5.1"
+        current="$(npm --version)"
+        echo "npm version: $current (required >= $required)"
+        lowest="$(printf '%s\n%s\n' "$required" "$current" | sort -V | head -n1)"
+        if [ "$lowest" != "$required" ]; then
+          echo "::error::npm $current is too old for OIDC trusted publishing; need >= $required. Bump the Node/npm version in .github/actions/prepare."
+          exit 1
+        fi
+
     - name: Hash workspace keys
       id: workspace-keys
       run: |
