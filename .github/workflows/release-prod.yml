@@ -17,4 +17,9 @@ jobs:
     uses: ./.github/workflows/publish.yml
     secrets: inherit
 
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from the hello job"
+
 
