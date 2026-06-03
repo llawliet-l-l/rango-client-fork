@@ -1,6 +1,9 @@
 {
   "name": "@arthur2079/queue-manager-core",
   "version": "0.33.0",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
