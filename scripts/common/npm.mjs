@@ -28,7 +28,12 @@ export async function publishOnNpm(pkg) {
     '--tag',
     distTag,
     '--ignore-scripts'
-  ])
+  ], {
+    env: {
+      ...process.env,
+      NPM_CONFIG_REGISTRY: 'https://registry.npmjs.org',
+    }
+  })
     .then(({ stdout }) => stdout)
     .catch((error) => {
       throw new NpmPublishError(error.stderr);
