@@ -1,4 +1,4 @@
-import type { WidgetColors } from '@rango-dev/widget-embedded';
+import type { WidgetColors } from '@arthur2079/widget-embedded';
 
 export type Type = 'Destination' | 'Source';
 

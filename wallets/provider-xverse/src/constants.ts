@@ -1,7 +1,7 @@
 import type { BlockchainMeta, TransferBlockchainMeta } from 'rango-types';
 
-import { type ProviderMetadata } from '@rango-dev/wallets-core';
-import { Networks } from '@rango-dev/wallets-shared';
+import { type ProviderMetadata } from '@arthur2079/wallets-core';
+import { Networks } from '@arthur2079/wallets-shared';
 
 import getSigners from './signer.js';
 import { getInstanceOrThrow } from './utils.js';

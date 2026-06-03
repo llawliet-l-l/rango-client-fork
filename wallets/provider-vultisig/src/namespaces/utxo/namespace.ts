@@ -1,15 +1,15 @@
-import type { UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
 
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
+import { ActionBuilder, NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
 import {
   builders,
   CAIP_ZCASH_CHAIN_ID,
   utils,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { WALLET_ID } from '../../constants.js';
 

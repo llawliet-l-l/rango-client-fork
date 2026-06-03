@@ -1,11 +1,11 @@
-import type { StellarActions } from '@rango-dev/wallets-core/namespaces/stellar';
+import type { StellarActions } from '@arthur2079/wallets-core/namespaces/stellar';
 
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
+import { ActionBuilder, NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
-import { builders, utils } from '@rango-dev/wallets-core/namespaces/stellar';
+} from '@arthur2079/wallets-core/namespaces/common';
+import { builders, utils } from '@arthur2079/wallets-core/namespaces/stellar';
 import * as freighterApi from '@stellar/freighter-api';
 
 import { WALLET_ID } from '../../constants.js';

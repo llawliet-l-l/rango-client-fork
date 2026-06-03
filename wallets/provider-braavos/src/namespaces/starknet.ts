@@ -1,11 +1,11 @@
-import type { StarknetActions } from '@rango-dev/wallets-core/namespaces/starknet';
+import type { StarknetActions } from '@arthur2079/wallets-core/namespaces/starknet';
 
-import { NamespaceBuilder } from '@rango-dev/wallets-core';
+import { NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
-import { actions, builders } from '@rango-dev/wallets-core/namespaces/starknet';
+} from '@arthur2079/wallets-core/namespaces/common';
+import { actions, builders } from '@arthur2079/wallets-core/namespaces/starknet';
 
 import { starknetActions } from '../actions/starknet.js';
 import { starknetBuilders } from '../builders/starknet.js';

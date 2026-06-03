@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/provider-braavos",
+  "name": "@arthur2079/provider-braavos",
   "version": "0.54.0",
   "license": "MIT",
   "type": "module",
@@ -21,9 +21,9 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rango-dev/signer-starknet": "^0.42.0",
-    "@rango-dev/wallets-core": "^0.59.0",
-    "@rango-dev/wallets-shared": "^0.60.0",
+    "@arthur2079/signer-starknet": "^0.42.0",
+    "@arthur2079/wallets-core": "^0.59.0",
+    "@arthur2079/wallets-shared": "^0.60.0",
     "rango-types": "^0.5.0"
   },
   "publishConfig": {

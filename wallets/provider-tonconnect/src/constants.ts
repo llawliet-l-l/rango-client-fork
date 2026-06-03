@@ -1,6 +1,6 @@
-import type { ProviderMetadata } from '@rango-dev/wallets-core';
+import type { ProviderMetadata } from '@arthur2079/wallets-core';
 
-import { WalletTypes } from '@rango-dev/wallets-shared';
+import { WalletTypes } from '@arthur2079/wallets-shared';
 import { type BlockchainMeta, tonBlockchain } from 'rango-types';
 
 import getSigners from './signer.js';

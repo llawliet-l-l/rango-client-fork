@@ -1,6 +1,6 @@
-import type { Network, ProviderConnectResult } from '@rango-dev/wallets-shared';
+import type { Network, ProviderConnectResult } from '@arthur2079/wallets-shared';
 
-import { Networks } from '@rango-dev/wallets-shared';
+import { Networks } from '@arthur2079/wallets-shared';
 import { SignerError, SignerErrorCode } from 'rango-types';
 
 import { SUPPORTED_ETH_CHAINS, SUPPORTED_NETWORKS } from './constants.js';

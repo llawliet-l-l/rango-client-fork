@@ -1,4 +1,4 @@
-import { ProviderBuilder } from '@rango-dev/wallets-core';
+import { ProviderBuilder } from '@arthur2079/wallets-core';
 
 import { LEAP_INJECTION_DELAY, metadata, WALLET_ID } from './constants.js';
 import { cosmos } from './namespaces/cosmos.js';

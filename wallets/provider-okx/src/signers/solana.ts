@@ -1,7 +1,7 @@
 import {
   DefaultSolanaSigner,
   type SolanaExternalProvider,
-} from '@rango-dev/signer-solana';
+} from '@arthur2079/signer-solana';
 import { SignerError, SignerErrorCode } from 'rango-types';
 
 export class OKXSolanaSigner extends DefaultSolanaSigner {

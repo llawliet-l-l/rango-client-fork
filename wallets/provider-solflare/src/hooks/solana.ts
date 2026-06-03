@@ -2,11 +2,11 @@ import type {
   AnyFunction,
   Subscriber,
   SubscriberCleanUp,
-} from '@rango-dev/wallets-core';
+} from '@arthur2079/wallets-core';
 import type {
   ProviderAPI,
   SolanaActions,
-} from '@rango-dev/wallets-core/namespaces/solana';
+} from '@arthur2079/wallets-core/namespaces/solana';
 
 function getDisconnectSubscriber(
   instance: () => ProviderAPI

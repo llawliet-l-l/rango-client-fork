@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI as StarknetProviderAPI } from '@rango-dev/wallets-core/namespaces/starknet';
+import type { ProviderAPI as StarknetProviderAPI } from '@arthur2079/wallets-core/namespaces/starknet';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function braavos(): Provider | null {
   const instances: Provider = new Map();

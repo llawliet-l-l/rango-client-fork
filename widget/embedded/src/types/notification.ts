@@ -3,7 +3,7 @@ import {
   type RouteEvent,
   type Step,
   type StepEvent,
-} from '@rango-dev/queue-manager-rango-preset';
+} from '@arthur2079/queue-manager-rango-preset';
 
 type NotificationRoute = {
   creationTime: number;

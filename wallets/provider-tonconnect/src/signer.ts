@@ -5,7 +5,7 @@ import {
   dynamicImportWithRefinedError,
   getNetworkInstance,
   Networks,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { DefaultSignerFactory, TransactionType as TxType } from 'rango-types';
 
 export default async function getSigners(

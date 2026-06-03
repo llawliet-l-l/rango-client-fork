@@ -5,7 +5,7 @@ import {
   type SuiFeatures,
   type WalletWithFeatures,
 } from '@mysten/wallet-standard';
-import { getInstanceOrThrow } from '@rango-dev/wallets-core/namespaces/sui';
+import { getInstanceOrThrow } from '@arthur2079/wallets-core/namespaces/sui';
 
 import { WALLET_NAME_IN_WALLET_STANDARD } from './constants.js';
 

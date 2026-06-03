@@ -1,4 +1,4 @@
-import type { Layer } from '@rango-dev/logging-types';
+import type { Layer } from '@arthur2079/logging-types';
 import type { captureException, Scope, withScope } from '@sentry/browser';
 
 import { levelToSentryLevels } from './helpers';

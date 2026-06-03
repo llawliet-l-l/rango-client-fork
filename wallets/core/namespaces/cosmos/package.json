@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/wallets-core/namespaces/cosmos",
+  "name": "@arthur2079/wallets-core/namespaces/cosmos",
   "type": "module",
   "main": "../../dist/namespaces/cosmos/mod.js",
   "module": "../../dist/namespaces/cosmos/mod.js",

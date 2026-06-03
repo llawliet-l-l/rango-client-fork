@@ -9,7 +9,7 @@ import {
   Tooltip,
   Typography,
   useCopyToClipboard,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React from 'react';
 
 import { SCANNER_BASE_URL } from '../../constants';

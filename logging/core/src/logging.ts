@@ -1,6 +1,6 @@
-import type { Data, EventPayload, Message } from '@rango-dev/logging-types';
+import type { Data, EventPayload, Message } from '@arthur2079/logging-types';
 
-import { EventType, Level } from '@rango-dev/logging-types';
+import { EventType, Level } from '@arthur2079/logging-types';
 
 import { isValidInstance } from './helpers';
 

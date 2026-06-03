@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
-import { type ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
+import { type ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
 
 export function binance(): Provider | null {
   const { binancew3w } = window;

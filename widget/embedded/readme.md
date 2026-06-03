@@ -1,4 +1,4 @@
-# @rango-dev/widget-embedded
+# @arthur2079/widget-embedded
 
 Rango Embedded Widget
 

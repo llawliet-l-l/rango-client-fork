@@ -1,6 +1,6 @@
-import type { EventPayload, Layer, Level } from '@rango-dev/logging-types';
+import type { EventPayload, Layer, Level } from '@arthur2079/logging-types';
 
-import { EventType } from '@rango-dev/logging-types';
+import { EventType } from '@arthur2079/logging-types';
 
 import { isEnabled, isValidEvent } from './helpers';
 

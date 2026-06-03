@@ -1,4 +1,4 @@
-import { type ProviderMetadata } from '@rango-dev/wallets-core';
+import { type ProviderMetadata } from '@arthur2079/wallets-core';
 import { type BlockchainMeta, solanaBlockchain } from 'rango-types';
 
 import getSigners from './signer.js';

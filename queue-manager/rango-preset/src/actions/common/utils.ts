@@ -6,7 +6,7 @@ import type {
 import type {
   BlockedReason,
   ExecuterActions,
-} from '@rango-dev/queue-manager-core';
+} from '@arthur2079/queue-manager-core';
 
 export function isClaimedByCurrentQueue(context: SwapQueueContext): boolean {
   return context.claimedBy === context._queue?.id;

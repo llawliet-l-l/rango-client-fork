@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
+import type { ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
 
-import { Networks } from '@rango-dev/wallets-shared';
+import { Networks } from '@arthur2079/wallets-shared';
 
 export function tomo() {
   const { tomo_evm } = window;

@@ -1,6 +1,6 @@
 import type { PropTypes } from './SupportedChainsList.types';
 
-import { Image, Tooltip, Typography } from '@rango-dev/ui';
+import { Image, Tooltip, Typography } from '@arthur2079/ui';
 import React from 'react';
 
 import { getContainer } from '../../utils/common';

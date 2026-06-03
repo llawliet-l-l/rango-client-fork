@@ -1,7 +1,7 @@
 import type { PropTypes } from './WidgetProvider.types';
 import type { PropsWithChildren } from 'react';
 
-import { setSolanaSignerConfig } from '@rango-dev/signer-solana';
+import { setSolanaSignerConfig } from '@arthur2079/signer-solana';
 import React, { useEffect, useMemo } from 'react';
 
 import { DEFAULT_BASE_URL } from '../../constants';

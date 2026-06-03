@@ -1,4 +1,4 @@
-import { keyframes, styled } from '@rango-dev/ui';
+import { keyframes, styled } from '@arthur2079/ui';
 
 export const ROTATE_ANIMATION_DURATION = 450;
 

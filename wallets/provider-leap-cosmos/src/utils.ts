@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI as CosmosProviderApi } from '@rango-dev/wallets-core/namespaces/cosmos';
+import type { ProviderAPI as CosmosProviderApi } from '@arthur2079/wallets-core/namespaces/cosmos';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function leap(): Provider | null {
   const { leap } = window;

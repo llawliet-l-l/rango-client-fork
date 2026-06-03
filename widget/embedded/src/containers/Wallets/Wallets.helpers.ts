@@ -1,7 +1,7 @@
 import type { OnUpdateState } from './Wallets.types';
-import type { LegacyEventHandler } from '@rango-dev/wallets-core/legacy';
+import type { LegacyEventHandler } from '@arthur2079/wallets-core/legacy';
 
-import { LegacyEvents } from '@rango-dev/wallets-core/legacy';
+import { LegacyEvents } from '@arthur2079/wallets-core/legacy';
 
 /*
  * propagate updates for Dapps using external wallets

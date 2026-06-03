@@ -2,20 +2,20 @@ import type { AllProxiedNamespaces } from './types.js';
 import type {
   Accounts,
   AccountsWithActiveChain,
-} from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
 import type { BlockchainMeta } from 'rango-types';
 import type { Result } from 'ts-results';
 
-import { legacyFormatAddressWithNetwork as formatAddressWithNetwork } from '@rango-dev/wallets-core/legacy';
-import { CAIP_NAMESPACE as CAIP_COSMOS_NAMESPACE } from '@rango-dev/wallets-core/namespaces/cosmos';
-import { CAIP_NAMESPACE as CAIP_TON_NAMESPACE } from '@rango-dev/wallets-core/namespaces/ton';
-import { CAIP_TRON_CHAIN_ID } from '@rango-dev/wallets-core/namespaces/tron';
+import { legacyFormatAddressWithNetwork as formatAddressWithNetwork } from '@arthur2079/wallets-core/legacy';
+import { CAIP_NAMESPACE as CAIP_COSMOS_NAMESPACE } from '@arthur2079/wallets-core/namespaces/cosmos';
+import { CAIP_NAMESPACE as CAIP_TON_NAMESPACE } from '@arthur2079/wallets-core/namespaces/ton';
+import { CAIP_TRON_CHAIN_ID } from '@arthur2079/wallets-core/namespaces/tron';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   CAIP_ZCASH_CHAIN_ID,
-} from '@rango-dev/wallets-core/namespaces/utxo';
-import { CAIP } from '@rango-dev/wallets-core/utils';
-import { getBlockChainNameFromId } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/namespaces/utxo';
+import { CAIP } from '@arthur2079/wallets-core/utils';
+import { getBlockChainNameFromId } from '@arthur2079/wallets-shared';
 import { Err, Ok } from 'ts-results';
 
 export function mapCaipNamespaceToLegacyNetworkName(

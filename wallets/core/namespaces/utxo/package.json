@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/wallets-core/namespaces/utxo",
+  "name": "@arthur2079/wallets-core/namespaces/utxo",
   "type": "module",
   "main": "../../dist/namespaces/utxo/mod.js",
   "module": "../../dist/namespaces/utxo/mod.js",

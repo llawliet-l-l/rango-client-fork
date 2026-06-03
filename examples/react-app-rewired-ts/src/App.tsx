@@ -1,4 +1,4 @@
-import { Widget } from '@rango-dev/widget-embedded';
+import { Widget } from '@arthur2079/widget-embedded';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
-import type { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
-import type { ProviderAPI as TronProviderApi } from '@rango-dev/wallets-core/namespaces/tron';
+import type { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
+import type { ProviderAPI as TronProviderApi } from '@arthur2079/wallets-core/namespaces/tron';
 
 export type ProviderObject = {
   [LegacyNetworks.TRON]: TronProviderApi;

@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI as SolanaProviderApi } from '@rango-dev/wallets-core/namespaces/solana';
+import type { ProviderAPI as SolanaProviderApi } from '@arthur2079/wallets-core/namespaces/solana';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function solflare(): Provider | null {
   const instances: Provider = new Map();

@@ -8,7 +8,7 @@ import {
   ListItemButton,
   NotFound,
   Typography,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useEffect, useState } from 'react';
 
 import { useAppStore } from '../../store/AppStore';

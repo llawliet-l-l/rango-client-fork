@@ -5,11 +5,11 @@ import type {
   WidgetContextInterface,
 } from './Wallets.types';
 import type { ProvidersOptions } from '../../utils/providers';
-import type { LegacyEventHandler } from '@rango-dev/wallets-core/legacy';
+import type { LegacyEventHandler } from '@arthur2079/wallets-core/legacy';
 import type { PropsWithChildren } from 'react';
 
-import { Provider } from '@rango-dev/wallets-react';
-import { WalletTypes } from '@rango-dev/wallets-shared';
+import { Provider } from '@arthur2079/wallets-react';
+import { WalletTypes } from '@arthur2079/wallets-shared';
 import React, { createContext, useEffect, useMemo, useRef } from 'react';
 
 import { useWalletProviders } from '../../hooks/useWalletProviders';

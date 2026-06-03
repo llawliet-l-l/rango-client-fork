@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/provider-leap-cosmos",
+  "name": "@arthur2079/provider-leap-cosmos",
   "version": "0.60.0",
   "license": "MIT",
   "type": "module",
@@ -21,10 +21,10 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rango-dev/provider-keplr": "^0.60.0",
-    "@rango-dev/signer-cosmos": "^0.40.0",
-    "@rango-dev/wallets-core": "^0.59.0",
-    "@rango-dev/wallets-shared": "^0.60.0",
+    "@arthur2079/provider-keplr": "^0.60.0",
+    "@arthur2079/signer-cosmos": "^0.40.0",
+    "@arthur2079/wallets-core": "^0.59.0",
+    "@arthur2079/wallets-shared": "^0.60.0",
     "rango-types": "^0.5.0"
   },
   "publishConfig": {

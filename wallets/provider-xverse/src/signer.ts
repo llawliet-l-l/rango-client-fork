@@ -1,8 +1,8 @@
 import type { Provider } from './types.js';
 import type { SignerFactory } from 'rango-types';
 
-import { LegacyNetworks as Networks } from '@rango-dev/wallets-core/legacy';
-import { getNetworkInstance } from '@rango-dev/wallets-shared';
+import { LegacyNetworks as Networks } from '@arthur2079/wallets-core/legacy';
+import { getNetworkInstance } from '@arthur2079/wallets-shared';
 import { DefaultSignerFactory, TransactionType as TxType } from 'rango-types';
 
 import { BTCSigner } from './signers/utxoSigner.js';

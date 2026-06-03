@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/wallets-core/namespaces/xrpl",
+  "name": "@arthur2079/wallets-core/namespaces/xrpl",
   "type": "module",
   "main": "../../dist/namespaces/xrpl/mod.js",
   "module": "../../dist/namespaces/xrpl/mod.js",
