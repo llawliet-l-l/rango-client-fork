@@ -1,9 +1,20 @@
 name: Production Release
 on:
   workflow_dispatch:
+    inputs:
+      run_publish:
+        description: 'Run publish job'
+        type: boolean
+        default: true
+      run_something_else:
+        description: 'Run other job'
+        type: boolean
+        default: false
 
 jobs:
   publish:
+    if: ${{ inputs.run_publish }}
     uses: ./.github/workflows/publish.yml
     secrets: inherit
+
 
