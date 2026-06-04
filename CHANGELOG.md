@@ -1,3 +1,34 @@
+## Widget [0.60.0] (2026-06-04)
+_includes `@arthur2079/widget-embedded@0.61.0`_
+
+### Bug Fixes
+
+* changed packages ([c1b681e](https://github.com/llawliet-l-l/rango-client-fork/commit/c1b681eb9e601fd36382229d5706a4fe1cb49d86))
+* changed packages ([336a2ed](https://github.com/llawliet-l-l/rango-client-fork/commit/336a2ed9bc34b068f85eefd4017e8646798f3260))
+* changed packages ([1ee419a](https://github.com/llawliet-l-l/rango-client-fork/commit/1ee419a9ccbd8d5f2d9d487fb62e58c642eb7dba))
+* changed release prod ([b22ac98](https://github.com/llawliet-l-l/rango-client-fork/commit/b22ac98c8d7b21c23ab808aaa8ac2023f618d6f8))
+* changed release prod ([0d03531](https://github.com/llawliet-l-l/rango-client-fork/commit/0d03531b1e7b3c934fd4f7b829324fe2fc047ddb))
+* changed release prod ([9029dda](https://github.com/llawliet-l-l/rango-client-fork/commit/9029ddacef6518a6cd815f96bbb2245c82be5a00))
+* changed workflows ([061b3d8](https://github.com/llawliet-l-l/rango-client-fork/commit/061b3d81691245fefce3ae4ab47a1dd935cd7193))
+* fixed package names ([63fc27d](https://github.com/llawliet-l-l/rango-client-fork/commit/63fc27d95b8f60846dddd59ba1ab28e24c5472f6))
+* fixed publish command ([bd33fde](https://github.com/llawliet-l-l/rango-client-fork/commit/bd33fde918d64e5b28c202dbf02c03c7035f85fe))
+* fixed publish command ([1a0ceb0](https://github.com/llawliet-l-l/rango-client-fork/commit/1a0ceb0b51a82cf7150f9e18a64009f2e74aa22f))
+* fixed publish command ([1ceb759](https://github.com/llawliet-l-l/rango-client-fork/commit/1ceb759b6e81ef5ee4fede87ae5cc3504499d055))
+* fixed publish command ([f90d2ea](https://github.com/llawliet-l-l/rango-client-fork/commit/f90d2ea78813beefbf051e3b323cc1369a88d0b1))
+* fixed publish command ([5c28781](https://github.com/llawliet-l-l/rango-client-fork/commit/5c2878147c721015cc2e0d60b9a1673f6ecd2294))
+* fixed publish command ([b12ccc9](https://github.com/llawliet-l-l/rango-client-fork/commit/b12ccc94122251c90705062be3592b71f03e719f))
+* fixed publish command ([e5943c9](https://github.com/llawliet-l-l/rango-client-fork/commit/e5943c99058a47220e45683b9306abc99f6ab1b2))
+* fixed publish command ([4624242](https://github.com/llawliet-l-l/rango-client-fork/commit/4624242015c4939d7c19257df7d953677f4c7666))
+* fixed publish command ([4ff81f6](https://github.com/llawliet-l-l/rango-client-fork/commit/4ff81f675549ad30ccb96fbbc55f41c7fee34ca8))
+* modified workflow ([4754ac2](https://github.com/llawliet-l-l/rango-client-fork/commit/4754ac2f09ffd2ecebcdeac59b8137495473f81e))
+
+
+### Features
+
+* small changes for publish ([02758df](https://github.com/llawliet-l-l/rango-client-fork/commit/02758dfb7465ae1281ff713be539cbaa62edd1da))
+
+
+
 ## Widget [0.59.0] (2026-06-03)
 _includes `@arthur2079/widget-embedded@0.60.2`_
 
