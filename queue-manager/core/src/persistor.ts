@@ -2,7 +2,7 @@ import type { QueueID } from './manager';
 import type { PersistedQueue } from './types';
 import type { DBSchema, IDBPDatabase } from 'idb';
 
-export const DB_NAME = 'queues-manager';
+export const DB_NAME = 'queues-mmanager';
 const OBJECT_STORE_NAME = 'queues';
 const VERSION = 1;
 
