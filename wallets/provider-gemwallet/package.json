@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-gemwallet",
-  "version": "0.3.1",
+  "version": "0.3.2-next.0",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -24,7 +24,7 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@arthur2079/wallets-shared": "^0.60.1",
+    "@arthur2079/wallets-shared": "^0.60.2-next.0",
     "@gemwallet/api": "^3.8.0",
     "rango-types": "^0.5.0",
     "xrpl": "^4.2.0"

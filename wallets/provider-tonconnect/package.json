@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-tonconnect",
-  "version": "0.22.2",
+  "version": "0.22.3-next.0",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -24,7 +24,7 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@arthur2079/wallets-shared": "^0.60.1",
+    "@arthur2079/wallets-shared": "^0.60.2-next.0",
     "@ton/core": "^0.59.0",
     "@ton/crypto": "^3.3.0",
     "@tonconnect/ui": "^2.0.9",
