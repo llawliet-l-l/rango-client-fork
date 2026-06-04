@@ -1,7 +1,7 @@
-import type { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
-import type { ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
-import type { ProviderAPI as TronProviderApi } from '@rango-dev/wallets-core/namespaces/tron';
-import type { ProviderAPI as UtxoProviderApi } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
+import type { ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
+import type { ProviderAPI as TronProviderApi } from '@arthur2079/wallets-core/namespaces/tron';
+import type { ProviderAPI as UtxoProviderApi } from '@arthur2079/wallets-core/namespaces/utxo';
 
 export type ProviderObject = {
   [LegacyNetworks.ETHEREUM]: EvmProviderApi;

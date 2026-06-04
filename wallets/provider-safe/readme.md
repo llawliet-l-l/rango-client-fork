@@ -1,1 +1,1 @@
-# @rango-dev/provider-safe
+# @arthur2079/provider-safe

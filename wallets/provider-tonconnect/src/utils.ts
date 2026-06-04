@@ -1,6 +1,6 @@
 import type { Provider } from './types.js';
 
-import { Networks } from '@rango-dev/wallets-shared';
+import { Networks } from '@arthur2079/wallets-shared';
 
 import { TonConnectAdapter } from './tonConnectAdapter.js';
 

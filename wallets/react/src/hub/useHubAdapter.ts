@@ -1,15 +1,15 @@
 import type { AllProxiedNamespaces, ExtensionLink } from './types.js';
 import type { ProviderContext } from '../index.js';
-import type { Provider } from '@rango-dev/wallets-core';
-import type { LegacyNamespaceInputForConnect } from '@rango-dev/wallets-core/legacy';
+import type { Provider } from '@arthur2079/wallets-core';
+import type { LegacyNamespaceInputForConnect } from '@arthur2079/wallets-core/legacy';
 import type {
   Accounts,
   AccountsWithActiveChain,
-} from '@rango-dev/wallets-core/namespaces/common';
-import type { VersionedProviders } from '@rango-dev/wallets-core/utils';
+} from '@arthur2079/wallets-core/namespaces/common';
+import type { VersionedProviders } from '@arthur2079/wallets-core/utils';
 
-import { utils } from '@rango-dev/wallets-core/namespaces/evm';
-import { type WalletInfo, type WalletType } from '@rango-dev/wallets-shared';
+import { utils } from '@arthur2079/wallets-core/namespaces/evm';
+import { type WalletInfo, type WalletType } from '@arthur2079/wallets-shared';
 import { cosmosBlockchains } from 'rango-types';
 import { useEffect, useRef, useState } from 'react';
 import { Ok, Result } from 'ts-results';

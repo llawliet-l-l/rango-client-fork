@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 import type { WidgetTheme } from '../types';
-import type { createTheme } from '@rango-dev/ui';
+import type { createTheme } from '@arthur2079/ui';
 
 import {
   theme as baseThemeTokens,
   darkColors as defaultDarkColors,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React from 'react';
 
 import { expandToGenerateThemeColors } from '../utils/colors';

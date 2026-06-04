@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/wallets-core/namespaces/tron",
+  "name": "@arthur2079/wallets-core/namespaces/tron",
   "type": "module",
   "main": "../../dist/namespaces/tron/mod.js",
   "module": "../../dist/namespaces/tron/mod.js",

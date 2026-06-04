@@ -8,7 +8,7 @@ import {
   Radio,
   RadioRoot,
   Typography,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React from 'react';
 
 import {

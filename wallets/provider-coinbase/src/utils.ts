@@ -1,8 +1,8 @@
-import type { ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
-import type { ProviderAPI as SolanaProviderApi } from '@rango-dev/wallets-core/namespaces/solana';
-import type { ProviderConnectResult } from '@rango-dev/wallets-shared';
+import type { ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
+import type { ProviderAPI as SolanaProviderApi } from '@arthur2079/wallets-core/namespaces/solana';
+import type { ProviderConnectResult } from '@arthur2079/wallets-shared';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Provider = Record<string, any>;

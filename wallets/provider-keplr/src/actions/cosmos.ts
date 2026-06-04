@@ -1,11 +1,11 @@
-import type { Context, FunctionWithContext } from '@rango-dev/wallets-core';
+import type { Context, FunctionWithContext } from '@arthur2079/wallets-core';
 
 import { chainRegistryChainToKeplr } from '@chain-registry/keplr';
 import {
   type CosmosActions,
   type ProviderAPI,
   utils,
-} from '@rango-dev/wallets-core/namespaces/cosmos';
+} from '@arthur2079/wallets-core/namespaces/cosmos';
 
 import { getCosmosAccounts } from '../utils.js';
 

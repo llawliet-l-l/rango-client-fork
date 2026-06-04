@@ -1,20 +1,20 @@
-import type { CaipAccount } from '@rango-dev/wallets-core/namespaces/common';
-import type { SolanaActions } from '@rango-dev/wallets-core/namespaces/solana';
+import type { CaipAccount } from '@arthur2079/wallets-core/namespaces/common';
+import type { SolanaActions } from '@arthur2079/wallets-core/namespaces/solana';
 
-import { ActionBuilder, NamespaceBuilder } from '@rango-dev/wallets-core';
+import { ActionBuilder, NamespaceBuilder } from '@arthur2079/wallets-core';
 import {
   builders as commonBuilders,
   standardizeAndThrowError,
-} from '@rango-dev/wallets-core/namespaces/common';
+} from '@arthur2079/wallets-core/namespaces/common';
 import {
   actions,
   builders,
   CAIP_NAMESPACE,
   CAIP_SOLANA_CHAIN_ID,
   hooks,
-} from '@rango-dev/wallets-core/namespaces/solana';
-import { CAIP } from '@rango-dev/wallets-core/utils';
-import { getSolanaAccounts } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/namespaces/solana';
+import { CAIP } from '@arthur2079/wallets-core/utils';
+import { getSolanaAccounts } from '@arthur2079/wallets-shared';
 
 import { WALLET_ID } from '../constants.js';
 import { solanaPhantom } from '../utils.js';

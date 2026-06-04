@@ -1,7 +1,7 @@
-import type { ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
+import type { ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
-import { isEvmAddress } from '@rango-dev/wallets-shared';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
+import { isEvmAddress } from '@arthur2079/wallets-shared';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Provider = Record<string, any>;

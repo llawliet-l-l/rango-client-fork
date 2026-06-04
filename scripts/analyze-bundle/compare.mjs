@@ -8,7 +8,7 @@ const size = partial({ standard: 'jedec' });
 /**
  * Generates the package name based on the file name.
  * @param {string} fileName - The file name.
- * @returns {string} - The generated package name. example: @rango-dev/widget-embedded
+ * @returns {string} - The generated package name. example: @arthur2079/widget-embedded
  *
  */
 function getPackageName(fileName) {

@@ -1,6 +1,9 @@
 {
-  "name": "@rango-dev/provider-trezor",
-  "version": "0.27.0",
+  "name": "@arthur2079/provider-trezor",
+  "version": "0.27.1",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -24,8 +27,8 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rango-dev/signer-evm": "^0.42.0",
-    "@rango-dev/wallets-shared": "^0.60.0",
+    "@arthur2079/signer-evm": "^0.42.1",
+    "@arthur2079/wallets-shared": "^0.60.1",
     "@trezor/connect-web": "^9.5.0",
     "ethers": "^6.13.2",
     "rango-types": "^0.5.0"

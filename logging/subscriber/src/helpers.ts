@@ -1,4 +1,4 @@
-import type { EventPayload, Level } from '@rango-dev/logging-types';
+import type { EventPayload, Level } from '@arthur2079/logging-types';
 
 export function isEnabled(baseLevel: Level, level: Level) {
   return level >= baseLevel;

@@ -1,4 +1,4 @@
-import type { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import type { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export type SendTransactionArgs = {
   method: 'send_transaction';

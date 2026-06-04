@@ -28,7 +28,7 @@
     "packageExports": true
   },
   "dependencies": {
-    "@rango-dev/widget-embedded": "latest",
+    "@arthur2079/widget-embedded": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

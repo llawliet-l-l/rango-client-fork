@@ -1,1 +1,1 @@
-# @rango-dev/provider-xdefi
+# @arthur2079/provider-xdefi

@@ -1,6 +1,9 @@
 {
-  "name": "@rango-dev/provider-coin98",
-  "version": "0.62.0",
+  "name": "@arthur2079/provider-coin98",
+  "version": "0.62.1",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/mod.ts",
@@ -21,10 +24,10 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rango-dev/signer-evm": "^0.42.0",
-    "@rango-dev/signer-solana": "^0.48.0",
-    "@rango-dev/wallets-core": "^0.59.0",
-    "@rango-dev/wallets-shared": "^0.60.0",
+    "@arthur2079/signer-evm": "^0.42.1",
+    "@arthur2079/signer-solana": "^0.48.1",
+    "@arthur2079/wallets-core": "^0.59.1",
+    "@arthur2079/wallets-shared": "^0.60.1",
     "@solana/web3.js": "^1.91.4",
     "bs58": "^5.0.0",
     "rango-types": "^0.5.0"

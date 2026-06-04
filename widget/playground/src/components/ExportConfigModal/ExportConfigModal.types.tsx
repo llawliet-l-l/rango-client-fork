@@ -1,4 +1,4 @@
-import type { WidgetConfig } from '@rango-dev/widget-embedded';
+import type { WidgetConfig } from '@arthur2079/widget-embedded';
 
 import { getEmbeddedCode, getIframeCode } from '../../utils/export';
 

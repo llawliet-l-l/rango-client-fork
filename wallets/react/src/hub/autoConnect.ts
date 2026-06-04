@@ -1,19 +1,19 @@
 import type { AllProxiedNamespaces } from './types.js';
 import type { UseAdapterParams } from './useHubAdapter.js';
-import type { Hub } from '@rango-dev/wallets-core';
+import type { Hub } from '@arthur2079/wallets-core';
 import type {
   LegacyNamespaceInputForConnect,
   LegacyProviderInterface,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 import type {
   Accounts,
   AccountsWithActiveChain,
   Namespace,
-} from '@rango-dev/wallets-core/namespaces/common';
-import type { WalletType } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/namespaces/common';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
-import { Provider } from '@rango-dev/wallets-core';
-import { legacyIsEvmNamespace } from '@rango-dev/wallets-core/legacy';
+import { Provider } from '@arthur2079/wallets-core';
+import { legacyIsEvmNamespace } from '@arthur2079/wallets-core/legacy';
 import { cosmosBlockchains } from 'rango-types';
 import { Result } from 'ts-results';
 

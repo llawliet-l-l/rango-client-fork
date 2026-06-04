@@ -1,5 +1,5 @@
 import type { SwapQueueContext, SwapStorage } from '../types';
-import type { ExecuterActions } from '@rango-dev/queue-manager-core';
+import type { ExecuterActions } from '@arthur2079/queue-manager-core';
 
 import { type PendingSwapStep } from 'rango-types';
 

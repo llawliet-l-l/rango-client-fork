@@ -1,8 +1,8 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI as EvmProviderApi } from '@rango-dev/wallets-core/namespaces/evm';
-import type { ProviderAPI as SolanaProviderApi } from '@rango-dev/wallets-core/namespaces/solana';
+import type { ProviderAPI as EvmProviderApi } from '@arthur2079/wallets-core/namespaces/evm';
+import type { ProviderAPI as SolanaProviderApi } from '@arthur2079/wallets-core/namespaces/solana';
 
-import { Networks } from '@rango-dev/wallets-shared';
+import { Networks } from '@arthur2079/wallets-shared';
 
 export function coin98() {
   const { coin98 } = window;

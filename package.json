@@ -1,6 +1,6 @@
 {
   "name": "rango-client",
-  "version": "0.58.0",
+  "version": "0.59.0",
   "private": true,
   "engines": {
     "node": ">=24",
@@ -22,20 +22,20 @@
     "clean-root": "rimraf .parcel-cache && nx clear-cache",
     "clean": "yarn clean-root && nx run-many --target=clean",
     "prepare": "husky install && yarn i18n:compile",
-    "build:logging": "nx run-many --target=build  --projects=@rango-dev/logging-*",
-    "build:signers": "nx run-many --target=build --projects=@rango-dev/signer-* --parallel=5",
-    "build:wallets": "nx run-many --target=build --projects=@rango-dev/signer-*,@rango-dev/wallets-*,@rango-dev/provider-* --parallel=5",
-    "build:queue-manager": "nx run-many --target=build --projects=@rango-dev/queue-manager-* --exclude=@rango-dev/queue-manager-demo",
-    "build:widget": "nx run-many --target=build  --projects=@rango-dev/widget-*",
-    "build:iframe": "nx run-many --target=build  --projects=@rango-dev/widget-iframe",
+    "build:logging": "nx run-many --target=build  --projects=@arthur2079/logging-*",
+    "build:signers": "nx run-many --target=build --projects=@arthur2079/signer-* --parallel=5",
+    "build:wallets": "nx run-many --target=build --projects=@arthur2079/signer-*,@arthur2079/wallets-*,@arthur2079/provider-* --parallel=5",
+    "build:queue-manager": "nx run-many --target=build --projects=@arthur2079/queue-manager-* --exclude=@arthur2079/queue-manager-demo",
+    "build:widget": "nx run-many --target=build  --projects=@arthur2079/widget-*",
+    "build:iframe": "nx run-many --target=build  --projects=@arthur2079/widget-iframe",
     "build:all": "nx run-many --target=build",
     "build": "nx affected --target=build --parallel=5",
-    "build:non-demo": "nx affected --target=build --parallel=5 --exclude=@rango-dev/queue-manager-demo,@rango-dev/widget-app,@rango-dev/widget-playground",
-    "dev:queue-manager": "node ./scripts/dev-watch/command.mjs --project @rango-dev/queue-manager-demo",
-    "dev:widget:type-checker": "node ./scripts/dev-ts-check/command.mjs --project @rango-dev/widget-app",
+    "build:non-demo": "nx affected --target=build --parallel=5 --exclude=@arthur2079/queue-manager-demo,@arthur2079/widget-app,@arthur2079/widget-playground",
+    "dev:queue-manager": "node ./scripts/dev-watch/command.mjs --project @arthur2079/queue-manager-demo",
+    "dev:widget:type-checker": "node ./scripts/dev-ts-check/command.mjs --project @arthur2079/widget-app",
     "dev:widget:dev-server": "yarn --cwd ./widget/app/ dev",
     "dev:widget": "concurrently \"yarn dev:widget:dev-server\" \"yarn dev:widget:type-checker\"",
-    "dev:playground:type-checker": "node ./scripts/dev-ts-check/command.mjs --project @rango-dev/widget-playground",
+    "dev:playground:type-checker": "node ./scripts/dev-ts-check/command.mjs --project @arthur2079/widget-playground",
     "dev:playground:dev-server": "yarn --cwd ./widget/playground/ dev",
     "dev:playground": "concurrently \"yarn dev:playground:dev-server\" \"yarn dev:playground:type-checker\"",
     "lint": "nx run-many --target=lint",
@@ -110,5 +110,8 @@
   "@parcel/resolver-default": {
     "packageExports": true
   },
-  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  }
 }

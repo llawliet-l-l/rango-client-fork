@@ -32,6 +32,21 @@ The `publish` script performs:
 4. Publishes updated packages to NPM.
 5. Pushes updated package versions and tags to origin.
 
+note: We are using OIDC (trusted publishing) for publishing. Each package must be
+configured on npmjs.com to trust this repository + the **`delivery.yml`** workflow.
+Trusted publishing only works on a package that has already been published once;
+to publish a new package, publish it manually and then enable trusted publishing on
+it with this command:
+`npm trust github PACKAGE_NAME --file delivery.yml --allow-publish --yes`
+(you should set `repository.url` in the root `package.json`)
+
+To (re)configure every workspace package at once, loop over the package names, e.g.:
+```sh
+for pkg in $(yarn --silent workspaces list --json | jq -r 'select(.location != ".") | .name'); do
+  npm trust github "$pkg" --file delivery.yml --allow-publish --yes
+done
+```
+
 **If run on `main` branch**, the publish script will also:
 
 * Automatically bump `widget/app` and/or `widget/playground` versions if changed.
@@ -40,7 +55,7 @@ The `publish` script performs:
 **Note:** Libraries are published under the `next` tag on npm. To install them:
 
 ```sh
-yarn add @rango-dev/widget-embedded@next
+yarn add @arthur2079/widget-embedded@next
 ```
 
 ---
@@ -63,7 +78,8 @@ Running `yarn run deploy`:
 
 ### Experimental
 
-You can trigger an experimental release (base branch should be `main`) by running `Publish` workflow manually for your branch.
+A push to `next` automatically runs the **`Delivery`** workflow as a *Prerelease publish*
+(packages go out under the `next` dist-tag).
 
 
 ### **Next (Staging)**
@@ -74,10 +90,11 @@ A publish to **Preview** is triggered automatically when a Pull Request is merge
 
 ### **Production**
 
-**Note:** Ensure that all modifications to the `Production Release` workflow are implemented as a hotfix to the `main` branch to guarantee that we have the most recent updates while executing the workflow.
+**Note:** Ensure that all modifications to the `Delivery` workflow are implemented as a hotfix to the `main` branch to guarantee that we have the most recent updates while executing the workflow.
 
 
-Run the **`Production Release`** workflow.
+Run the **`Delivery`** workflow via *Run workflow* with the **`full_release`** input enabled.
+The run will be labelled *Production Release*.
 
 
 It will:
@@ -112,7 +129,7 @@ It will:
 * Update `widget-examples`:
 
   ```sh
-  yarn add @rango-dev/widget-embedded@latest
+  yarn add @arthur2079/widget-embedded@latest
   ```
 
   Open a PR to ensure all examples are on the latest version.
@@ -128,7 +145,7 @@ It will:
                 │    Automatic Flow   │
                 └─────────────────────┘
                           │
-                Run "Production Release"
+             Run "Delivery" (full_release: true)
                           │
                           ▼
      ┌─────────────────────────────────────────────┐

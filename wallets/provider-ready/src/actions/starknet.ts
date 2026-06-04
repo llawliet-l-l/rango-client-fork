@@ -1,11 +1,11 @@
-import type { Context, FunctionWithContext } from '@rango-dev/wallets-core';
+import type { Context, FunctionWithContext } from '@arthur2079/wallets-core';
 
 import {
   CAIP_STARKNET_CHAIN_ID,
   type ProviderAPI,
   type StarknetActions,
   utils,
-} from '@rango-dev/wallets-core/namespaces/starknet';
+} from '@arthur2079/wallets-core/namespaces/starknet';
 
 export function connect(
   instance: () => ProviderAPI

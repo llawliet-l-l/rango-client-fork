@@ -1,7 +1,7 @@
 import type { Provider } from './types.js';
-import type { ProviderAPI } from '@rango-dev/wallets-core/namespaces/evm';
+import type { ProviderAPI } from '@arthur2079/wallets-core/namespaces/evm';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function tokenPocket(): Provider | null {
   const { tokenpocket } = window;

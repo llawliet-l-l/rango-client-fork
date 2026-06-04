@@ -1,5 +1,30 @@
+## Widget [0.59.0] (2026-06-03)
+_includes `@arthur2079/widget-embedded@0.60.2`_
+
+### Bug Fixes
+
+* changed packages ([59d46c3](https://github.com/llawliet-l-l/rango-client-fork/commit/59d46c32075e836d405204c96584e057f3164c0b))
+* changed packages ([15ecdcd](https://github.com/llawliet-l-l/rango-client-fork/commit/15ecdcdc66f64dc931d81dbb4669f812ae4a42be))
+* changed packages ([3240d0f](https://github.com/llawliet-l-l/rango-client-fork/commit/3240d0fd5eaffb6737268b4c26119cbde01335f7))
+* changed release prod ([84b19f7](https://github.com/llawliet-l-l/rango-client-fork/commit/84b19f704c840ddef8af64200745a59c7fde90a2))
+* changed release prod ([cc96863](https://github.com/llawliet-l-l/rango-client-fork/commit/cc96863f1b584db60b0c4fc10041d9ac77b2d12c))
+* changed release prod ([920ec39](https://github.com/llawliet-l-l/rango-client-fork/commit/920ec39821a3b010ea05a150b4e0daab2fb2bb42))
+* fixed package names ([45eb663](https://github.com/llawliet-l-l/rango-client-fork/commit/45eb663ee06b89d870e569fb835aeb0baf81d6d0))
+* fixed publish command ([7d3e5de](https://github.com/llawliet-l-l/rango-client-fork/commit/7d3e5de55ba8715bd41a1034abea1a1997ee02a5))
+* fixed publish command ([0f0e438](https://github.com/llawliet-l-l/rango-client-fork/commit/0f0e4383638e04a36658cf19942535bc89c6afbc))
+* fixed publish command ([553faf8](https://github.com/llawliet-l-l/rango-client-fork/commit/553faf8c7f0424a0c40a2f9d188df4fe961ce304))
+* fixed publish command ([17627ad](https://github.com/llawliet-l-l/rango-client-fork/commit/17627ad1f95deb9003bfa25ef7bafbcaccf53dff))
+* fixed publish command ([928d0bd](https://github.com/llawliet-l-l/rango-client-fork/commit/928d0bd4e75733fc80b24ebecec31a0162189c6a))
+* fixed publish command ([e1350cc](https://github.com/llawliet-l-l/rango-client-fork/commit/e1350cce772cd69390fab7a1f1191765d68c1f46))
+* fixed publish command ([ffa59f3](https://github.com/llawliet-l-l/rango-client-fork/commit/ffa59f35784ebcce2f0a9993b9ae2ccc99c96ac8))
+* fixed publish command ([e155148](https://github.com/llawliet-l-l/rango-client-fork/commit/e15514855b6ab192f3f442f7ceba05ac84eaae6a))
+* fixed publish command ([d894dc6](https://github.com/llawliet-l-l/rango-client-fork/commit/d894dc67b4d05a7831a6cbb59fe679e02dcb8541))
+* modified workflow ([9b9651f](https://github.com/llawliet-l-l/rango-client-fork/commit/9b9651ff7e50a0b3216dd32c46e621263e109895))
+
+
+
 ## Widget [0.58.0] (2026-06-02)
-_includes `@rango-dev/widget-embedded@0.60.1`_
+_includes `@arthur2079/widget-embedded@0.60.1`_
 
 ### Bug Fixes
 
@@ -8,7 +33,7 @@ _includes `@rango-dev/widget-embedded@0.60.1`_
 
 
 ## Widget [0.57.0] (2026-05-31)
-_includes `@rango-dev/widget-embedded@0.60.0`_
+_includes `@arthur2079/widget-embedded@0.60.0`_
 
 ### Bug Fixes
 
@@ -33,7 +58,7 @@ _includes `@rango-dev/widget-embedded@0.60.0`_
 
 
 ## Widget [0.56.0] (2026-05-02)
-_includes `@rango-dev/widget-embedded@0.59.1`_
+_includes `@arthur2079/widget-embedded@0.59.1`_
 
 ### Bug Fixes
 
@@ -43,7 +68,7 @@ _includes `@rango-dev/widget-embedded@0.59.1`_
 
 
 ## Widget [0.55.0] (2026-04-29)
-_includes `@rango-dev/widget-embedded@0.59.0`_
+_includes `@arthur2079/widget-embedded@0.59.0`_
 
 ### Bug Fixes
 
@@ -61,7 +86,7 @@ _includes `@rango-dev/widget-embedded@0.59.0`_
 
 
 ## Widget [0.54.0] (2025-12-30)
-_includes `@rango-dev/widget-embedded@0.58.0`_
+_includes `@arthur2079/widget-embedded@0.58.0`_
 
 ### Bug Fixes
 
@@ -80,7 +105,7 @@ _includes `@rango-dev/widget-embedded@0.58.0`_
 
 
 ## Widget [0.53.0] (2025-12-15)
-_includes `@rango-dev/widget-embedded@0.57.0`_
+_includes `@arthur2079/widget-embedded@0.57.0`_
 
 ### Bug Fixes
 
@@ -99,7 +124,7 @@ _includes `@rango-dev/widget-embedded@0.57.0`_
 
 
 ## Widget [0.52.0] (2025-12-09)
-_includes `@rango-dev/widget-embedded@0.56.0`_
+_includes `@arthur2079/widget-embedded@0.56.0`_
 
 ### Bug Fixes
 
@@ -117,7 +142,7 @@ _includes `@rango-dev/widget-embedded@0.56.0`_
 
 
 ## Widget [0.51.0] (2025-12-02)
-_includes `@rango-dev/widget-embedded@0.55.0`_
+_includes `@arthur2079/widget-embedded@0.55.0`_
 
 ### Bug Fixes
 
@@ -141,11 +166,11 @@ _includes `@rango-dev/widget-embedded@0.55.0`_
 
 
 ## Widget [0.50.0] (2025-11-22)
-_includes `@rango-dev/widget-embedded@0.54.1`_
+_includes `@arthur2079/widget-embedded@0.54.1`_
 
 
 ## Widget [0.49.0] (2025-11-22)
-_includes `@rango-dev/widget-embedded@0.54.0`_
+_includes `@arthur2079/widget-embedded@0.54.0`_
 
 ### Bug Fixes
 
@@ -159,7 +184,7 @@ _includes `@rango-dev/widget-embedded@0.54.0`_
 
 
 ## Widget [0.48.0] (2025-11-18)
-_includes `@rango-dev/widget-embedded@0.53.0`_
+_includes `@arthur2079/widget-embedded@0.53.0`_
 
 ### Bug Fixes
 
@@ -175,7 +200,7 @@ _includes `@rango-dev/widget-embedded@0.53.0`_
 
 
 ## Widget [0.47.0] (2025-10-29)
-_includes `@rango-dev/widget-embedded@0.52.0`_
+_includes `@arthur2079/widget-embedded@0.52.0`_
 
 ### Bug Fixes
 
@@ -200,7 +225,7 @@ _includes `@rango-dev/widget-embedded@0.52.0`_
 
 
 ## Widget [0.46.0] (2025-09-29)
-_includes `@rango-dev/widget-embedded@0.51.0`_
+_includes `@arthur2079/widget-embedded@0.51.0`_
 
 ### Bug Fixes
 
@@ -228,7 +253,7 @@ _includes `@rango-dev/widget-embedded@0.51.0`_
 
 ## Widget [0.45.0] (2025-09-06)
 
-_includes `@rango-dev/widget-embedded@0.50.0`_
+_includes `@arthur2079/widget-embedded@0.50.0`_
 
 ### Features
 
@@ -248,7 +273,7 @@ _includes `@rango-dev/widget-embedded@0.50.0`_
 
 ## Widget [0.44.0] (2025-08-27)
 
-_includes `@rango-dev/widget-embedded@0.49.0`_
+_includes `@arthur2079/widget-embedded@0.49.0`_
 
 ### Features
 
@@ -262,7 +287,7 @@ _includes `@rango-dev/widget-embedded@0.49.0`_
 
 ## Widget [0.43.0] (2025-08-19)
 
-_includes `@rango-dev/widget-embedded@0.48.0`_
+_includes `@arthur2079/widget-embedded@0.48.0`_
 
 ### Bug Fixes
 
@@ -272,7 +297,7 @@ _includes `@rango-dev/widget-embedded@0.48.0`_
 
 ## Widget [0.42.0] (2025-08-05)
 
-_includes `@rango-dev/widget-embedded@0.47.0`_
+_includes `@arthur2079/widget-embedded@0.47.0`_
 
 ### Features
 
@@ -291,7 +316,7 @@ _includes `@rango-dev/widget-embedded@0.47.0`_
 
 ## Widget [0.41.0] (2025-07-27)
 
-_includes `@rango-dev/widget-embedded@0.46.1`_
+_includes `@arthur2079/widget-embedded@0.46.1`_
 
 ### Bug Fixes
 
@@ -299,7 +324,7 @@ _includes `@rango-dev/widget-embedded@0.46.1`_
 
 ## Widget [0.40.0] (2025-07-22)
 
-_includes `@rango-dev/widget-embedded@0.46.0`_
+_includes `@arthur2079/widget-embedded@0.46.0`_
 
 ### Features
 
@@ -316,7 +341,7 @@ _includes `@rango-dev/widget-embedded@0.46.0`_
 
 ## Widget [0.38.0] (2025-06-10)
 
-_includes `@rango-dev/widget-embedded@0.44.1`_
+_includes `@arthur2079/widget-embedded@0.44.1`_
 
 ### Bug Fixes
 
@@ -324,7 +349,7 @@ _includes `@rango-dev/widget-embedded@0.44.1`_
 
 ## Widget [0.37.0] (2025-06-09)
 
-_includes `@rango-dev/widget-embedded@0.44.0`_
+_includes `@arthur2079/widget-embedded@0.44.0`_
 
 ### Features
 
@@ -358,7 +383,7 @@ _includes `@rango-dev/widget-embedded@0.44.0`_
 
 ## Widget [0.36.0] (2025-05-26)
 
-_includes `@rango-dev/widget-embedded@0.43.0`_
+_includes `@arthur2079/widget-embedded@0.43.0`_
 
 ### Features
 
@@ -366,7 +391,7 @@ _includes `@rango-dev/widget-embedded@0.43.0`_
 
 ## Widget [0.35.0] (2025-05-21)
 
-_includes `@rango-dev/widget-embedded@0.42.3`_
+_includes `@arthur2079/widget-embedded@0.42.3`_
 
 ### Bug Fixes
 
@@ -374,7 +399,7 @@ _includes `@rango-dev/widget-embedded@0.42.3`_
 
 ## Widget [0.34.0] (2025-05-12)
 
-_includes `@rango-dev/widget-embedded@0.42.2`_
+_includes `@arthur2079/widget-embedded@0.42.2`_
 
 ### Bug Fixes
 
@@ -382,7 +407,7 @@ _includes `@rango-dev/widget-embedded@0.42.2`_
 
 ## Widget [0.33.0] (2025-05-04)
 
-_includes `@rango-dev/widget-embedded@0.42.1`_
+_includes `@arthur2079/widget-embedded@0.42.1`_
 
 ### Bug Fixes
 
@@ -390,7 +415,7 @@ _includes `@rango-dev/widget-embedded@0.42.1`_
 
 ## Widget [0.32.0] (2025-04-30)
 
-_includes `@rango-dev/widget-embedded@0.42.0`_
+_includes `@arthur2079/widget-embedded@0.42.0`_
 
 ### Features
 
@@ -418,7 +443,7 @@ _includes `@rango-dev/widget-embedded@0.42.0`_
 
 ## Widget [0.31.0] (2025-03-17)
 
-_includes `@rango-dev/widget-embedded@0.41.1`_
+_includes `@arthur2079/widget-embedded@0.41.1`_
 
 ## Bug Fixes
 
@@ -430,7 +455,7 @@ _includes `@rango-dev/widget-embedded@0.41.1`_
 
 ## Widget [0.30.0] (2025-03-11)
 
-_includes `@rango-dev/widget-embedded@0.41.0`_
+_includes `@arthur2079/widget-embedded@0.41.0`_
 
 ### Features
 
@@ -450,7 +475,7 @@ _includes `@rango-dev/widget-embedded@0.41.0`_
 
 ## Widget [0.29.0] (2025-02-25)
 
-_includes `@rango-dev/widget-embedded@0.40.1`_
+_includes `@arthur2079/widget-embedded@0.40.1`_
 
 ### Bug Fixes
 
@@ -458,7 +483,7 @@ _includes `@rango-dev/widget-embedded@0.40.1`_
 
 ## Widget [0.28.0] (2025-02-23)
 
-_includes `@rango-dev/widget-embedded@0.40.0`_
+_includes `@arthur2079/widget-embedded@0.40.0`_
 
 ### Features
 
@@ -526,7 +551,7 @@ _includes `@rango-dev/widget-embedded@0.40.0`_
 
 ## Widget [0.27.0] (2025-01-27)
 
-_includes `@rango-dev/widget-embedded@0.39.0`_
+_includes `@arthur2079/widget-embedded@0.39.0`_
 
 ### Features
 
@@ -534,7 +559,7 @@ _includes `@rango-dev/widget-embedded@0.39.0`_
 
 ## Widget [0.26.0] (2025-01-20)
 
-_includes `@rango-dev/widget-embedded@0.38.0`_
+_includes `@arthur2079/widget-embedded@0.38.0`_
 
 ### Features
 
@@ -542,7 +567,7 @@ _includes `@rango-dev/widget-embedded@0.38.0`_
 
 ## Widget [0.25.0] (2024-12-31)
 
-_includes `@rango-dev/widget-embedded@0.37.0`_
+_includes `@arthur2079/widget-embedded@0.37.0`_
 
 ### Bug Fixes
 
@@ -554,7 +579,7 @@ _includes `@rango-dev/widget-embedded@0.37.0`_
 
 ## Widget [0.24.0] (2024-11-27)
 
-_includes `@rango-dev/widget-embedded@0.36.0`_
+_includes `@arthur2079/widget-embedded@0.36.0`_
 
 ### Bug Fixes
 
@@ -569,7 +594,7 @@ _includes `@rango-dev/widget-embedded@0.36.0`_
 
 ## Widget [0.23.0] (2024-11-12)
 
-_includes `@rango-dev/widget-embedded@0.35.0`_
+_includes `@arthur2079/widget-embedded@0.35.0`_
 
 ### Features
 
@@ -581,7 +606,7 @@ _includes `@rango-dev/widget-embedded@0.35.0`_
 
 ## Widget [0.22.0] (2024-10-12)
 
-_includes `@rango-dev/widget-embedded@0.34.0`_
+_includes `@arthur2079/widget-embedded@0.34.0`_
 
 ### Bug Fixes
 
@@ -608,7 +633,7 @@ _includes `@rango-dev/widget-embedded@0.34.0`_
 
 ## Widget [0.20.0] (2024-09-10)
 
-_includes `@rango-dev/widget-embedded@0.33.0`_
+_includes `@arthur2079/widget-embedded@0.33.0`_
 
 ### Bug Fixes
 
@@ -632,7 +657,7 @@ _includes `@rango-dev/widget-embedded@0.33.0`_
 
 ## Widget [0.19.0] (2024-08-17)
 
-_includes `@rango-dev/widget-embedded@0.32.1`_
+_includes `@arthur2079/widget-embedded@0.32.1`_
 
 ### Features
 
@@ -640,7 +665,7 @@ _includes `@rango-dev/widget-embedded@0.32.1`_
 
 ## Widget [0.18.0] (2024-08-11)
 
-_includes `@rango-dev/widget-embedded@0.31.0`_
+_includes `@arthur2079/widget-embedded@0.31.0`_
 
 ### Bug Fixes
 
@@ -668,7 +693,7 @@ _includes `@rango-dev/widget-embedded@0.31.0`_
 
 ## Widget [0.17.0] (2024-07-09)
 
-_includes `@rango-dev/widget-embedded@0.30.0`_
+_includes `@arthur2079/widget-embedded@0.30.0`_
 
 ### Bug Fixes
 
@@ -713,7 +738,7 @@ _includes `@rango-dev/widget-embedded@0.30.0`_
 
 ## Widget [0.16.0] (2024-06-01)
 
-_includes `@rango-dev/widget-embedded@0.29.0`_
+_includes `@arthur2079/widget-embedded@0.29.0`_
 
 ### Bug Fixes
 
@@ -735,7 +760,7 @@ _includes `@rango-dev/widget-embedded@0.29.0`_
 
 ## Widget [0.15.0] (2024-05-14)
 
-_includes `@rango-dev/widget-embedded@0.28.0`_
+_includes `@arthur2079/widget-embedded@0.28.0`_
 
 ### Features
 
@@ -758,7 +783,7 @@ _includes `@rango-dev/widget-embedded@0.28.0`_
 
 ## Widget (2024-05-08)
 
-_includes `@rango-dev/widget-embedded@0.27.3`_
+_includes `@arthur2079/widget-embedded@0.27.3`_
 
 ### Bug Fixes
 
@@ -766,7 +791,7 @@ _includes `@rango-dev/widget-embedded@0.27.3`_
 
 ## Widget (2024-04-27)
 
-_includes `@rango-dev/widget-embedded@0.27.2`_
+_includes `@arthur2079/widget-embedded@0.27.2`_
 
 ### Bug Fixes
 
@@ -774,7 +799,7 @@ _includes `@rango-dev/widget-embedded@0.27.2`_
 
 ## Widget (2024-04-24)
 
-_includes `@rango-dev/widget-embedded@0.27.1`_
+_includes `@arthur2079/widget-embedded@0.27.1`_
 
 ### Features
 
@@ -782,7 +807,7 @@ _includes `@rango-dev/widget-embedded@0.27.1`_
 
 ## Widget (2024-04-23)
 
-_includes `@rango-dev/widget-embedded@0.27.0`_
+_includes `@arthur2079/widget-embedded@0.27.0`_
 
 ### Bug Fixes
 
@@ -806,7 +831,7 @@ You can use the following template:
 
 ## Widget or Playground [VERSION] (DATE)
 
-_includes `@rango-dev/widget-embedded@VERSION`_
+_includes `@arthur2079/widget-embedded@VERSION`_
 
 ### Bug Fixes
 

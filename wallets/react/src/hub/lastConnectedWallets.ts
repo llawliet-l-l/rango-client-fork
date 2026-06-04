@@ -1,6 +1,6 @@
-import type { Namespace } from '@rango-dev/wallets-core/namespaces/common';
+import type { Namespace } from '@arthur2079/wallets-core/namespaces/common';
 
-import { Persistor } from '@rango-dev/wallets-core/legacy';
+import { Persistor } from '@arthur2079/wallets-core/legacy';
 
 import {
   HUB_LAST_CONNECTED_WALLETS,

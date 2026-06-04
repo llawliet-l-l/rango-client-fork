@@ -3,7 +3,7 @@ import type {
   NeedsDerivationPathState,
   NeedsNamespacesState,
 } from './useStatefulConnect.types';
-import type { Namespace } from '@rango-dev/wallets-core/namespaces/common';
+import type { Namespace } from '@arthur2079/wallets-core/namespaces/common';
 
 export interface State {
   status: 'init' | 'namespace' | 'derivationPath' | 'detached';

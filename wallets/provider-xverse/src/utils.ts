@@ -1,7 +1,7 @@
 import type { Provider, XVerseResponse } from './types.js';
-import type { ProviderAPI } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { ProviderAPI } from '@arthur2079/wallets-core/namespaces/utxo';
 
-import { LegacyNetworks } from '@rango-dev/wallets-core/legacy';
+import { LegacyNetworks } from '@arthur2079/wallets-core/legacy';
 
 export function xverse(): Provider | null {
   const { XverseProviders } = window;

@@ -2,18 +2,18 @@ import type {
   OnWalletConnectHandler,
   OnWalletDisconnectHandler,
 } from './Wallets.types';
-import type { LastConnectedWallet } from '@rango-dev/queue-manager-rango-preset';
+import type { LastConnectedWallet } from '@arthur2079/queue-manager-rango-preset';
 import type {
   LegacyEventHandler as EventHandler,
   LegacyEventHandler,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 
 import {
   legacyFormatAddressWithNetwork as formatAddressWithNetwork,
   legacyReadAccountAddress as readAccountAddress,
-} from '@rango-dev/wallets-core/legacy';
-import { Events } from '@rango-dev/wallets-react';
-import { type Network } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/legacy';
+import { Events } from '@arthur2079/wallets-react';
+import { type Network } from '@arthur2079/wallets-shared';
 import { isEvmBlockchain } from 'rango-sdk';
 
 import { useAppStore } from '../../store/AppStore';

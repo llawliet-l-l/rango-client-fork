@@ -5,7 +5,7 @@ import {
   dynamicImportWithRefinedError,
   getNetworkInstance,
   Networks,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { DefaultSignerFactory, TransactionType } from 'rango-types';
 
 export default async function getSigners(
@@ -15,10 +15,10 @@ export default async function getSigners(
   const evmProvider = getNetworkInstance(provider, Networks.ETHEREUM);
   const signers = new DefaultSignerFactory();
   const { DefaultCosmosSigner } = await dynamicImportWithRefinedError(
-    async () => await import('@rango-dev/signer-cosmos')
+    async () => await import('@arthur2079/signer-cosmos')
   );
   const { DefaultEvmSigner } = await dynamicImportWithRefinedError(
-    async () => await import('@rango-dev/signer-evm')
+    async () => await import('@arthur2079/signer-evm')
   );
 
   signers.registerSigner(

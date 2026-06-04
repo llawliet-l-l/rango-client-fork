@@ -8,7 +8,7 @@ We follow semantic versioning, MAJOR.MINOR.PATCH:
 - New features will be shipped with a new MINOR version.
 - Critical fixes will be shipped with a new PATCH version.
 
-There are many packages that are publishing under `@rango-dev` scope, we are doing our best effort to not introducing breaking changes and following the semantic versioning for underlaying packages but there are no guarantee for that. what we are guarantee here is our primary package, `@rango-dev/widget-embedded`.
+There are many packages that are publishing under `@arthur2079` scope, we are doing our best effort to not introducing breaking changes and following the semantic versioning for underlaying packages but there are no guarantee for that. what we are guarantee here is our primary package, `@arthur2079/widget-embedded`.
 
 **NOTE:** Our 0.x.x version is also stable, we didn't have any breaking changes since the first release.
 
@@ -16,7 +16,7 @@ There are many packages that are publishing under `@rango-dev` scope, we are doi
 
 ### What is a breaking change?
 
-An incompatible behaviour or api change for `@rango-dev/widget-embedded` except those one that tagged as internal, we don't consider them as breaking change.
+An incompatible behaviour or api change for `@arthur2079/widget-embedded` except those one that tagged as internal, we don't consider them as breaking change.
 
 
 ## Release Channels

@@ -1,7 +1,7 @@
-import type { ModalPropTypes } from '@rango-dev/ui';
+import type { ModalPropTypes } from '@arthur2079/ui';
 import type { PropsWithChildren } from 'react';
 
-import { Modal } from '@rango-dev/ui';
+import { Modal } from '@arthur2079/ui';
 import React from 'react';
 
 import { useUiStore } from '../../../store/ui';

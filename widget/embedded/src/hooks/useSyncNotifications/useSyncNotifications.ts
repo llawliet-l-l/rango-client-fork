@@ -1,4 +1,4 @@
-import { useManager } from '@rango-dev/queue-manager-react';
+import { useManager } from '@arthur2079/queue-manager-react';
 import { useEffect } from 'react';
 
 import { useNotificationStore } from '../../store/notification';

@@ -1,6 +1,9 @@
 {
-  "name": "@rango-dev/logging-console",
-  "version": "0.12.1",
+  "name": "@arthur2079/logging-console",
+  "version": "0.13.0",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -14,7 +17,7 @@
     "src"
   ],
   "dependencies": {
-    "@rango-dev/logging-types": "^0.11.0"
+    "@arthur2079/logging-types": "^0.12.0"
   },
   "scripts": {
     "build": "node ../../scripts/build/command.mjs --path logging/console",

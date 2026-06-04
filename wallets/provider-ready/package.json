@@ -1,6 +1,9 @@
 {
-  "name": "@rango-dev/provider-ready",
-  "version": "0.60.0",
+  "name": "@arthur2079/provider-ready",
+  "version": "0.60.1",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/mod.ts",
@@ -17,9 +20,9 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@rango-dev/signer-starknet": "^0.42.0",
-    "@rango-dev/wallets-core": "^0.59.0",
-    "@rango-dev/wallets-shared": "^0.60.0",
+    "@arthur2079/signer-starknet": "^0.42.1",
+    "@arthur2079/wallets-core": "^0.59.1",
+    "@arthur2079/wallets-shared": "^0.60.1",
     "rango-types": "^0.5.0"
   },
   "publishConfig": {

@@ -1,6 +1,9 @@
 {
-  "name": "@rango-dev/signer-cosmos",
-  "version": "0.40.0",
+  "name": "@arthur2079/signer-cosmos",
+  "version": "0.40.1",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",

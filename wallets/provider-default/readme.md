@@ -1,1 +1,1 @@
-# @rango-dev/provider-default
+# @arthur2079/provider-default

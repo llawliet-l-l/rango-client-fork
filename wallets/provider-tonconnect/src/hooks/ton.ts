@@ -3,8 +3,8 @@ import type {
   Context,
   Subscriber,
   SubscriberCleanUp,
-} from '@rango-dev/wallets-core';
-import type { TonActions } from '@rango-dev/wallets-core/namespaces/ton';
+} from '@arthur2079/wallets-core';
+import type { TonActions } from '@arthur2079/wallets-core/namespaces/ton';
 import type {
   ConnectedWallet,
   ITonConnect,

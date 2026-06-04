@@ -1,6 +1,9 @@
 {
-  "name": "@rango-dev/signer-ton",
-  "version": "0.28.1",
+  "name": "@arthur2079/signer-ton",
+  "version": "0.28.2",
+  "repository": {
+    "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
+  },
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",

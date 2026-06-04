@@ -1,5 +1,5 @@
 import { i18n } from '@lingui/core';
-import { Typography } from '@rango-dev/ui';
+import { Typography } from '@arthur2079/ui';
 import React from 'react';
 
 import { SlippageTooltipContainer } from './Slippage.styles';

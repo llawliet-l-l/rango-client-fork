@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/wallets-core/namespaces/ton",
+  "name": "@arthur2079/wallets-core/namespaces/ton",
   "type": "module",
   "main": "../../dist/namespaces/ton/mod.js",
   "module": "../../dist/namespaces/ton/mod.js",

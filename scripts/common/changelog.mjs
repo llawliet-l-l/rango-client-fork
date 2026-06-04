@@ -8,7 +8,7 @@ import { Writable } from 'stream';
 import { packageJsonPath, packageChangelogPath } from './path.mjs';
 import path from 'node:path';
 // Our tagging is using lerna convention which is package-name@version
-// for example for @rango-dev/wallets-core, it will be wallets-core@1.1.0
+// for example for @arthur2079/wallets-core, it will be wallets-core@1.1.0
 export const TAG_PACKAGE_PREFIX = (pkg) =>
   `${packageNameWithoutScope(pkg.name)}@`;
 const TAG_ROOT_PREFIX = /^[^@]+@/;
@@ -159,7 +159,7 @@ export function generateChangelog(pkg) {
     /** @see https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-writer/templates/header.hbs */
     let headerTemplate = `## {{#if isPatch~}} <small> {{~/if~}} {{#if title}}{{title}}{{/if}} [{{version}}] {{~#if date}} ({{date}}) {{~/if~}} {{~#if isPatch~}} </small> {{~/if}}`;
     if (embeddedVersion) {
-      headerTemplate += `\n_includes \`@rango-dev/widget-embedded@${embeddedVersion}\`_`;
+      headerTemplate += `\n_includes \`@arthur2079/widget-embedded@${embeddedVersion}\`_`;
     }
 
     generator.readPackage(packageJsonPath());
