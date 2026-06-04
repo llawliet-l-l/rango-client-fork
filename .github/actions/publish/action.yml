@@ -1,15 +1,6 @@
 name: "Publish"
 description: "Build, version and publish affected packages to npm via OIDC trusted publishing."
 
-inputs:
-  ref:
-    description: >-
-      Git ref being published. Controls the npm dist-tag/channel
-      (refs/heads/main → latest, refs/heads/next → next).
-      Defaults to the workflow's github.ref.
-    required: false
-    default: ""
-
 runs:
   using: "composite"
   steps:
@@ -22,5 +13,5 @@ runs:
       shell: bash
       run: yarn run publish
       env:
-        REF: ${{ inputs.ref || github.ref }}
+        REF: ${{ github.ref }}
         GH_TOKEN: ${{ github.token }}

@@ -2,8 +2,7 @@ name: Delivery
 # Each run announces what it actually is: a routine prerelease publish on push,
 # or the full production release when dispatched with `full_release`.
 run-name: >-
-  ${{ (github.event_name == 'workflow_dispatch' && inputs.full_release)
-      && 'Production Release' || 'Prerelease publish' }}
+  ${{ inputs.full_release && 'Production Release' || 'Prerelease publish' }}
 
 on:
   push:
@@ -17,12 +16,12 @@ on:
         default: false
 
 concurrency:
-  group: package-publishing
+  group: package-delivery
 
 jobs:
   # Production-only: merge `next` into `main` before publishing.
   sync-prod:
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_release }}
+    if: ${{ inputs.full_release }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -53,21 +52,18 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
-          # Full release publishes from `main` (after sync-prod); otherwise the
-          # triggering ref (push → next).
-          ref: ${{ (github.event_name == 'workflow_dispatch' && inputs.full_release) && 'main' || '' }}
       - run: git pull
+
       - name: Prepare
         uses: ./.github/actions/prepare
+
       - name: Publish
         uses: ./.github/actions/publish
-        with:
-          ref: ${{ (github.event_name == 'workflow_dispatch' && inputs.full_release) && 'refs/heads/main' || github.ref }}
 
   # Production-only: build and deploy clients to Vercel.
   deploy:
     needs: publish
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_release && needs.publish.result == 'success' }}
+    if: ${{ inputs.full_release }}
     environment: production
     runs-on: ubuntu-latest
     env:
@@ -78,7 +74,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
-          ref: main
+
       - run: git pull
       - name: Prepare
         uses: ./.github/actions/prepare
@@ -96,7 +92,7 @@ jobs:
   # Production-only: merge `main` back into `next` to keep branches in sync.
   sync-next:
     needs: deploy
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_release && needs.deploy.result == 'success' }}
+    if: ${{ inputs.full_release }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
