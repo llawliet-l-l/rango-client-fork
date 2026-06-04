@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-keplr",
-  "version": "0.60.1",
+  "version": "0.60.2-next.0",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -31,9 +31,9 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@arthur2079/signer-cosmos": "^0.40.1",
-    "@arthur2079/wallets-core": "^0.59.1",
-    "@arthur2079/wallets-shared": "^0.60.1",
+    "@arthur2079/signer-cosmos": "^0.40.2-next.0",
+    "@arthur2079/wallets-core": "^0.59.2-next.0",
+    "@arthur2079/wallets-shared": "^0.60.2-next.0",
     "@chain-registry/keplr": "^2.0.198",
     "rango-types": "^0.5.0"
   },
