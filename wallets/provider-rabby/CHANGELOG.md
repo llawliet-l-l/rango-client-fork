@@ -1,3 +1,13 @@
+# [0.28.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-rabby@0.27.0...provider-rabby@0.28.0) (2026-06-04)
+
+
+### Bug Fixes
+
+* changed packages ([1ee419a](https://github.com/llawliet-l-l/rango-client-fork/commit/1ee419a9ccbd8d5f2d9d487fb62e58c642eb7dba))
+* fixed package names ([63fc27d](https://github.com/llawliet-l-l/rango-client-fork/commit/63fc27d95b8f60846dddd59ba1ab28e24c5472f6))
+
+
+
 ## [0.27.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-rabby@0.27.0...provider-rabby@0.27.1) (2026-06-03)
 
 
