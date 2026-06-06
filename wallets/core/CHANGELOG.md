@@ -1,3 +1,12 @@
+## [0.60.1](https://github.com/llawliet-l-l/rango-client-fork/compare/wallets-core@0.60.0...wallets-core@0.60.1) (2026-06-06)
+
+
+### Bug Fixes
+
+* random change ([8fa17cb](https://github.com/llawliet-l-l/rango-client-fork/commit/8fa17cb436bf71655cbab80af1c6ab4d5ff5a3e0))
+
+
+
 # [0.60.0](https://github.com/llawliet-l-l/rango-client-fork/compare/wallets-core@0.59.0...wallets-core@0.60.0) (2026-06-04)
 
 

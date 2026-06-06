@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/widget-app",
-  "version": "0.25.0",
+  "version": "0.26.0",
   "license": "MIT",
   "private": true,
   "source": "public/index.html",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@arthur2079/logging-console": "^0.14.0",
     "@arthur2079/logging-subscriber": "^0.14.0",
-    "@arthur2079/widget-embedded": "^0.61.1-next.0",
+    "@arthur2079/widget-embedded": "^0.61.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0"

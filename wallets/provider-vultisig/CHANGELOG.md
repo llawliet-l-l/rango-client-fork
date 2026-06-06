@@ -1,3 +1,7 @@
+## [0.3.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-vultisig@0.3.0...provider-vultisig@0.3.1) (2026-06-06)
+
+
+
 # [0.3.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-vultisig@0.2.0...provider-vultisig@0.3.0) (2026-06-04)
 
 

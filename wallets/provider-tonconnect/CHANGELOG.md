@@ -1,3 +1,7 @@
+## [0.23.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-tonconnect@0.23.0...provider-tonconnect@0.23.1) (2026-06-06)
+
+
+
 # [0.23.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-tonconnect@0.22.1...provider-tonconnect@0.23.0) (2026-06-04)
 
 

@@ -1,3 +1,7 @@
+## [0.28.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-rabby@0.28.0...provider-rabby@0.28.1) (2026-06-06)
+
+
+
 # [0.28.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-rabby@0.27.0...provider-rabby@0.28.0) (2026-06-04)
 
 

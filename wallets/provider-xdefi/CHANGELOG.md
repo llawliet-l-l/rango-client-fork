@@ -1,3 +1,7 @@
+## [0.63.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-xdefi@0.63.0...provider-xdefi@0.63.1) (2026-06-06)
+
+
+
 # [0.63.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-xdefi@0.62.0...provider-xdefi@0.63.0) (2026-06-04)
 
 

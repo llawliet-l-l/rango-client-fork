@@ -1,3 +1,7 @@
+## [0.62.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-exodus@0.62.0...provider-exodus@0.62.1) (2026-06-06)
+
+
+
 # [0.62.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-exodus@0.61.0...provider-exodus@0.62.0) (2026-06-04)
 
 
