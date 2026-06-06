@@ -1,3 +1,12 @@
+## Widget [0.61.0] (2026-06-06)
+_includes `@arthur2079/widget-embedded@0.61.1`_
+
+### Bug Fixes
+
+* random change ([8fa17cb](https://github.com/llawliet-l-l/rango-client-fork/commit/8fa17cb436bf71655cbab80af1c6ab4d5ff5a3e0))
+
+
+
 ## Widget [0.60.0] (2026-06-04)
 _includes `@arthur2079/widget-embedded@0.61.0`_
 
