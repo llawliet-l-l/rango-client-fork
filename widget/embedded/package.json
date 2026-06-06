@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/widget-embedded",
-  "version": "0.61.0",
+  "version": "0.61.1-next.0",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -26,15 +26,15 @@
   },
   "dependencies": {
     "@arthur2079/logging-core": "^0.14.0",
-    "@arthur2079/provider-all": "^0.63.0",
+    "@arthur2079/provider-all": "^0.63.1-next.0",
     "@arthur2079/queue-manager-core": "^0.35.0",
-    "@arthur2079/queue-manager-rango-preset": "^0.63.0",
+    "@arthur2079/queue-manager-rango-preset": "^0.63.1-next.0",
     "@arthur2079/queue-manager-react": "^0.35.0",
     "@arthur2079/signer-solana": "^0.49.0",
-    "@arthur2079/ui": "^0.64.0",
-    "@arthur2079/wallets-core": "^0.60.0",
-    "@arthur2079/wallets-react": "^0.47.0",
-    "@arthur2079/wallets-shared": "^0.61.0",
+    "@arthur2079/ui": "^0.64.1-next.0",
+    "@arthur2079/wallets-core": "^0.60.1-next.0",
+    "@arthur2079/wallets-react": "^0.47.1-next.0",
+    "@arthur2079/wallets-shared": "^0.61.1-next.0",
     "@lingui/core": "4.2.1",
     "@lingui/react": "4.2.1",
     "bignumber.js": "^9.1.1",

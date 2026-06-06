@@ -1,19 +1,14 @@
 name: Delivery
 # Each run announces what it actually is: a routine prerelease publish on push,
-# or the full production release when dispatched with `full_release`.
+# or the full production release when dispatched on `main`.
 run-name: >-
-  ${{ inputs.full_release && 'Production Release' || 'Prerelease publish' }}
+  ${{ github.ref_name == 'main' && 'Production Release' || 'Prerelease publish' }}
 
 on:
   push:
     branches:
       - 'next'
   workflow_dispatch:
-    inputs:
-      full_release:
-        description: 'Run full release pipeline (sync-prod, publish, deploy, sync-next)'
-        type: boolean
-        default: false
 
 concurrency:
   group: package-delivery
@@ -21,7 +16,7 @@ concurrency:
 jobs:
   # Production-only: merge `next` into `main` before publishing.
   sync-prod:
-    if: ${{ inputs.full_release }}
+    if: ${{ github.ref_name == 'main' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -63,7 +58,7 @@ jobs:
   # Production-only: build and deploy clients to Vercel.
   deploy:
     needs: publish
-    if: ${{ inputs.full_release }}
+    if: ${{ github.ref_name == 'main' }}
     environment: production
     runs-on: ubuntu-latest
     env:
@@ -92,7 +87,7 @@ jobs:
   # Production-only: merge `main` back into `next` to keep branches in sync.
   sync-next:
     needs: deploy
-    if: ${{ inputs.full_release }}
+    if: ${{ github.ref_name == 'main' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
