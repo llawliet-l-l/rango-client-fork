@@ -1,3 +1,7 @@
+## [0.58.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-bitget@0.58.0...provider-bitget@0.58.1) (2026-06-06)
+
+
+
 # [0.58.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-bitget@0.57.0...provider-bitget@0.58.0) (2026-06-04)
 
 

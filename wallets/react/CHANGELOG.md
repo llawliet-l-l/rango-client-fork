@@ -1,3 +1,7 @@
+## [0.47.1](https://github.com/llawliet-l-l/rango-client-fork/compare/wallets-react@0.47.0...wallets-react@0.47.1) (2026-06-06)
+
+
+
 # [0.47.0](https://github.com/llawliet-l-l/rango-client-fork/compare/wallets-react@0.46.0...wallets-react@0.47.0) (2026-06-04)
 
 

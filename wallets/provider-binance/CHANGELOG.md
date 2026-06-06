@@ -1,3 +1,7 @@
+## [0.4.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-binance@0.4.0...provider-binance@0.4.1) (2026-06-06)
+
+
+
 # [0.4.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-binance@0.3.0...provider-binance@0.4.0) (2026-06-04)
 
 

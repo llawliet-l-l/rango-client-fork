@@ -1,3 +1,7 @@
+## [0.55.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-walletconnect-2@0.55.0...provider-walletconnect-2@0.55.1) (2026-06-06)
+
+
+
 # [0.55.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-walletconnect-2@0.54.0...provider-walletconnect-2@0.55.0) (2026-06-04)
 
 

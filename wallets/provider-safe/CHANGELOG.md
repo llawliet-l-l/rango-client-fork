@@ -1,3 +1,7 @@
+## [0.54.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-safe@0.54.0...provider-safe@0.54.1) (2026-06-06)
+
+
+
 # [0.54.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-safe@0.53.0...provider-safe@0.54.0) (2026-06-04)
 
 

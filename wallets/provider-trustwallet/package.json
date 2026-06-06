@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-trustwallet",
-  "version": "0.61.1-next.0",
+  "version": "0.61.1",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@arthur2079/signer-evm": "^0.43.0",
-    "@arthur2079/wallets-core": "^0.60.1-next.0",
-    "@arthur2079/wallets-shared": "^0.61.1-next.0",
+    "@arthur2079/wallets-core": "^0.60.1",
+    "@arthur2079/wallets-shared": "^0.61.1",
     "bs58": "^5.0.0",
     "rango-types": "^0.5.0"
   },

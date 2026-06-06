@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-trezor",
-  "version": "0.28.1-next.0",
+  "version": "0.28.1",
   "repository": {
     "url": "https://github.com/llawliet-l-l/rango-client-fork.git"
   },
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@arthur2079/signer-evm": "^0.43.0",
-    "@arthur2079/wallets-shared": "^0.61.1-next.0",
+    "@arthur2079/wallets-shared": "^0.61.1",
     "@trezor/connect-web": "^9.5.0",
     "ethers": "^6.13.2",
     "rango-types": "^0.5.0"

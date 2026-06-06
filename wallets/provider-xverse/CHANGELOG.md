@@ -1,3 +1,7 @@
+## [0.7.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-xverse@0.7.0...provider-xverse@0.7.1) (2026-06-06)
+
+
+
 # [0.7.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-xverse@0.6.0...provider-xverse@0.7.0) (2026-06-04)
 
 
