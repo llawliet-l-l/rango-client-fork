@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/widget-embedded@1.1.0.../^[^@]+@/1.2.0) (2026-08-18)
+_includes `@arthur2079/widget-embedded@1.2.0`_
+
+
+
+### Bug Fixes
+
+* wallets react ([7f81576](https://github.com/llawliet-l-l/rango-client-fork/commit/7f815760bf0957c5c7ef02d00d2df7cf00dc91ad))
+
+
+### Features
+
+* preset ([b2bb9d7](https://github.com/llawliet-l-l/rango-client-fork/commit/b2bb9d72dfc2beaf60837a9037d284cd8fae45f6))
+* provider all ([8da0520](https://github.com/llawliet-l-l/rango-client-fork/commit/8da05205730d7ff8447e4bd2d42d32221a2eb405))
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/widget-embedded@0.63.0.../^[^@]+@/1.1.0) (2026-08-18)
 _includes `@arthur2079/widget-embedded@1.1.0`_
 
