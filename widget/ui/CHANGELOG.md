@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/ui@1.1.0...ui@1.2.0) (2026-08-18)
+
+
+### Features
+
+* modified dependencies ([ca82096](https://github.com/llawliet-l-l/rango-client-fork/commit/ca8209679250e225f6385f5f326747f18762e6c0))
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/ui@0.65.0...ui@1.1.0) (2026-08-18)
 
 
