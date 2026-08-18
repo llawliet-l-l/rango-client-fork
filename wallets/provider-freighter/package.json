@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-freighter",
-  "version": "1.0.0",
+  "version": "1.0.1-next.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/mod.ts",
@@ -21,10 +21,10 @@
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
+    "@arthur2079/wallets-shared": "^1.0.1-next.0",
     "@hub3js/core": "^0.61.1",
     "@hub3js/std": "^0.2.3",
     "@hub3js/stellar": "^0.2.3",
-    "@arthur2079/wallets-shared": "^1.0.0",
     "@stellar/freighter-api": "^6.0.1",
     "@stellar/stellar-sdk": "^15.0.1",
     "rango-types": "^0.5.0"

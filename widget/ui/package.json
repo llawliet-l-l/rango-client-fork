@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/ui",
-  "version": "1.0.0",
+  "version": "1.0.1-next.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -46,6 +46,7 @@
     "react-is": "^18.2.0"
   },
   "dependencies": {
+    "@arthur2079/wallets-shared": "^1.0.1-next.0",
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-collapsible": "^1.0.3",
     "@radix-ui/react-popover": "^1.0.6",
@@ -53,7 +54,6 @@
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-switch": "^1.0.1",
     "@radix-ui/react-tooltip": "^1.0.2",
-    "@arthur2079/wallets-shared": "^1.0.0",
     "@stitches/react": "^1.2.8",
     "copy-to-clipboard": "^3.3.3",
     "rango-types": "^0.5.0",

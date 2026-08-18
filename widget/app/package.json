@@ -22,9 +22,9 @@
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
-    "@arthur2079/logging-console": "^1.0.0",
-    "@arthur2079/logging-subscriber": "^1.0.0",
-    "@arthur2079/widget-embedded": "^1.0.0",
+    "@arthur2079/logging-console": "^1.0.1-next.0",
+    "@arthur2079/logging-subscriber": "^1.0.1-next.0",
+    "@arthur2079/widget-embedded": "^1.0.1-next.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0"
