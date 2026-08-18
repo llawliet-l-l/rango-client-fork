@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/logging-types@0.11.0...logging-types@1.1.0) (2026-08-18)
+
+
+### Features
+
+* bumped versions ([bfb2df9](https://github.com/llawliet-l-l/rango-client-fork/commit/bfb2df9e2b0952707c12670b8750ef3a6f4dcf70))
 # [0.12.0](https://github.com/rango-exchange/rango-client/compare/logging-types@0.11.0...logging-types@0.12.0) (2026-08-18)
 
 

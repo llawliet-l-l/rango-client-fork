@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-metamask@0.63.0...provider-metamask@1.1.0) (2026-08-18)
+
+
+### Features
+
+* bumped versions ([bfb2df9](https://github.com/llawliet-l-l/rango-client-fork/commit/bfb2df9e2b0952707c12670b8750ef3a6f4dcf70))
 # [0.63.0](https://github.com/rango-exchange/rango-client/compare/provider-metamask@0.62.0...provider-metamask@0.63.0) (2026-08-18)
 
 

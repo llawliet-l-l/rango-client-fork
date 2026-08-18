@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-walletconnect-2@0.57.0...provider-walletconnect-2@1.1.0) (2026-08-18)
+
+
+### Features
+
+* bumped versions ([bfb2df9](https://github.com/llawliet-l-l/rango-client-fork/commit/bfb2df9e2b0952707c12670b8750ef3a6f4dcf70))
 # [0.57.0](https://github.com/rango-exchange/rango-client/compare/provider-walletconnect-2@0.56.0...provider-walletconnect-2@0.57.0) (2026-08-18)
 
 
