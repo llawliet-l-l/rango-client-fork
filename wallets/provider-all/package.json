@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-all",
-  "version": "1.2.1-next.0",
+  "version": "1.2.1-next.1",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -36,7 +36,7 @@
     "@arthur2079/provider-ledger": "^1.1.0",
     "@arthur2079/provider-math-wallet": "^1.1.0",
     "@arthur2079/provider-metamask": "^1.1.0",
-    "@arthur2079/provider-noir-wallet": "^1.1.0",
+    "@arthur2079/provider-noir-wallet": "^1.1.1-next.0",
     "@arthur2079/provider-okx": "^1.1.0",
     "@arthur2079/provider-phantom": "^1.1.0",
     "@arthur2079/provider-rabby": "^1.1.0",
