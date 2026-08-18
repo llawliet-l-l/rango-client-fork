@@ -1,4 +1,4 @@
-import { darkTheme, styled, Typography } from '@rango-dev/ui';
+import { darkTheme, styled, Typography } from '@arthur2079/ui';
 
 export const Container = styled('div', {
   display: 'flex',

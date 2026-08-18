@@ -1,7 +1,7 @@
-import type { WalletType } from '@rango-dev/wallets-shared';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
-import { allProviders } from '@rango-dev/provider-all';
-import { Events, Provider } from '@rango-dev/wallets-react';
+import { allProviders } from '@arthur2079/provider-all';
+import { Events, Provider } from '@arthur2079/wallets-react';
 import { RangoClient } from 'rango-sdk';
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';

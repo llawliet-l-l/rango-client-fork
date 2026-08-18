@@ -6,7 +6,7 @@ import type {
   UTXO_NAMESPACE,
 } from '@hub3js/namespaces';
 import type { ProviderAPI as SolanaProviderApi } from '@hub3js/solana';
-import type { ProviderAPI as UtxoProviderApi } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { ProviderAPI as UtxoProviderApi } from '@arthur2079/wallets-core/namespaces/utxo';
 
 /**
  * Ctrl exposes one provider instance per UTXO chain, keyed by that chain's

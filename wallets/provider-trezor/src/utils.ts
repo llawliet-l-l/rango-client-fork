@@ -4,7 +4,7 @@ import {
   dynamicImportWithRefinedError,
   ETHEREUM_CHAIN_ID,
   type ProviderConnectResult,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 
 import { getDerivationPath } from './state.js';
 

@@ -2,7 +2,7 @@ import type { CaipAccount } from '@hub3js/std/types';
 import type {
   ProviderAPI,
   UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import {
   ActionBuilder,
@@ -17,8 +17,8 @@ import {
   builders,
   CAIP_BITCOIN_CHAIN_ID,
   CAIP_NAMESPACE,
-} from '@rango-dev/wallets-core/namespaces/utxo';
-import { type ProviderConnectResult } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/namespaces/utxo';
+import { type ProviderConnectResult } from '@arthur2079/wallets-shared';
 import { AccountId } from 'caip';
 
 import { WALLET_ID } from '../constants.js';

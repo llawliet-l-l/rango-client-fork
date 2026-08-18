@@ -1,4 +1,4 @@
-import type { UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { ActionBuilder, NamespaceBuilder } from '@hub3js/core';
 import * as commonBuilders from '@hub3js/std/builders';
@@ -7,7 +7,7 @@ import {
   builders,
   CAIP_ZCASH_CHAIN_ID,
   utils,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { WALLET_ID } from '../../constants.js';
 

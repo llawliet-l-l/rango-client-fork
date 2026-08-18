@@ -1,7 +1,7 @@
 import type { Provider } from '@hub3js/core';
-import type { Language, theme } from '@rango-dev/ui';
-import type { LegacyProviderInterface } from '@rango-dev/wallets-core/legacy';
-import type { WalletType } from '@rango-dev/wallets-shared';
+import type { Language, theme } from '@arthur2079/ui';
+import type { LegacyProviderInterface } from '@arthur2079/wallets-core/legacy';
+import type { WalletType } from '@arthur2079/wallets-shared';
 import type { Asset } from 'rango-sdk';
 import type { ReactElement } from 'react';
 

@@ -11,7 +11,7 @@ import {
   Switch,
   Typography,
   VirtualizedList,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 
 import {

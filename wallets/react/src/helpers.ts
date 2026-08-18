@@ -1,6 +1,6 @@
 import type { ProviderContext } from './index.js';
 
-import { debug } from '@rango-dev/logging-core';
+import { debug } from '@arthur2079/logging-core';
 
 function logError(method: string, args: unknown[], error: unknown) {
   const err = error instanceof Error ? error : new Error(String(error));

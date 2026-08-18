@@ -1,4 +1,4 @@
-import type { Network, WalletType } from '@rango-dev/wallets-shared';
+import type { Network, WalletType } from '@arthur2079/wallets-shared';
 import type {
   BlockchainMeta,
   ConfirmRouteResponse,
@@ -14,7 +14,7 @@ import type {
   WalletTypeAndAddress,
 } from 'rango-types';
 
-import { type NamespaceInputForConnect } from '@rango-dev/wallets-core/dist/legacy/types';
+import { type NamespaceInputForConnect } from '@arthur2079/wallets-core/dist/legacy/types';
 import BigNumber from 'bignumber.js';
 
 import { numberToString } from './numbers';

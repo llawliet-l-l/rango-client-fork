@@ -1,4 +1,4 @@
-import { Divider } from '@rango-dev/ui';
+import { Divider } from '@arthur2079/ui';
 import React, { useState } from 'react';
 
 import { Collapse } from '../../components/Collapse';

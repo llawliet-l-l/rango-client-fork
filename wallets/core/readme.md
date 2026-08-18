@@ -1,4 +1,4 @@
-# @rango-dev/wallets-core
+# @arthur2079/wallets-core
 
 Core package for handling web3 wallets supported by Rango
 
@@ -12,7 +12,7 @@ Core package for handling web3 wallets supported by Rango
 
 | Old | New |
 | --- | --- |
-| `@rango-dev/wallets-core` | `@hub3js/core` |
+| `@arthur2079/wallets-core` | `@hub3js/core` |
 | `.../store` | `@hub3js/core/store` |
 | `.../utils` | `@hub3js/core/utils` |
 | `.../namespaces/common` | `@hub3js/namespaces` + `@hub3js/std` |

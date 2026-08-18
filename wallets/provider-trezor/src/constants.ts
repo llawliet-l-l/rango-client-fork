@@ -5,8 +5,8 @@ import { getChainIdFromCaip2ChainId } from '@hub3js/std/utils';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   isUtxoNamespace,
-} from '@rango-dev/wallets-core/namespaces/utxo';
-import { WalletTypes } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/namespaces/utxo';
+import { WalletTypes } from '@arthur2079/wallets-shared';
 
 import getSigners from './signer.js';
 import { BITCOIN_ADDRESS_TYPES } from './utxo/config.js';

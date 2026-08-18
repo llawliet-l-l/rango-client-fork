@@ -1,7 +1,7 @@
 import type { GenericSigner, Transfer } from 'rango-types';
 
 import { parseErrorAndThrowStandardizeError } from '@hub3js/std/utils';
-import { isBitcoinBlockchain } from '@rango-dev/wallets-shared';
+import { isBitcoinBlockchain } from '@arthur2079/wallets-shared';
 import * as bitcoin from 'bitcoinjs-lib';
 import { SignerError } from 'rango-types';
 

@@ -1,6 +1,6 @@
-import type { EventPayload } from '@rango-dev/logging-types';
+import type { EventPayload } from '@arthur2079/logging-types';
 
-import { Level } from '@rango-dev/logging-types';
+import { Level } from '@arthur2079/logging-types';
 
 export function levelToName(level: Level) {
   switch (level) {

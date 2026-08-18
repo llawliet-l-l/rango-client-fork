@@ -1,5 +1,5 @@
 import type { Provider, XVerseResponse } from './types.js';
-import type { ProviderAPI } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { ProviderAPI } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { UTXO_NAMESPACE } from '@hub3js/namespaces';
 

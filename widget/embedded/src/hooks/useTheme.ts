@@ -3,7 +3,7 @@ import {
   createTheme,
   darkTheme as defaultDarkTheme,
   lightTheme as defaultLightTheme,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import { useEffect, useState } from 'react';
 
 import { DEFAULT_FONT_FAMILY } from '../constants/fonts';

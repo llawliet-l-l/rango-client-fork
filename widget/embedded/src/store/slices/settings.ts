@@ -6,7 +6,7 @@ import type { WidgetConfig } from '../../types';
 import type { SwapperMeta, Token } from 'rango-sdk';
 import type { StateCreator } from 'zustand';
 
-import { type Language } from '@rango-dev/ui';
+import { type Language } from '@arthur2079/ui';
 
 import { BLOCKCHAIN_LIST_SIZE } from '../../constants/configs';
 import { DEFAULT_LANGUAGE } from '../../constants/languages';

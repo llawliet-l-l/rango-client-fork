@@ -1,5 +1,5 @@
 import type { WidgetConfig } from '../types';
-import type { LegacyProviderInterface } from '@rango-dev/wallets-core/legacy';
+import type { LegacyProviderInterface } from '@arthur2079/wallets-core/legacy';
 
 import { Provider } from '@hub3js/core';
 import {
@@ -42,7 +42,7 @@ export function matchAndGenerateProviders({
     configWallets.forEach((requestedWallet) => {
       /*
        * There are two types of provider we get, the first one is only passing the wallet name
-       * then we will match the wallet name with our providers (@rango-dev/provider-*).
+       * then we will match the wallet name with our providers (@arthur2079/provider-*).
        * The second way is passing a custom provider which implemented ProviderInterface.
        */
       if (typeof requestedWallet === 'string') {

@@ -4,7 +4,7 @@ import {
   convertBlockchainMetaToCaip,
   isBitcoinBlockchain,
   isZcashBlockchain,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { TransactionType } from 'rango-types';
 import { describe, expect, it } from 'vitest';
 

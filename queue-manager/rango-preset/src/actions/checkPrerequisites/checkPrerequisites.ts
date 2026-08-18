@@ -1,9 +1,9 @@
 import type { SwapQueueContext, SwapStorage } from '../../types';
 import type { NextTransactionStateError } from '../common/produceNextStateForTransaction';
-import type { ExecuterActions } from '@rango-dev/queue-manager-core';
+import type { ExecuterActions } from '@arthur2079/queue-manager-core';
 import type { Result } from 'ts-results';
 
-import { Networks } from '@rango-dev/wallets-shared';
+import { Networks } from '@arthur2079/wallets-shared';
 import {
   STELLAR_CHANGE_TRUSTLINE_TYPE,
   XRPL_CHANGE_TRUSTLINE_TYPE,

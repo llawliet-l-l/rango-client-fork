@@ -1,4 +1,4 @@
-# @rango-dev/ui
+# @arthur2079/ui
 
 Rango UI components
 

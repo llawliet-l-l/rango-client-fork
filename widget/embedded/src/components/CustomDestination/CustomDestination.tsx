@@ -11,7 +11,7 @@ import {
   PasteIcon,
   Typography,
   WalletIcon,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useEffect, useRef } from 'react';
 
 import { useAppStore } from '../../store/AppStore';

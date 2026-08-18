@@ -1,10 +1,10 @@
 import type { HandleConnectOptions, Result } from './useStatefulConnect.types';
 import type { WalletInfoWithExtra } from '../../types';
 import type { Namespace } from '@hub3js/namespaces';
-import type { NamespaceData } from '@rango-dev/wallets-shared';
+import type { NamespaceData } from '@arthur2079/wallets-shared';
 
-import { WalletState } from '@rango-dev/ui';
-import { useWallets } from '@rango-dev/wallets-react';
+import { WalletState } from '@arthur2079/ui';
+import { useWallets } from '@arthur2079/wallets-react';
 import { useReducer } from 'react';
 
 import { isOnDetached } from '../../components/StatefulConnectModal';

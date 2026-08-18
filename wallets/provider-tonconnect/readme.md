@@ -1,4 +1,4 @@
-# @rango-dev/provider-tonconnect
+# @arthur2079/provider-tonconnect
 TonConnect Wallet integration for hub.  
 [Homepage](https://ton.org/) | [Docs](https://docs.ton.org/ecosystem/ton-connect/overview)
 

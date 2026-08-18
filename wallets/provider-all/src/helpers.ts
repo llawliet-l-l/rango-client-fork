@@ -1,6 +1,6 @@
 import type { VersionedProviders } from '@hub3js/core/utils';
-import type { ProviderInterface } from '@rango-dev/wallets-react';
-import type { WalletType, WalletTypes } from '@rango-dev/wallets-shared';
+import type { ProviderInterface } from '@arthur2079/wallets-react';
+import type { WalletType, WalletTypes } from '@arthur2079/wallets-shared';
 
 import { Provider } from '@hub3js/core';
 

@@ -7,7 +7,7 @@ import {
   dynamicImportWithRefinedError,
   ETHEREUM_CHAIN_ID,
   type ProviderConnectResult,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import bs58 from 'bs58';
 
 import { HEXADECIMAL_BASE } from './constants.js';

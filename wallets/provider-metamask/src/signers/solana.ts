@@ -3,7 +3,7 @@ import type { WalletStandardSolanaInstance } from '../types.js';
 import {
   generalSolanaTransactionExecutor,
   type SolanaWeb3Signer,
-} from '@rango-dev/signer-solana';
+} from '@arthur2079/signer-solana';
 import base58 from 'bs58';
 import {
   type GenericSigner,

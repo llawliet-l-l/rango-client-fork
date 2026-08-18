@@ -1,10 +1,10 @@
 import type { Context, FunctionWithContext } from '@hub3js/core';
-import type { UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import {
   CAIP_BITCOIN_CHAIN_ID,
   utils,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { initTrezor } from '../init.js';
 import { setBitcoinDerivationPath } from '../state.js';

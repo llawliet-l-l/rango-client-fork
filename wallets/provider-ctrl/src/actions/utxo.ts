@@ -1,6 +1,6 @@
 import type { Context, FunctionWithContext } from '@hub3js/core';
 
-import { type UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
+import { type UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { getAllUtxoAccounts } from '../utils.js';
 

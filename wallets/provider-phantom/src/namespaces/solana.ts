@@ -11,7 +11,7 @@ import {
 } from '@hub3js/solana';
 import * as commonBuilders from '@hub3js/std/builders';
 import { standardizeAndThrowError } from '@hub3js/std/operators';
-import { getSolanaAccounts } from '@rango-dev/wallets-shared';
+import { getSolanaAccounts } from '@arthur2079/wallets-shared';
 import { AccountId } from 'caip';
 
 import { WALLET_ID } from '../constants.js';

@@ -5,7 +5,7 @@ import { EVM_NAMESPACE, SOLANA_NAMESPACE } from '@hub3js/namespaces';
 import {
   dynamicImportWithRefinedError,
   getNetworkInstance,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { DefaultSignerFactory, TransactionType as TxType } from 'rango-types';
 
 export default async function getSigners(
@@ -16,7 +16,7 @@ export default async function getSigners(
 
   const signers = new DefaultSignerFactory();
   const { DefaultEvmSigner } = await dynamicImportWithRefinedError(
-    async () => await import('@rango-dev/signer-evm')
+    async () => await import('@arthur2079/signer-evm')
   );
   const { CustomSolanaSigner } = await dynamicImportWithRefinedError(
     async () => await import('./signers/solanaSigner.js')

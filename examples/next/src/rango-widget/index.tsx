@@ -5,7 +5,7 @@ import React from 'react';
 
 const Widget = dynamic(
   async () =>
-    import('@rango-dev/widget-embedded').then((module) => module.Widget),
+    import('@arthur2079/widget-embedded').then((module) => module.Widget),
   {
     ssr: false,
   }

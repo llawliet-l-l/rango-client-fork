@@ -10,11 +10,11 @@ import type {
   LegacyWalletInfo as WalletInfo,
   LegacyState as WalletState,
   LegacyWalletType as WalletType,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 import type { BlockchainMeta, SignerFactory } from 'rango-types';
 import type { PropsWithChildren } from 'react';
 
-import { LegacyEvents as Events } from '@rango-dev/wallets-core/legacy';
+import { LegacyEvents as Events } from '@arthur2079/wallets-core/legacy';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type InstanceType = any;

@@ -1,4 +1,4 @@
-# @rango-dev/provider-walletconnect2
+# @arthur2079/provider-walletconnect2
 
 
 ## Known issues

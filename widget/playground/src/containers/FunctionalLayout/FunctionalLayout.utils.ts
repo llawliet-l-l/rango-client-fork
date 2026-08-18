@@ -1,13 +1,13 @@
 import type { MapSupportedList } from '../../components/MultiSelect/MultiSelect.types';
 import type { Provider } from '@hub3js/core';
-import type { ProviderInterface } from '@rango-dev/wallets-react';
-import type { WalletTypes } from '@rango-dev/wallets-shared';
-import type { WidgetConfig } from '@rango-dev/widget-embedded';
+import type { ProviderInterface } from '@arthur2079/wallets-react';
+import type { WalletTypes } from '@arthur2079/wallets-shared';
+import type { WidgetConfig } from '@arthur2079/widget-embedded';
 import type { BlockchainMeta } from 'rango-sdk';
 
 import { pickVersion, type VersionedProviders } from '@hub3js/core/utils';
-import { allProviders as getAllProviders } from '@rango-dev/provider-all';
-import { getSupportedChainsFromProvider } from '@rango-dev/wallets-shared';
+import { allProviders as getAllProviders } from '@arthur2079/provider-all';
+import { getSupportedChainsFromProvider } from '@arthur2079/wallets-shared';
 
 import { getCategoryNetworks } from '../../utils/blockchains';
 import { excludedWallets } from '../../utils/common';

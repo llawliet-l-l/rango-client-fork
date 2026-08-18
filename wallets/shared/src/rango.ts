@@ -4,7 +4,7 @@ import type { BlockchainMeta, EvmBlockchainMeta } from 'rango-types';
 import {
   type LegacyWalletInfo as WalletInfo,
   type LegacyWalletType as WalletType,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type InstanceType = any;
@@ -21,9 +21,9 @@ export type {
   LegacyWalletInfo as WalletInfo,
   LegacyWalletType as WalletType,
   LegacyNamespaceData as NamespaceData,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 
-export { legacyGetBlockChainNameFromId as getBlockChainNameFromId } from '@rango-dev/wallets-core/legacy';
+export { legacyGetBlockChainNameFromId as getBlockChainNameFromId } from '@arthur2079/wallets-core/legacy';
 
 export const IS_DEV =
   !process.env.NODE_ENV || process.env.NODE_ENV === 'development';

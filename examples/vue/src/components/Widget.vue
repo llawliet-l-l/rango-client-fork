@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { applyPureReactInVue } from "veaury";
-import { Widget } from "@rango-dev/widget-embedded";
+import { Widget } from "@arthur2079/widget-embedded";
 
 export default {
   components: {

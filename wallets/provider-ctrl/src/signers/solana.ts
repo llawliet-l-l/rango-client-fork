@@ -1,6 +1,6 @@
-import type { SolanaExternalProvider } from '@rango-dev/signer-solana';
+import type { SolanaExternalProvider } from '@arthur2079/signer-solana';
 
-import { DefaultSolanaSigner } from '@rango-dev/signer-solana';
+import { DefaultSolanaSigner } from '@arthur2079/signer-solana';
 import base58 from 'bs58';
 
 /**

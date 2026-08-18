@@ -2,7 +2,7 @@ import type { AnyFunction, Subscriber, SubscriberCleanUp } from '@hub3js/core';
 import type {
   ProviderAPI,
   UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 function disconnectSubscriber(
   instance: () => ProviderAPI

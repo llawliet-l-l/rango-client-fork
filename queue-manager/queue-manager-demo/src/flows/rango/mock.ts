@@ -1,7 +1,7 @@
 import type { RawAccounts, Wallet } from './types';
-import type { Meta } from '@rango-dev/wallets-shared';
+import type { Meta } from '@arthur2079/wallets-shared';
 
-import { WalletTypes } from '@rango-dev/wallets-shared';
+import { WalletTypes } from '@arthur2079/wallets-shared';
 
 const evmAddress = '0x2702d89c1c8658b49c45dd460deebcc45faec03c';
 

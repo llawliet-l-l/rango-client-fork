@@ -5,8 +5,8 @@ import {
   CAIP_BITCOIN_CHAIN_ID,
   utils,
   type UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
-import { builders } from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
+import { builders } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { utxoBuilders } from '../builders/utxo.js';
 import { WALLET_ID } from '../constants.js';

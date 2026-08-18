@@ -1,4 +1,4 @@
-import { Checkbox, Skeleton } from '@rango-dev/ui';
+import { Checkbox, Skeleton } from '@arthur2079/ui';
 import React from 'react';
 
 import { LiquiditySourceList } from '../SettingsContainer';

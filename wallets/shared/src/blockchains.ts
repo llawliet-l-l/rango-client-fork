@@ -1,5 +1,5 @@
 import type { Provider } from '@hub3js/core';
-import type { LegacyNamespaceMeta } from '@rango-dev/wallets-core/legacy';
+import type { LegacyNamespaceMeta } from '@arthur2079/wallets-core/legacy';
 import type { BlockchainMeta } from 'rango-types';
 
 import {
@@ -33,7 +33,7 @@ import {
 import {
   CAIP_TRON_CHAIN_ID,
   CAIP_NAMESPACE as CAIP_TRON_NAMESPACE,
-} from '@rango-dev/wallets-core/namespaces/tron';
+} from '@arthur2079/wallets-core/namespaces/tron';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   CAIP_BITCOINCASH_CHAIN_ID,
@@ -41,7 +41,7 @@ import {
   CAIP_LITECOIN_CHAIN_ID,
   CAIP_NAMESPACE as CAIP_UTXO_NAMESPACE,
   CAIP_ZCASH_CHAIN_ID,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 import { TransactionType } from 'rango-types';
 
 import { Networks } from './rango.js';

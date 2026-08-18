@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Widget } from '@rango-dev/widget-embedded';
+import { Widget } from '@arthur2079/widget-embedded';
 
 const App = () => {
   return (
