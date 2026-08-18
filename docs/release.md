@@ -17,25 +17,53 @@ If a package is a client, ensure:
 
 ## **Key Commands**
 
-* `yarn run publish` → Publishes NPM packages.
+* `yarn run publish <flag>` → Publishes the NPM packages.
 * `yarn run deploy` → Deploys apps to Vercel.
+
+Publishing is driven by [rangutopia](https://github.com/llawliet-l-l/rangutopia-fork)
+(`@arthur2079/rangutopia`). It takes the release channel as a flag rather than
+reading the branch, so every step below is given one of `--prod`, `--next` or
+`--experimental`. The `Publish` workflow derives it from `github.ref` with
+[`detect-publish-flag`](../.github/actions/detect-publish-flag/action.yml) and
+passes it through; by hand you pass it yourself:
+
+```sh
+yarn run publish:version --experimental
+```
 
 ---
 
 ## **Publish Flow**
 
-The `publish` script performs:
+The `Publish` workflow runs these as separate steps, so a failure is easy to place.
 
-1. Gets the last release (via git tags) and calculates changes.
-2. Bumps versions for changed packages.
-3. Creates changelogs, git tags, and GitHub releases.
-4. Publishes updated packages to NPM.
-5. Pushes updated package versions and tags to origin.
+**1. Versioning** — three commands, each its own script:
 
-**If run on `main` branch**, the publish script will also:
+| Script | What it does |
+| --- | --- |
+| `yarn run publish:version <flag>` | Gets the last release (via git tags), works out which public packages changed, and computes their next version from the conventional commits. Nothing is written to `package.json` yet — the result is saved to a state file. |
+| `yarn run publish:version:check` | Refuses to go on if any computed version is already on npm, already tagged, or already released on Github. |
+| `yarn run publish:version:apply` | Writes the versions to the `package.json` files and points every dependent at them. |
 
-* Automatically bump `widget/app` and/or `widget/playground` versions if changed.
-* Automatically update the root `CHANGELOG.md`.
+`check` and `apply` need no flag — the state file records the channel. It is
+also the reason versioning is deferred: nothing is written to disk until the
+versions are known to be publishable.
+
+**2. `yarn run publish:root <flag>`** — [`scripts/release-root/command.mjs`](../scripts/release-root/command.mjs),
+the part rangutopia doesn't cover. **Only runs on `--prod`.** It bumps the
+repository version and the private clients (`widget/app`, `widget/playground`),
+writes the root `CHANGELOG.md` via
+`rangutopia changelog generate --root --mention=@arthur2079/widget-embedded`,
+and commits the result as `chore(release): bump the repo and client versions`.
+
+It has to sit between `apply` and `publish`: `--mention` reads
+`@arthur2079/widget-embedded`'s version off its `package.json`, so the versions
+must already be applied.
+
+**3. `yarn run publish <flag>`** — `rangutopia library publish`. For each
+package, in dependency order: build, write its `CHANGELOG.md`, publish to npm.
+Then it commits everything as `chore(release): publish`, tags each published
+package (`package-name@version`) and creates the Github releases.
 
 **Note:** Libraries are published under the `next` tag on npm. To install them:
 
