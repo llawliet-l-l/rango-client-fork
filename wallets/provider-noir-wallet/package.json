@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@arthur2079/wallets-core": "^1.1.0",
+    "@arthur2079/wallets-shared": "^1.1.0",
     "@hub3js/core": "^0.61.1",
     "@hub3js/std": "^0.2.3",
     "@noir-wallet/sdk": "^0.1.9",
