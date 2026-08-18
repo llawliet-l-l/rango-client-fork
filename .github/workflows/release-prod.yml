@@ -43,6 +43,11 @@ jobs:
     if: ${{ !cancelled() && needs.guard.result == 'success' && (needs.sync-prod.result == 'success' || needs.sync-prod.result == 'skipped') }}
     uses: ./.github/workflows/publish.yml
     secrets: inherit
+    # A reusable workflow's effective token permissions are the intersection
+    # of what the caller grants and what the callee requests, so this has to
+    # be granted here too, not only inside publish.yml.
+    permissions:
+      contents: write
 
   deploy:
     needs: publish
