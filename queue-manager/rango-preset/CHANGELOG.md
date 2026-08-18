@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/queue-manager-rango-preset@1.1.0...queue-manager-rango-preset@1.2.0) (2026-08-18)
+
+
+### Features
+
+* preset ([b2bb9d7](https://github.com/llawliet-l-l/rango-client-fork/commit/b2bb9d72dfc2beaf60837a9037d284cd8fae45f6))
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/queue-manager-rango-preset@0.64.0...queue-manager-rango-preset@1.1.0) (2026-08-18)
 
 

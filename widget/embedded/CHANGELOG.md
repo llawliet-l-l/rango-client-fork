@@ -1,3 +1,4 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/widget-embedded@1.1.0...widget-embedded@1.2.0) (2026-08-18)
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/widget-embedded@0.63.0...widget-embedded@1.1.0) (2026-08-18)
 
 
