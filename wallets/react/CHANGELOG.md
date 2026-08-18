@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/wallets-react@1.1.0...wallets-react@1.2.0) (2026-08-18)
+
+
+### Bug Fixes
+
+* wallets react ([7f81576](https://github.com/llawliet-l-l/rango-client-fork/commit/7f815760bf0957c5c7ef02d00d2df7cf00dc91ad))
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/wallets-react@0.48.0...wallets-react@1.1.0) (2026-08-18)
 
 
