@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/ui",
-  "version": "1.1.0",
+  "version": "1.1.1-next.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -46,6 +46,7 @@
     "react-is": "^18.2.0"
   },
   "dependencies": {
+    "@arthur2079/wallets-core": "^1.1.0",
     "@arthur2079/wallets-shared": "^1.1.0",
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-collapsible": "^1.0.3",

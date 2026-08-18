@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-noir-wallet",
-  "version": "1.1.0",
+  "version": "1.1.1-next.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/mod.ts",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@arthur2079/wallets-core": "^1.1.0",
+    "@arthur2079/wallets-shared": "^1.1.0",
     "@hub3js/core": "^0.61.1",
     "@hub3js/std": "^0.2.3",
     "@noir-wallet/sdk": "^0.1.9",
