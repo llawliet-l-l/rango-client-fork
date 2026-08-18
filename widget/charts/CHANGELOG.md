@@ -1,3 +1,4 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/charts@1.1.0...charts@1.2.0) (2026-08-18)
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/charts@0.27.0...charts@1.1.0) (2026-08-18)
 
 

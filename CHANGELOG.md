@@ -1,3 +1,17 @@
+# 1.3.0 (2026-08-18)
+_includes `@arthur2079/widget-embedded@1.3.0`_
+
+
+
+### Bug Fixes
+
+* upgrade rangutopia ([015c9e7](https://github.com/llawliet-l-l/rango-client-fork/commit/015c9e70b3d73df0eca7f752813c696f4dab4ba9))
+
+
+### Features
+
+* modified dependencies ([ca82096](https://github.com/llawliet-l-l/rango-client-fork/commit/ca8209679250e225f6385f5f326747f18762e6c0))
+* provider all feat ([def1140](https://github.com/llawliet-l-l/rango-client-fork/commit/def1140577c94128fad213750051d053aa0e2fcb))
 # [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/widget-embedded@1.1.0.../^[^@]+@/1.2.0) (2026-08-18)
 _includes `@arthur2079/widget-embedded@1.2.0`_
 
