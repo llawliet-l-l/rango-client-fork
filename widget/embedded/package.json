@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/widget-embedded",
-  "version": "1.2.0",
+  "version": "1.2.1-next.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@arthur2079/logging-core": "^1.1.0",
-    "@arthur2079/provider-all": "^1.2.0",
+    "@arthur2079/provider-all": "^1.2.1-next.0",
     "@arthur2079/queue-manager-core": "^1.1.0",
     "@arthur2079/queue-manager-rango-preset": "^1.2.0",
     "@arthur2079/queue-manager-react": "^1.1.0",
