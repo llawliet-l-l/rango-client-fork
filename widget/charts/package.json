@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/charts",
-  "version": "0.27.0",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -26,7 +26,7 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@arthur2079/ui": "^0.65.0",
+    "@arthur2079/ui": "^1.0.0",
     "@visx/axis": "2.18.0",
     "@visx/event": "2.17.0",
     "@visx/grid": "2.18.0",

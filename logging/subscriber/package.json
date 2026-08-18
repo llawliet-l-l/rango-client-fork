@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/logging-subscriber",
-  "version": "0.13.0",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -14,7 +14,7 @@
     "src"
   ],
   "dependencies": {
-    "@arthur2079/logging-types": "^0.12.0"
+    "@arthur2079/logging-types": "^1.0.0"
   },
   "scripts": {
     "build": "yarn run rangutopia library build",
