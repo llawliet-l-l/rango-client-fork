@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-tonconnect@0.24.0...provider-tonconnect@1.1.0) (2026-08-18)
+
+
+### Features
+
+* bumped versions ([bfb2df9](https://github.com/llawliet-l-l/rango-client-fork/commit/bfb2df9e2b0952707c12670b8750ef3a6f4dcf70))
 # [0.24.0](https://github.com/rango-exchange/rango-client/compare/provider-tonconnect@0.23.0...provider-tonconnect@0.24.0) (2026-08-18)
 
 

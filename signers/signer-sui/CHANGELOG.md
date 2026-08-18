@@ -1,3 +1,14 @@
+# [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/signer-sui@0.10.0...signer-sui@1.1.0) (2026-08-18)
+
+
+### Bug Fixes
+
+* **signer-sui:** throw SignerError on sign rejection ([46561bd](https://github.com/llawliet-l-l/rango-client-fork/commit/46561bda59cba4ad50388b5e22a1b44dc25b1d95))
+
+
+### Features
+
+* bumped versions ([bfb2df9](https://github.com/llawliet-l-l/rango-client-fork/commit/bfb2df9e2b0952707c12670b8750ef3a6f4dcf70))
 # [0.11.0](https://github.com/rango-exchange/rango-client/compare/signer-sui@0.10.0...signer-sui@0.11.0) (2026-08-18)
 
 

@@ -1,3 +1,14 @@
+# [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/logging-core@0.12.1...logging-core@1.1.0) (2026-08-18)
+
+
+### Bug Fixes
+
+* add wallet error logging ([a0a57bd](https://github.com/llawliet-l-l/rango-client-fork/commit/a0a57bd733f5920f99c38fed92092143c7720a9a))
+
+
+### Features
+
+* bumped versions ([bfb2df9](https://github.com/llawliet-l-l/rango-client-fork/commit/bfb2df9e2b0952707c12670b8750ef3a6f4dcf70))
 # [0.14.0](https://github.com/rango-exchange/rango-client/compare/logging-core@0.13.0...logging-core@0.14.0) (2026-08-18)
 
 
