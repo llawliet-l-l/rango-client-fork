@@ -1,4 +1,4 @@
-import { css, darkTheme, IconButton, styled } from '@rango-dev/ui';
+import { css, darkTheme, IconButton, styled } from '@arthur2079/ui';
 
 export const HeaderButton = styled(IconButton, {
   width: '$24',

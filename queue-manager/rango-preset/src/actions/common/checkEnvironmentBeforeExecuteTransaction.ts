@@ -6,7 +6,7 @@ import type {
 import type {
   BlockedReason,
   ExecuterActions,
-} from '@rango-dev/queue-manager-core';
+} from '@arthur2079/queue-manager-core';
 
 import { PendingSwapNetworkStatus } from 'rango-types';
 import { Err, Ok, type Result } from 'ts-results';

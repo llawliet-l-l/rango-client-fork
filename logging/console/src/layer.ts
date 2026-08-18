@@ -1,6 +1,4 @@
-import type { Layer } from '@rango-dev/logging-types';
-
-import { Level } from '@rango-dev/logging-types';
+import { Layer, Level } from '@arthur2079/logging-types';
 
 import { formatMessage } from './helpers';
 

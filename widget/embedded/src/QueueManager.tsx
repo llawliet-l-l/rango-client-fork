@@ -1,17 +1,17 @@
 import type {
   SwapQueueContext,
   TargetNamespace,
-} from '@rango-dev/queue-manager-rango-preset';
-import type { WalletType } from '@rango-dev/wallets-shared';
+} from '@arthur2079/queue-manager-rango-preset';
+import type { WalletType } from '@arthur2079/wallets-shared';
 import type { PropsWithChildren } from 'react';
 
 import {
   checkWaitingForNetworkChange,
   makeQueueDefinition,
-} from '@rango-dev/queue-manager-rango-preset';
-import { Provider as ManagerProvider } from '@rango-dev/queue-manager-react';
-import { useWallets } from '@rango-dev/wallets-react';
-import { convertEvmBlockchainMetaToEvmChainInfo } from '@rango-dev/wallets-shared';
+} from '@arthur2079/queue-manager-rango-preset';
+import { Provider as ManagerProvider } from '@arthur2079/queue-manager-react';
+import { useWallets } from '@arthur2079/wallets-react';
+import { convertEvmBlockchainMetaToEvmChainInfo } from '@arthur2079/wallets-shared';
 import { isEvmBlockchain } from 'rango-types';
 import React, { useMemo } from 'react';
 

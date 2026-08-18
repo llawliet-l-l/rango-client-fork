@@ -9,8 +9,8 @@ import type {
   SwapButtonState,
   Wallet,
 } from '../types';
-import type { ExtendedWalletInfo } from '@rango-dev/wallets-react';
-import type { WalletType } from '@rango-dev/wallets-shared';
+import type { ExtendedWalletInfo } from '@arthur2079/wallets-react';
+import type { WalletType } from '@arthur2079/wallets-shared';
 import type {
   BestRouteRequest,
   BlockchainMeta,
@@ -27,7 +27,7 @@ import {
   type RouteEvent,
   RouteEventType,
   type StepEvent,
-} from '@rango-dev/queue-manager-rango-preset';
+} from '@arthur2079/queue-manager-rango-preset';
 import BigNumber from 'bignumber.js';
 import { PendingSwapNetworkStatus } from 'rango-types';
 

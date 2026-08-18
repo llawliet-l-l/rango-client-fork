@@ -7,7 +7,7 @@ import {
   type ProviderAPI,
   utils,
   type UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 export const changeAccountSubscriber = (getInstance: () => ProviderAPI) =>
   new ChangeAccountSubscriberBuilder<OkxBtcAddress, ProviderAPI, UtxoActions>()

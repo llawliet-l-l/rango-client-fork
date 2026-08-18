@@ -2,11 +2,11 @@ import type { ProviderMetadata } from '@hub3js/core';
 
 import { isEvmNamespace } from '@hub3js/evm';
 import { getChainIdFromCaip2ChainId } from '@hub3js/std/utils';
-import { isTronNamespace } from '@rango-dev/wallets-core/namespaces/tron';
+import { isTronNamespace } from '@arthur2079/wallets-core/namespaces/tron';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   isUtxoNamespace,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import getSigners from './signer.js';
 import { getInstanceOrThrow } from './utils.js';

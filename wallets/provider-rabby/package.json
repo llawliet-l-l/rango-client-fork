@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/provider-rabby",
+  "name": "@arthur2079/provider-rabby",
   "version": "0.30.0",
   "license": "MIT",
   "type": "module",
@@ -25,9 +25,9 @@
     "@hub3js/evm": "^0.3.3",
     "@hub3js/namespaces": "^0.2.5",
     "@hub3js/std": "^0.2.3",
-    "@rango-dev/signer-evm": "^0.45.0",
-    "@rango-dev/wallets-core": "^0.61.0",
-    "@rango-dev/wallets-shared": "^0.62.0",
+    "@arthur2079/signer-evm": "^0.45.0",
+    "@arthur2079/wallets-core": "^0.61.0",
+    "@arthur2079/wallets-shared": "^0.62.0",
     "rango-types": "^0.5.0"
   },
   "publishConfig": {

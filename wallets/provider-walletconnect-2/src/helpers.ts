@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import type { WalletConnectModal as WalletConnectModalType } from './wc-types.js';
-import type { WalletState } from '@rango-dev/wallets-shared';
+import type { WalletState } from '@arthur2079/wallets-shared';
 import type { ProposalTypes } from '@walletconnect/types';
 import type { BlockchainMeta } from 'rango-types';
 
@@ -8,7 +8,7 @@ import {
   convertEvmBlockchainMetaToEvmChainInfo,
   isEvmAddress,
   Networks,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { WalletConnectModal } from '@walletconnect/modal';
 import { AccountId, ChainId } from 'caip';
 import { evmBlockchains, isEvmBlockchain } from 'rango-types';

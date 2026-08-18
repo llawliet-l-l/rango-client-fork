@@ -4,7 +4,7 @@ import type { CaipAccount } from '@hub3js/std/types';
 import { NamespaceBuilder } from '@hub3js/core';
 import { builders, CAIP_NAMESPACE } from '@hub3js/evm';
 import * as commonBuilders from '@hub3js/std/builders';
-import { ETHEREUM_CHAIN_ID } from '@rango-dev/wallets-shared';
+import { ETHEREUM_CHAIN_ID } from '@arthur2079/wallets-shared';
 import { AccountId } from 'caip';
 
 import { WALLET_ID } from '../constants.js';

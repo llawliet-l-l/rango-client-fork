@@ -5,7 +5,7 @@ import {
   Divider,
   getCategoriesCount,
   SelectableCategoryList,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
 import type { TRON_NAMESPACE } from '@hub3js/namespaces';
-import type { ProviderAPI as TronProviderApi } from '@rango-dev/wallets-core/namespaces/tron';
+import type { ProviderAPI as TronProviderApi } from '@arthur2079/wallets-core/namespaces/tron';
 
 export type ProviderObject = {
   [TRON_NAMESPACE]: TronProviderApi;

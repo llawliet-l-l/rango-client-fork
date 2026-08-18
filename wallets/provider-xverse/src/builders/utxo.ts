@@ -7,7 +7,7 @@ import {
   type ProviderAPI,
   utils,
   type UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { XVERSE_ACCESS_DENIED_ERROR_CODE } from '../constants.js';
 

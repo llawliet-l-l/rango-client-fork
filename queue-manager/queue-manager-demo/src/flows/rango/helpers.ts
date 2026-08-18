@@ -22,7 +22,7 @@ import type {
   AllBlockchains,
   Network,
   WalletType,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import type { BestRouteRequest } from 'rango-sdk';
 import type { CheckApprovalResponse } from 'rango-sdk-basic';
 import type {
@@ -32,8 +32,8 @@ import type {
   PendingSwapStep,
 } from 'rango-types';
 
-import { legacyReadAccountAddress as readAccountAddress } from '@rango-dev/wallets-core/legacy';
-import { Networks, WalletTypes } from '@rango-dev/wallets-shared';
+import { legacyReadAccountAddress as readAccountAddress } from '@arthur2079/wallets-core/legacy';
+import { Networks, WalletTypes } from '@arthur2079/wallets-shared';
 import { BigNumber } from 'bignumber.js';
 import { ethers } from 'ethers';
 import { isEvmBlockchain, isSolanaBlockchain, SignerError } from 'rango-types';

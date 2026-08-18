@@ -2,13 +2,13 @@ import type { PropTypes } from './WalletList.type';
 import type { ExtendedModalWalletInfo } from '../../utils/wallets';
 
 import { i18n } from '@lingui/core';
-import { warn } from '@rango-dev/logging-core';
+import { warn } from '@arthur2079/logging-core';
 import {
   makeInfo,
   SelectableWallet,
   Typography,
   WalletState,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useEffect, useState } from 'react';
 
 import { useWalletList } from '../../hooks/useWalletList';

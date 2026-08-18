@@ -1,4 +1,4 @@
-import { Divider } from '@rango-dev/ui';
+import { Divider } from '@arthur2079/ui';
 import React from 'react';
 
 import { DefaultChainAndToken } from '../DefaultChainAndToken/DefaultChainAndToken';

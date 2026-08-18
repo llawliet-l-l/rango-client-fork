@@ -4,8 +4,8 @@ import { standardizeAndThrowError } from '@hub3js/std/operators';
 import {
   type TronActions,
   utils,
-} from '@rango-dev/wallets-core/namespaces/tron';
-import { builders } from '@rango-dev/wallets-core/namespaces/tron';
+} from '@arthur2079/wallets-core/namespaces/tron';
+import { builders } from '@arthur2079/wallets-core/namespaces/tron';
 
 import { tronActions } from '../actions/tron.js';
 import { tronBuilders } from '../builders/tron.js';

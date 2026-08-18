@@ -1,5 +1,5 @@
 import type { QuoteProps } from './Quote.types';
-import type { Step } from '@rango-dev/ui';
+import type { Step } from '@arthur2079/ui';
 import type { SwapResult } from 'rango-sdk';
 
 import { i18n } from '@lingui/core';
@@ -15,7 +15,7 @@ import {
   TokenAmount,
   Typography,
   useIsTruncated,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import BigNumber from 'bignumber.js';
 import React, { useRef, useState } from 'react';
 

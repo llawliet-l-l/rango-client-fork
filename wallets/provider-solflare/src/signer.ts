@@ -2,7 +2,7 @@ import type { Provider } from './types.js';
 import type { SignerFactory } from 'rango-types';
 
 import { SOLANA_NAMESPACE } from '@hub3js/namespaces';
-import { getNetworkInstance } from '@rango-dev/wallets-shared';
+import { getNetworkInstance } from '@arthur2079/wallets-shared';
 import { DefaultSignerFactory, TransactionType as TxType } from 'rango-types';
 
 import { SolflareSolanaSiger } from './signers/solana.js';

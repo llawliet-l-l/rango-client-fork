@@ -3,15 +3,15 @@ import type { Accounts, AccountsWithActiveChain } from '@hub3js/std/types';
 import type { Result } from 'ts-results';
 
 import { CAIP_NAMESPACE as CAIP_TON_NAMESPACE } from '@hub3js/tvm';
-import { legacyFormatAddressWithNetwork as formatAddressWithNetwork } from '@rango-dev/wallets-core/legacy';
-import { CAIP_TRON_CHAIN_ID } from '@rango-dev/wallets-core/namespaces/tron';
+import { legacyFormatAddressWithNetwork as formatAddressWithNetwork } from '@arthur2079/wallets-core/legacy';
+import { CAIP_TRON_CHAIN_ID } from '@arthur2079/wallets-core/namespaces/tron';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   CAIP_BITCOINCASH_CHAIN_ID,
   CAIP_DOGECOIN_CHAIN_ID,
   CAIP_LITECOIN_CHAIN_ID,
   CAIP_ZCASH_CHAIN_ID,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 import { AccountId, type ChainIdParams } from 'caip';
 import { Err, Ok } from 'ts-results';
 

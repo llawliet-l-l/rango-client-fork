@@ -8,26 +8,26 @@ import type {
 import type {
   ExtendedWalletInfo,
   ProviderContext,
-} from '@rango-dev/wallets-react';
+} from '@arthur2079/wallets-react';
 import type {
   Network,
   WalletType,
   WalletTypes,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import type { BlockchainMeta, Token, TransactionType } from 'rango-sdk';
 
 import {
   BlockchainCategories,
   WalletState as WalletStatus,
-} from '@rango-dev/ui';
-import { legacyReadAccountAddress as readAccountAddress } from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/ui';
+import { legacyReadAccountAddress as readAccountAddress } from '@arthur2079/wallets-core/legacy';
 import {
   detectInstallLink,
   getBlockChainNameFromId,
   HYPERLIQUID_SIGN_NETWORK,
   isEvmAddress,
   Networks,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import BigNumber from 'bignumber.js';
 
 import { ZERO } from '../constants/numbers';

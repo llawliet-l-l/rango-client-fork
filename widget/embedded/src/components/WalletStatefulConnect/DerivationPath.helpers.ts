@@ -1,7 +1,7 @@
 import type { Namespace } from '@hub3js/namespaces';
-import type { DerivationPath } from '@rango-dev/wallets-shared';
+import type { DerivationPath } from '@arthur2079/wallets-shared';
 
-import { namespaces } from '@rango-dev/wallets-shared';
+import { namespaces } from '@arthur2079/wallets-shared';
 
 export const CUSTOM_DERIVATION_PATH: DerivationPath = {
   id: 'custom',

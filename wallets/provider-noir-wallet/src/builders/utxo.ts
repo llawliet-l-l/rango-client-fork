@@ -4,7 +4,7 @@ import {
   CAIP_ZCASH_CHAIN_ID,
   utils,
   type UtxoActions,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { getInstanceOrThrow } from '../utils.js';
 

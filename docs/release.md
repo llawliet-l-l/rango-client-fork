@@ -40,7 +40,7 @@ The `publish` script performs:
 **Note:** Libraries are published under the `next` tag on npm. To install them:
 
 ```sh
-yarn add @rango-dev/widget-embedded@next
+yarn add @arthur2079/widget-embedded@next
 ```
 
 ---
@@ -112,7 +112,7 @@ It will:
 * Update `widget-examples`:
 
   ```sh
-  yarn add @rango-dev/widget-embedded@latest
+  yarn add @arthur2079/widget-embedded@latest
   ```
 
   Open a PR to ensure all examples are on the latest version.

@@ -7,7 +7,7 @@ import {
   NotFound,
   SelectableCategoryList,
   Typography,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React, { useState } from 'react';
 
 import { GTMEvents } from '../../constants/events';

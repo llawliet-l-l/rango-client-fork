@@ -1,4 +1,4 @@
-import { ImageContainer, styled } from '@rango-dev/ui';
+import { ImageContainer, styled } from '@arthur2079/ui';
 
 import { ScrollableArea } from '../Layout';
 

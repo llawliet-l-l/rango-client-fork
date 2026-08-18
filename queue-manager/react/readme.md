@@ -1,1 +1,1 @@
-# @rango-dev/queue-manager-react
+# @arthur2079/queue-manager-react

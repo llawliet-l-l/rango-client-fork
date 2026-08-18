@@ -4,9 +4,9 @@ import {
   getCurrentNamespaceOfOrNull,
   getCurrentStep,
   getRelatedWalletOrNull,
-} from '@rango-dev/queue-manager-rango-preset';
-import { WalletState } from '@rango-dev/ui';
-import { useWallets } from '@rango-dev/wallets-react';
+} from '@arthur2079/queue-manager-rango-preset';
+import { WalletState } from '@arthur2079/ui';
+import { useWallets } from '@arthur2079/wallets-react';
 import React from 'react';
 
 import { getWalletConnectionStatus } from '../../utils/wallets';

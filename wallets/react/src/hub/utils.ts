@@ -8,21 +8,21 @@ import type {
   LegacyNamespaceInputForConnect,
   LegacyProviderInterface,
   LegacyEventHandler as WalletEventHandler,
-} from '@rango-dev/wallets-core/legacy';
-import type { UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/legacy';
+import type { UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { pickVersion, type VersionedProviders } from '@hub3js/core/utils';
 import {
   LegacyEvents as Events,
   legacyFormatAddressWithNetwork as formatAddressWithNetwork,
-} from '@rango-dev/wallets-core/legacy';
+} from '@arthur2079/wallets-core/legacy';
 import {
   type AddEthereumChainParameter,
   convertEvmBlockchainMetaToEvmChainInfo,
   getBlockChainNameFromId,
   getSupportedChainsFromProvider,
   type WalletType,
-} from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-shared';
 import { AccountId } from 'caip';
 import { type BlockchainMeta, isEvmBlockchain } from 'rango-types';
 

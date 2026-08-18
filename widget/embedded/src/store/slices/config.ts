@@ -4,7 +4,7 @@ import type { WidgetConfig } from '../../types';
 import type { StateCreatorWithInitialData } from '../app';
 import type { VersionedProviders } from '@hub3js/core/utils';
 
-import { allProviders as getAllProviders } from '@rango-dev/provider-all';
+import { allProviders as getAllProviders } from '@arthur2079/provider-all';
 
 import { cacheService } from '../../services/cacheService';
 import {

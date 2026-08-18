@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/logging-core",
+  "name": "@arthur2079/logging-core",
   "version": "0.14.0",
   "license": "MIT",
   "type": "module",
@@ -14,7 +14,7 @@
     "src"
   ],
   "dependencies": {
-    "@rango-dev/logging-types": "^0.12.0"
+    "@arthur2079/logging-types": "^0.12.0"
   },
   "scripts": {
     "build": "yarn run rangutopia library build",

@@ -2,7 +2,7 @@ import type { Result } from '../../hooks/useStatefulConnect';
 import type { WalletInfoWithExtra } from '../../types';
 import type { Namespace } from '@hub3js/namespaces';
 
-import { Divider } from '@rango-dev/ui';
+import { Divider } from '@arthur2079/ui';
 import React, { useEffect, useRef, useState } from 'react';
 
 import {

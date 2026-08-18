@@ -1,6 +1,6 @@
 import type { SwapQueueContext, SwapStorage } from '../../types';
 import type { NextTransactionStateError } from '../common/produceNextStateForTransaction';
-import type { ExecuterActions } from '@rango-dev/queue-manager-core';
+import type { ExecuterActions } from '@arthur2079/queue-manager-core';
 import type { EvmTransaction } from 'rango-sdk';
 
 import { type GenericSigner, TransactionType } from 'rango-types';

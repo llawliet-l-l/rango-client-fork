@@ -7,7 +7,7 @@ import {
   TextField,
   Tooltip,
   Typography,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import React from 'react';
 
 import { MAX_SLIPPAGE, SLIPPAGES } from '../../constants/swapSettings';

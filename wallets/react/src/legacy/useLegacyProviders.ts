@@ -1,6 +1,6 @@
 import type { ProviderContext, ProviderProps } from './types.js';
-import type { LegacyProviderInterface } from '@rango-dev/wallets-core/legacy';
-import type { WalletType } from '@rango-dev/wallets-shared';
+import type { LegacyProviderInterface } from '@arthur2079/wallets-core/legacy';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
 import { useEffect, useReducer } from 'react';
 

@@ -6,7 +6,7 @@
 import { defineConfig } from 'vite';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import { lstatSync, readdirSync } from 'fs';
-const SCOPE = '@rango-dev';
+const SCOPE = '@arthur2079';
 const CUSTOM_PKGS = ['rango-sdk'];
 
 const NODE_MODULES_PATH = `node_modules`;

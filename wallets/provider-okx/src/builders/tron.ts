@@ -3,7 +3,7 @@ import {
   type ProviderAPI,
   type TronActions,
   utils,
-} from '@rango-dev/wallets-core/namespaces/tron';
+} from '@arthur2079/wallets-core/namespaces/tron';
 
 import { isOkxTronMessageEvent } from '../utils.js';
 

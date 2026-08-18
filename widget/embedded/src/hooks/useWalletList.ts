@@ -1,9 +1,9 @@
 import type { ExtendedModalWalletInfo } from '../utils/wallets';
-import type { WalletInfo } from '@rango-dev/ui';
+import type { WalletInfo } from '@arthur2079/ui';
 
-import { WalletState } from '@rango-dev/ui';
-import { useWallets } from '@rango-dev/wallets-react';
-import { detectMobileScreens, WalletTypes } from '@rango-dev/wallets-shared';
+import { WalletState } from '@arthur2079/ui';
+import { useWallets } from '@arthur2079/wallets-react';
+import { detectMobileScreens, WalletTypes } from '@arthur2079/wallets-shared';
 import { useCallback, useEffect } from 'react';
 
 import { useAppStore } from '../store/AppStore';

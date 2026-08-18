@@ -4,7 +4,7 @@ import { getChainIdFromCaip2ChainId } from '@hub3js/std/utils';
 import {
   CAIP_ZCASH_CHAIN_ID,
   isUtxoNamespace,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import getSigners from './signer.js';
 

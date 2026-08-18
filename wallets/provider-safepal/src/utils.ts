@@ -1,7 +1,7 @@
 import type { ProviderAPI as EvmProviderApi } from '@hub3js/evm';
 
 import { EVM_NAMESPACE } from '@hub3js/namespaces';
-import { isEvmAddress } from '@rango-dev/wallets-shared';
+import { isEvmAddress } from '@arthur2079/wallets-shared';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Provider = Record<string, any>;

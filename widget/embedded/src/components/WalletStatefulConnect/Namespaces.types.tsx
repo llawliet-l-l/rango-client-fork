@@ -1,7 +1,7 @@
 import type { NeedsNamespacesState } from '../../hooks/useStatefulConnect';
 import type { NamespaceData } from '@hub3js/core/store';
 import type { Namespace } from '@hub3js/namespaces';
-import type { LegacyNamespaceMeta } from '@rango-dev/wallets-core/legacy';
+import type { LegacyNamespaceMeta } from '@arthur2079/wallets-core/legacy';
 
 export interface PropTypes {
   onConfirm: (namespaces: Namespace[]) => void;

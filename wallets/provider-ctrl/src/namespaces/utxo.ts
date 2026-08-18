@@ -1,9 +1,9 @@
-import type { UtxoActions } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { UtxoActions } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { NamespaceBuilder } from '@hub3js/core';
 import * as commonBuilders from '@hub3js/std/builders';
 import { standardizeAndThrowError } from '@hub3js/std/operators';
-import { builders } from '@rango-dev/wallets-core/namespaces/utxo';
+import { builders } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import { utxoActions } from '../actions/utxo.js';
 import { utxoBuilders } from '../builders/utxo.js';

@@ -20,11 +20,11 @@ import { isSolanaNamespace } from '@hub3js/solana';
 import { getChainIdFromCaip2ChainId } from '@hub3js/std/utils';
 import { isSuiNamespace } from '@hub3js/sui';
 import { isTvmNamespace } from '@hub3js/tvm';
-import { isTronNamespace } from '@rango-dev/wallets-core/namespaces/tron';
+import { isTronNamespace } from '@arthur2079/wallets-core/namespaces/tron';
 import {
   CAIP_BITCOIN_CHAIN_ID,
   isUtxoNamespace,
-} from '@rango-dev/wallets-core/namespaces/utxo';
+} from '@arthur2079/wallets-core/namespaces/utxo';
 
 import getSigners from './signer.js';
 import { getInstanceOrThrow } from './utils.js';

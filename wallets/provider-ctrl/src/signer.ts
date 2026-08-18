@@ -1,6 +1,6 @@
 import type { Provider } from './types.js';
 import type { ProviderAPI as EvmProviderApi } from '@hub3js/evm';
-import type { SolanaExternalProvider } from '@rango-dev/signer-solana';
+import type { SolanaExternalProvider } from '@arthur2079/signer-solana';
 import type { SignerFactory } from 'rango-types';
 
 import { EVM_NAMESPACE, SOLANA_NAMESPACE } from '@hub3js/namespaces';
@@ -16,7 +16,7 @@ export default async function getSigners(
   const solProvider = provider.get(SOLANA_NAMESPACE) as SolanaExternalProvider;
 
   const signers = new DefaultSignerFactory();
-  const { DefaultEvmSigner } = await import('@rango-dev/signer-evm');
+  const { DefaultEvmSigner } = await import('@arthur2079/signer-evm');
 
   signers.registerSigner(TxType.EVM, new DefaultEvmSigner(ethProvider));
   signers.registerSigner(TxType.SOLANA, new CustomSolanaSigner(solProvider));

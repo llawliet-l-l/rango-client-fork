@@ -10,7 +10,7 @@ import {
   NumericTooltip,
   QuoteCost,
   Typography,
-} from '@rango-dev/ui';
+} from '@arthur2079/ui';
 import BigNumber from 'bignumber.js';
 import React, { useState } from 'react';
 

@@ -1,6 +1,6 @@
-import type { WalletType } from '@rango-dev/wallets-shared';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
-import { useManager } from '@rango-dev/queue-manager-react';
+import { useManager } from '@arthur2079/queue-manager-react';
 import React, { useEffect, useState } from 'react';
 
 import { requestSwap, urlToToken } from '../../flows/rango/helpers';

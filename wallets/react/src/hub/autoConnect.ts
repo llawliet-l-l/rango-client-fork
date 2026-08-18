@@ -6,11 +6,11 @@ import type { Accounts, AccountsWithActiveChain } from '@hub3js/std/types';
 import type {
   LegacyNamespaceInputForConnect,
   LegacyProviderInterface,
-} from '@rango-dev/wallets-core/legacy';
-import type { WalletType } from '@rango-dev/wallets-shared';
+} from '@arthur2079/wallets-core/legacy';
+import type { WalletType } from '@arthur2079/wallets-shared';
 
 import { Provider } from '@hub3js/core';
-import { legacyIsEvmNamespace } from '@rango-dev/wallets-core/legacy';
+import { legacyIsEvmNamespace } from '@arthur2079/wallets-core/legacy';
 import { Result } from 'ts-results';
 
 import { HUB_LAST_CONNECTED_WALLETS } from '../legacy/mod.js';

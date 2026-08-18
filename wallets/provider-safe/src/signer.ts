@@ -1,7 +1,7 @@
 import type { ProviderAPI } from '@hub3js/evm';
 import type { SignerFactory } from 'rango-types';
 
-import { dynamicImportWithRefinedError } from '@rango-dev/wallets-shared';
+import { dynamicImportWithRefinedError } from '@arthur2079/wallets-shared';
 import { DefaultSignerFactory, TransactionType as TxType } from 'rango-types';
 
 export default async function getSigners(

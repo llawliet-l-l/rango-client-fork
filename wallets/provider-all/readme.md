@@ -1,1 +1,1 @@
-# @rango-dev/provider-all
+# @arthur2079/provider-all

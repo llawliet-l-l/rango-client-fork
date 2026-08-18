@@ -10,8 +10,8 @@ import {
   MessageBox,
   RadioRoot,
   WalletImageContainer,
-} from '@rango-dev/ui';
-import { getSupportedChainsFromNamespace } from '@rango-dev/wallets-shared';
+} from '@arthur2079/ui';
+import { getSupportedChainsFromNamespace } from '@arthur2079/wallets-shared';
 import React, { useEffect, useMemo, useState } from 'react';
 
 import { useAppStore } from '../../store/AppStore';

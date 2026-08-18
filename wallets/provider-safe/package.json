@@ -1,5 +1,5 @@
 {
-  "name": "@rango-dev/provider-safe",
+  "name": "@arthur2079/provider-safe",
   "version": "0.56.0",
   "license": "MIT",
   "type": "module",
@@ -24,8 +24,8 @@
     "@hub3js/core": "^0.61.1",
     "@hub3js/evm": "^0.3.3",
     "@hub3js/std": "^0.2.3",
-    "@rango-dev/signer-evm": "^0.45.0",
-    "@rango-dev/wallets-shared": "^0.62.0",
+    "@arthur2079/signer-evm": "^0.45.0",
+    "@arthur2079/wallets-shared": "^0.62.0",
     "@safe-global/safe-apps-provider": "^0.18.6",
     "@safe-global/safe-apps-sdk": "^9.1.0",
     "ethers": "^6.13.2",

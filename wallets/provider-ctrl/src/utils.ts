@@ -2,7 +2,7 @@ import type { Provider, UtxoProvider } from './types.js';
 import type { ProviderAPI as EvmProviderApi } from '@hub3js/evm';
 import type { ProviderAPI as SolanaProviderApi } from '@hub3js/solana';
 import type { CaipAccount } from '@hub3js/std/types';
-import type { ProviderAPI as UtxoProviderApi } from '@rango-dev/wallets-core/namespaces/utxo';
+import type { ProviderAPI as UtxoProviderApi } from '@arthur2079/wallets-core/namespaces/utxo';
 
 import {
   EVM_NAMESPACE,
@@ -10,8 +10,8 @@ import {
   UTXO_NAMESPACE,
 } from '@hub3js/namespaces';
 import { getChainIdFromCaip2ChainId } from '@hub3js/std/utils';
-import { utils } from '@rango-dev/wallets-core/namespaces/utxo';
-import { CAIP_CHAINS } from '@rango-dev/wallets-shared';
+import { utils } from '@arthur2079/wallets-core/namespaces/utxo';
+import { CAIP_CHAINS } from '@arthur2079/wallets-shared';
 
 import { UTXO_CHAINS } from './constants.js';
 
