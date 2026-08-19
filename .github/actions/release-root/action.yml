@@ -1,0 +1,51 @@
+name: Release Root
+description: >-
+  Versions the repository root and the private client packages, writes the
+  root CHANGELOG.md and commits the result. This is what rangutopia's own
+  release flow (`library version` / `library publish`) leaves out. It only
+  does something on '--prod', like the script it replaces.
+
+inputs:
+  flag:
+    description: "The release channel: one of '--prod', '--next' or '--experimental' (see detect-publish-flag)."
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Skip on other channels
+      if: inputs.flag != '--prod'
+      run: echo "Skipping root changelog and versioning on the ${FLAG#--} channel."
+      shell: 'bash'
+      env:
+        FLAG: ${{ inputs.flag }}
+
+    # Determines the next versions from the conventional commits since the last
+    # release and writes them on the package.json files, dependents included.
+    # The client names here and the paths staged below describe the same packages.
+    - name: Version the repository and its clients
+      if: inputs.flag == '--prod'
+      run: yarn rangutopia client version --prod --root --clients "$CLIENTS"
+      shell: 'bash'
+      env:
+        CLIENTS: '@arthur2079/widget-app,@arthur2079/widget-playground'
+
+    # After the versions: the changelog header reads the root version, and
+    # `--mention` reads the version of the package our users actually install.
+    - name: Generate the root changelog
+      if: inputs.flag == '--prod'
+      run: yarn rangutopia changelog generate --root --mention "$MENTION" --save
+      shell: 'bash'
+      env:
+        MENTION: '@arthur2079/widget-embedded'
+
+    # Only what the two steps above wrote. The library packages `library version
+    # apply` bumped stay unstaged: `library publish` commits them, and it never
+    # picks the root package.json up.
+    # `[skip ci]`: pushing this commit must not trigger another workflow run.
+    - name: Commit
+      if: inputs.flag == '--prod'
+      run: |
+        git add package.json CHANGELOG.md widget/app/package.json widget/playground/package.json
+        git commit -m 'chore(release): bump the repo and client versions' -m '[skip ci]'
+      shell: 'bash'

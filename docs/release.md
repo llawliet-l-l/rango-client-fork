@@ -49,16 +49,30 @@ The `Publish` workflow runs these as separate steps, so a failure is easy to pla
 also the reason versioning is deferred: nothing is written to disk until the
 versions are known to be publishable.
 
-**2. `yarn run publish:root <flag>`** — [`scripts/release-root/command.mjs`](../scripts/release-root/command.mjs),
-the part rangutopia doesn't cover. **Only runs on `--prod`.** It bumps the
-repository version and the private clients (`widget/app`, `widget/playground`),
-writes the root `CHANGELOG.md` via
-`rangutopia changelog generate --root --mention=@arthur2079/widget-embedded`,
-and commits the result as `chore(release): bump the repo and client versions`.
+**2. The repository and its clients** — the
+[`release-root`](../.github/actions/release-root/action.yml) action, the part
+of a release that `library version` / `library publish` leave out. **Only runs
+on `--prod`, and only when stage 1 found a library to release** — the workflow
+gates it on the `count` output of `publish:version`, so a change to a private
+package alone doesn't bump anything. It is three commands, and only the last
+one isn't rangutopia:
+
+| Step | What it does |
+| --- | --- |
+| `rangutopia client version --prod --root --clients @arthur2079/widget-app,@arthur2079/widget-playground` | Bumps the repository version and the private clients (`widget/app`, `widget/playground`) from the conventional commits since the last release, and writes them on their `package.json`. |
+| `rangutopia changelog generate --root --mention @arthur2079/widget-embedded --save` | Writes the root `CHANGELOG.md`, mentioning the version of the package our users install. |
+| `git add` + `git commit` | Commits exactly those files (`package.json`, `CHANGELOG.md`, the two clients' `package.json`) as `chore(release): bump the repo and client versions` `[skip ci]`. |
 
 It has to sit between `apply` and `publish`: `--mention` reads
 `@arthur2079/widget-embedded`'s version off its `package.json`, so the versions
-must already be applied.
+must already be applied, and the changelog header reads the root version, so
+`client version` comes first. The library `package.json` files `apply` bumped
+stay unstaged here — `library publish` commits them.
+
+The same commands work by hand (`client version` is monorepo-only, which this
+is), see the
+[rangutopia README](https://github.com/llawliet-l-l/rangutopia-fork#client-version)
+for the flags.
 
 **3. `yarn run publish <flag>`** — `rangutopia library publish`. For each
 package, in dependency order: build, write its `CHANGELOG.md`, publish to npm.
@@ -117,8 +131,8 @@ It will:
 
 2. **Publish** *(on `main`)*
 
-   * Automatically bump `widget/app` and/or `widget/playground` versions if changed.
-   * Automatically update the root `CHANGELOG.md`.
+   * Bump the repository, `widget/app` and `widget/playground` versions when a library is released.
+   * Update the root `CHANGELOG.md`.
    * Publish to NPM.
 
 3. **Deploy**

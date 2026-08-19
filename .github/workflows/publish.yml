@@ -33,6 +33,7 @@ jobs:
         uses: ./.github/actions/detect-publish-flag
 
       - name: Determine versions
+        id: version
         run: yarn run publish:version "$PUBLISH_FLAG"
         env:
           PUBLISH_FLAG: ${{ steps.flag.outputs.flag }}
@@ -45,11 +46,13 @@ jobs:
       - name: Apply versions
         run: yarn run publish:version:apply
 
+      # Only when something is being released; an unset `count` (older rangutopia) still runs it.
+      # The action itself only does something on '--prod'.
       - name: Version the repository and its clients
-        run: yarn run publish:root "$PUBLISH_FLAG"
-        env:
-          PUBLISH_FLAG: ${{ steps.flag.outputs.flag }}
-          REF: ${{ github.ref }}
+        if: steps.version.outputs.count != '0'
+        uses: ./.github/actions/release-root
+        with:
+          flag: ${{ steps.flag.outputs.flag }}
 
       - name: Publish packages
         run: yarn run publish "$PUBLISH_FLAG"

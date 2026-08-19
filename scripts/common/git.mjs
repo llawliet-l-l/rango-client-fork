@@ -1,44 +1,6 @@
 import { execa } from 'execa';
 import { CustomScriptError, GitError } from './errors.mjs';
 
-/**
- * Creates a Git commit with the provided messages.
- *
- * - Supports multiple commit messages by passing them as an array.
- * - Optionally appends `[skip ci]` to the commit message to skip CI pipelines.
- * - Can disable Git hooks verification if `shouldVerify` is set.
- *
- * @param @typedef {string[]}  messages - The commit messages to include.
- * @param {import("./typedefs.mjs").CommitOptions} options - Commit options.
- *
- * @throws {GitError} If the `git commit` command fails.
- */
-export async function commit(messages, options) {
-  const { shouldVerify, shouldSkipCI } = options;
-
-  const messagesWithCI = shouldSkipCI ? [...messages, '[skip ci]'] : messages;
-
-  const commitArgs = [
-    'commit',
-    ...messagesWithCI.flatMap((msg) => ['-m', msg]),
-    ...(shouldVerify ? [] : ['--no-verify']),
-  ];
-
-  try {
-    await execa('git', commitArgs);
-  } catch (error) {
-    throw new GitError(
-      `git commit failed. \n ${error.stderr || error.message}`
-    );
-  }
-}
-
-export async function addFileToStage(path) {
-  await execa('git', ['add', path]).catch((e) => {
-    throw new GitError(`"git add" failed. ${e.stderr}`);
-  });
-}
-
 export async function push(options) {
   const { setupRemote, branch, remote = 'origin' } = options || {};
 

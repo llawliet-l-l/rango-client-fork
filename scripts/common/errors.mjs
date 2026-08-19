@@ -5,13 +5,6 @@ export class GithubCommandError extends Error {
   }
 }
 
-export class IncreaseVersionFailedError extends Error {
-  name = 'IncreaseVersionFailedError';
-  constructor(msg) {
-    super(msg);
-  }
-}
-
 export class YarnError extends Error {
   name = 'YarnError';
   constructor(msg) {
