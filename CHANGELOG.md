@@ -1,3 +1,19 @@
+# 1.4.0 (2026-08-19)
+_includes `@arthur2079/widget-embedded@1.4.0`_
+
+
+
+### Bug Fixes
+
+* logging ([9accfdf](https://github.com/llawliet-l-l/rango-client-fork/commit/9accfdfcf2a11b9a7a6ddbe8e1be48363f77d668))
+
+
+### Features
+
+* app feat and write permission ([8fc4c56](https://github.com/llawliet-l-l/rango-client-fork/commit/8fc4c5617a263154e8257f601a831cde9694d0ce))
+* new workflow ([4eb5d7e](https://github.com/llawliet-l-l/rango-client-fork/commit/4eb5d7e5378904f415224ab388d909e119bf1407))
+* provider all ([ef596ee](https://github.com/llawliet-l-l/rango-client-fork/commit/ef596ee61db208afd54d1879c3657457ba7134eb))
+* queue ([2e1246f](https://github.com/llawliet-l-l/rango-client-fork/commit/2e1246f17ff6d6e3067567619edf93345e652ded))
 # 1.3.0 (2026-08-18)
 _includes `@arthur2079/widget-embedded@1.3.0`_
 
