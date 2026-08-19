@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/logging-sentry@1.1.0...logging-sentry@1.2.0) (2026-08-19)
+
+
+### Bug Fixes
+
+* logging ([9accfdf](https://github.com/llawliet-l-l/rango-client-fork/commit/9accfdfcf2a11b9a7a6ddbe8e1be48363f77d668))
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/logging-sentry@0.14.1...logging-sentry@1.1.0) (2026-08-18)
 
 

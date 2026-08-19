@@ -1,3 +1,9 @@
+# [1.4.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-all@1.3.0...provider-all@1.4.0) (2026-08-19)
+
+
+### Features
+
+* provider all ([ef596ee](https://github.com/llawliet-l-l/rango-client-fork/commit/ef596ee61db208afd54d1879c3657457ba7134eb))
 # [1.3.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-all@1.2.0...provider-all@1.3.0) (2026-08-18)
 
 
