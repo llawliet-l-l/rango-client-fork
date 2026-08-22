@@ -107,10 +107,10 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@arthur2079/rangutopia@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@arthur2079/rangutopia/-/rangutopia-0.17.0.tgz#d24442a58960426fa786414698970bff2478974a"
-  integrity sha512-lrIo2XF5XU7Wmxfn0D28aDgB2+10n95XNM/fLTCh/qreUXjx5ITbgEsE7HnYH9YiL4Z0pE1AmakHksWA3oDJjQ==
+"@arthur2079/rangutopia@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@arthur2079/rangutopia/-/rangutopia-0.18.0.tgz#829bab94d60e8edde54e9ae561207c9a26e19c64"
+  integrity sha512-MzIdrxdBjkhTqnjNnsdbi2maw145NR+eNUsXRMKci5zynzWZEJIojsUBPLvr4L4BNaEM4x7Rec4ZnlS7PjlBZQ==
   dependencies:
     "@actions/core" "^3.0.1"
     "@conventional-changelog/git-client" "^2.6.0"
