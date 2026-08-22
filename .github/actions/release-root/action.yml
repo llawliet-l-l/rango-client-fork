@@ -5,6 +5,9 @@ description: >-
   release flow (`library version` / `library publish`) leaves out. It only
   does something on '--prod', like the script it replaces.
 
+  It runs after `library publish`, which has already pushed the release
+  commit, so it pushes its own commit itself.
+
 inputs:
   flag:
     description: "The release channel: one of '--prod', '--next' or '--experimental' (see detect-publish-flag)."
@@ -31,7 +34,9 @@ runs:
         CLIENTS: '@arthur2079/widget-app,@arthur2079/widget-playground'
 
     # After the versions: the changelog header reads the root version, and
-    # `--mention` reads the version of the package our users actually install.
+    # `--mention` reads the version of the package our users actually install
+    # off its package.json — which is why this whole action runs after the
+    # publish, the only thing that writes those versions now.
     - name: Generate the root changelog
       if: inputs.flag == '--prod'
       run: yarn rangutopia changelog generate --root --mention "$MENTION" --save
@@ -39,13 +44,14 @@ runs:
       env:
         MENTION: '@arthur2079/widget-embedded'
 
-    # Only what the two steps above wrote. The library packages `library version
-    # apply` bumped stay unstaged: `library publish` commits them, and it never
-    # picks the root package.json up.
+    # Only what the two steps above wrote. The library package.json files are
+    # already committed and pushed by `library publish`, and it never picks the
+    # root package.json up.
     # `[skip ci]`: pushing this commit must not trigger another workflow run.
-    - name: Commit
+    - name: Commit and push
       if: inputs.flag == '--prod'
       run: |
         git add package.json CHANGELOG.md widget/app/package.json widget/playground/package.json
         git commit -m 'chore(release): bump the repo and client versions' -m '[skip ci]'
+        git push origin HEAD --no-verify
       shell: 'bash'

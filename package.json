@@ -42,7 +42,6 @@
     "format": "nx run-many --target=format",
     "publish:version": "rangutopia library version --deferred",
     "publish:version:check": "rangutopia library version check",
-    "publish:version:apply": "rangutopia library version apply",
     "publish": "rangutopia library publish",
     "deploy": "node ./scripts/deploy/command.mjs",
     "sync-branch": "node ./scripts/sync-branch/command.mjs",
@@ -62,7 +61,7 @@
   },
   "devDependencies": {
     "@actions/core": "^1.10.1",
-    "@arthur2079/rangutopia": "^0.17.0",
+    "@arthur2079/rangutopia": "^0.18.0",
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.6.2",
     "@conventional-changelog/git-client": "^2.5.1",

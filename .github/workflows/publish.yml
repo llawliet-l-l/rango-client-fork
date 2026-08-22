@@ -43,17 +43,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
-      - name: Apply versions
-        run: yarn run publish:version:apply
-
-      # Only when something is being released; an unset `count` (older rangutopia) still runs it.
-      # The action itself only does something on '--prod'.
-      - name: Version the repository and its clients
-        if: steps.version.outputs.count != '0'
-        uses: ./.github/actions/release-root
-        with:
-          flag: ${{ steps.flag.outputs.flag }}
-
+      # Applies the deferred version of each package itself, right before
+      # publishing it, so there is no separate `library version apply` step.
       - name: Publish packages
         run: yarn run publish "$PUBLISH_FLAG"
         env:
@@ -62,3 +53,14 @@ jobs:
           # Github will create .npmrc based on this env variable.
           # https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages#publishing-packages-to-the-npm-registry
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # After the publish, because the root changelog mentions the version of
+      # `@arthur2079/widget-embedded` as it is on its `package.json`, and that
+      # is only written when the publish applies it.
+      # Only when something is being released; an unset `count` (older rangutopia) still runs it.
+      # The action itself only does something on '--prod'.
+      - name: Version the repository and its clients
+        if: steps.version.outputs.count != '0'
+        uses: ./.github/actions/release-root
+        with:
+          flag: ${{ steps.flag.outputs.flag }}
