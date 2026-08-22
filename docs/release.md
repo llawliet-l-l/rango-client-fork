@@ -52,15 +52,7 @@ There is no `version apply` step. Since `@arthur2079/rangutopia@0.18.0`,
 `library publish` applies each package's saved version itself, right before it
 publishes that package, and puts it back if the publish fails.
 
-**2. `yarn run publish <flag>`** — `rangutopia library publish`. It builds
-every package first, in parallel, then walks them in dependency order: write
-the version on `package.json` (dependents included), write the package's
-`CHANGELOG.md`, publish to npm. A package whose publish fails is rolled back to
-the version it was on and the walk stops there. Then it commits everything as
-`chore(release): publish`, tags each *published* package
-(`package-name@version`), pushes, and creates the Github releases.
-
-**3. The repository and its clients** — the
+**2. The repository and its clients** — the
 [`release-root`](../.github/actions/release-root/action.yml) action, the part
 of a release that `library version` / `library publish` leave out. **Only runs
 on `--prod`, and only when stage 1 found a library to release** — the workflow
@@ -72,19 +64,33 @@ one isn't rangutopia:
 | --- | --- |
 | `rangutopia client version --prod --root --clients @arthur2079/widget-app,@arthur2079/widget-playground` | Bumps the repository version and the private clients (`widget/app`, `widget/playground`) from the conventional commits since the last release, and writes them on their `package.json`. |
 | `rangutopia changelog generate --root --mention @arthur2079/widget-embedded --save` | Writes the root `CHANGELOG.md`, mentioning the version of the package our users install. |
-| `git add` + `git commit` + `git push` | Commits exactly those files (`package.json`, `CHANGELOG.md`, the two clients' `package.json`) as `chore(release): bump the repo and client versions` `[skip ci]`, and pushes — `library publish` has already pushed its own commit by this point. |
+| `git add` + `git commit` | Commits exactly those files (`package.json`, `CHANGELOG.md`, the two clients' `package.json`) as `chore(release): bump the repo and client versions` `[skip ci]`. Nothing is pushed here. |
 
-It has to sit **after** `publish`: `--mention` reads
-`@arthur2079/widget-embedded`'s version off its `package.json`, and the publish
-is now the only thing that writes it. The changelog header reads the root
-version, so `client version` still comes first within this action. The library
-`package.json` files are already committed by `library publish`; this commit
-only carries the root and the two clients.
+It sits **before** `publish`: since `@arthur2079/rangutopia@0.19.0`,
+`--mention` reads `@arthur2079/widget-embedded`'s version out of the state file
+stage 1 saved, so it carries the version this release is about to publish
+instead of the one already out. The changelog header reads the root version, so
+`client version` still comes first within this action.
 
-A consequence of the order: if the publish fails, nothing here runs, so the
-repository version and the root changelog are left alone. The libraries that
-did publish before the failure are still released, and are picked up by the
-next run.
+The commit is left unpushed on purpose: stage 3 pushes the branch, so this
+commit only reaches the remote if the release actually happened — a publish
+that fails leaves the bump and the changelog on the runner, and the next run
+computes them again. It also has to be its own commit, because `library
+publish` stages the library `package.json` files and never picks the root
+`package.json` or the root `CHANGELOG.md` up.
+
+Committing here doesn't disturb stage 3: it touches nothing but the root and
+the private clients, so the set of libraries to publish stays what stage 1
+determined.
+
+**3. `yarn run publish <flag>`** — `rangutopia library publish`. It builds
+every package first, in parallel, then walks them in dependency order: write
+the version on `package.json` (dependents included), write the package's
+`CHANGELOG.md`, publish to npm. A package whose publish fails is rolled back to
+the version it was on and the walk stops there. Then it commits everything as
+`chore(release): publish`, tags each *published* package
+(`package-name@version`), pushes — carrying stage 2's commit with it — and
+creates the Github releases.
 
 The same commands work by hand (`client version` is monorepo-only, which this
 is), see the

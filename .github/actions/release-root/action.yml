@@ -5,8 +5,9 @@ description: >-
   release flow (`library version` / `library publish`) leaves out. It only
   does something on '--prod', like the script it replaces.
 
-  It runs after `library publish`, which has already pushed the release
-  commit, so it pushes its own commit itself.
+  It runs between `library version` and `library publish`, and leaves its
+  commit unpushed: `library publish` pushes it along with the release commit,
+  so a failed publish leaves nothing behind on the remote.
 
 inputs:
   flag:
@@ -33,10 +34,11 @@ runs:
       env:
         CLIENTS: '@arthur2079/widget-app,@arthur2079/widget-playground'
 
-    # After the versions: the changelog header reads the root version, and
-    # `--mention` reads the version of the package our users actually install
-    # off its package.json — which is why this whole action runs after the
-    # publish, the only thing that writes those versions now.
+    # After the versions: the changelog header reads the root version, which the
+    # step above has just written. `--mention` reads the version of the package
+    # our users install out of the state `library version` saved, so it carries
+    # the version this release is about to publish rather than the one that is
+    # already out.
     - name: Generate the root changelog
       if: inputs.flag == '--prod'
       run: yarn rangutopia changelog generate --root --mention "$MENTION" --save
@@ -44,14 +46,15 @@ runs:
       env:
         MENTION: '@arthur2079/widget-embedded'
 
-    # Only what the two steps above wrote. The library package.json files are
-    # already committed and pushed by `library publish`, and it never picks the
-    # root package.json up.
-    # `[skip ci]`: pushing this commit must not trigger another workflow run.
-    - name: Commit and push
+    # Only what the two steps above wrote — `library publish` stages the library
+    # package.json files itself, and never picks the root package.json or the
+    # root CHANGELOG.md up.
+    # Nothing is pushed here: the publish that follows pushes the branch, so
+    # this commit only reaches the remote if the release actually happened.
+    # `[skip ci]`: neither commit of this release must trigger another run.
+    - name: Commit
       if: inputs.flag == '--prod'
       run: |
         git add package.json CHANGELOG.md widget/app/package.json widget/playground/package.json
         git commit -m 'chore(release): bump the repo and client versions' -m '[skip ci]'
-        git push origin HEAD --no-verify
       shell: 'bash'
