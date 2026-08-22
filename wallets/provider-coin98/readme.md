@@ -22,3 +22,4 @@ it will still show the connect popup
 ---
 
 More wallet information can be found in [readme.md](../readme.md).
+// feat
