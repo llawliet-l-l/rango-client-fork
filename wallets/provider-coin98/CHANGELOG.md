@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-coin98@1.2.0...provider-coin98@1.2.1) (2026-08-22)
+
+
+### Bug Fixes
+
+* fail test ([9a8e49e](https://github.com/llawliet-l-l/rango-client-fork/commit/9a8e49ee69b7aed5e7502eff2815b3dee97eb4ad))
 # [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-coin98@1.1.0...provider-coin98@1.2.0) (2026-08-22)
 
 
