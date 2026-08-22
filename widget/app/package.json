@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/widget-app",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "license": "MIT",
   "private": true,
   "source": "public/index.html",
