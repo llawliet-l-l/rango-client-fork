@@ -1,6 +1,6 @@
 {
   "name": "@arthur2079/provider-all",
-  "version": "1.4.1-next.0",
+  "version": "1.5.0",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
@@ -25,7 +25,7 @@
     "@arthur2079/provider-bitget": "^1.1.0",
     "@arthur2079/provider-braavos": "^1.1.0",
     "@arthur2079/provider-brave": "^1.1.0",
-    "@arthur2079/provider-coin98": "^1.1.1-next.0",
+    "@arthur2079/provider-coin98": "^1.2.0",
     "@arthur2079/provider-coinbase": "^1.1.0",
     "@arthur2079/provider-ctrl": "^1.1.0",
     "@arthur2079/provider-default": "^1.1.0",

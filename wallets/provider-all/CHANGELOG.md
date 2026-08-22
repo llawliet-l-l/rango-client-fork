@@ -1,3 +1,4 @@
+# [1.5.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-all@1.4.0...provider-all@1.5.0) (2026-08-22)
 # [1.4.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-all@1.3.0...provider-all@1.4.0) (2026-08-19)
 
 

@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-coin98@1.1.0...provider-coin98@1.2.0) (2026-08-22)
+
+
+### Features
+
+* **provider-coin98:** feat 1 ([2e661a8](https://github.com/llawliet-l-l/rango-client-fork/commit/2e661a8ed28629dae54fb6a928bf0d064a17137d))
 # [1.1.0](https://github.com/llawliet-l-l/rango-client-fork/compare/provider-coin98@0.65.0...provider-coin98@1.1.0) (2026-08-18)
 
 
