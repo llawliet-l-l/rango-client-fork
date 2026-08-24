@@ -26,7 +26,7 @@
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
-    "@arthur2079/provider-all": "^1.5.1-next.0",
+    "@arthur2079/provider-all": "^1.5.1-next.1",
     "@arthur2079/ui": "^1.2.0",
     "@arthur2079/wallets-react": "^1.2.0",
     "@arthur2079/wallets-shared": "^1.1.0",
