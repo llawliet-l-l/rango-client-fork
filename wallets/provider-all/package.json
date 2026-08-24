@@ -62,7 +62,6 @@
     "@hub3js/core": "^0.61.1"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "http://127.0.0.1:1/nope"
+    "access": "public"
   }
 }
