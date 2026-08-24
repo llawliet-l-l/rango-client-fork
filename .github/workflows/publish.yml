@@ -58,9 +58,8 @@ jobs:
       # Applies the deferred version of each package itself, right before
       # publishing it, so there is no separate `library version apply` step.
       - name: Publish packages
-        run: yarn run publish "$PUBLISH_FLAG"
+        run: yarn run publish
         env:
-          PUBLISH_FLAG: ${{ steps.flag.outputs.flag }}
           GH_TOKEN: ${{ github.token }}
           # Github will create .npmrc based on this env variable.
           # https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages#publishing-packages-to-the-npm-registry
